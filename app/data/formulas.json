@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "f1",
+    "name": "银翘散",
+    "source": "温病条辨",
+    "indication": "风热表证、温病初起",
+    "herbs": [
+      "金银花",
+      "连翘",
+      "薄荷",
+      "荆芥",
+      "牛蒡子",
+      "桔梗",
+      "甘草",
+      "淡豆豉",
+      "竹叶",
+      "芦根"
+    ],
+    "tags": [
+      "风热",
+      "清热解毒",
+      "呼吸道"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-Z-9581",
+        "TCMIP-F-Z-8366",
+        "TCMIP-F-Z-5527",
+        "TCMIP-F-Z-5526",
+        "TCMIP-F-Z-9576"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "chinese_patent_drug",
+          "index": "chinese_patent_drug",
+          "title": "Chinese Patent Drugs",
+          "title_li": "Chinese Patent Drug",
+          "options": [
+            {
+              "label": "TCMIP-F-Z-9581",
+              "value": "Yin Qiao San "
+            },
+            {
+              "label": "TCMIP-F-Z-8366",
+              "value": "Sang Ju Yin Qiao San "
+            },
+            {
+              "label": "TCMIP-F-Z-5527",
+              "value": "Yin Qiao Pian"
+            },
+            {
+              "label": "TCMIP-F-Z-5526",
+              "value": "Yin Qiao Ke Li"
+            },
+            {
+              "label": "TCMIP-F-Z-9576",
+              "value": "Yin Qiao He Ji "
+            }
+          ]
+        },
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-37135",
+              "value": "YinQiaoSan"
+            },
+            {
+              "label": "TCMIP-F-F-37134",
+              "value": "YinQiaoTang"
+            },
+            {
+              "label": "TCMIP-F-F-48402",
+              "value": "QiShengSan5"
+            },
+            {
+              "label": "TCMIP-F-F-37133",
+              "value": "YinQiaoMaBoSan"
+            },
+            {
+              "label": "TCMIP-F-F-04117",
+              "value": "JiaJianYinQiaoSan"
+            }
+          ]
+        }
+      ]
+    },
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ]
+  },
+  {
+    "id": "f2",
+    "name": "麻黄汤",
+    "source": "伤寒论",
+    "indication": "外感风寒表实证",
+    "herbs": [
+      "麻黄",
+      "桂枝",
+      "杏仁",
+      "甘草"
+    ],
+    "tags": [
+      "风寒",
+      "宣肺平喘"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-Z-4272",
+        "TCMIP-F-Z-7822",
+        "TCMIP-F-Z-1345",
+        "TCMIP-F-Z-2944",
+        "TCMIP-F-Z-0347"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "chinese_patent_drug",
+          "index": "chinese_patent_drug",
+          "title": "Chinese Patent Drugs",
+          "title_li": "Chinese Patent Drug",
+          "options": [
+            {
+              "label": "TCMIP-F-Z-4272",
+              "value": "Si Wei Jiang Huang Tang San"
+            },
+            {
+              "label": "TCMIP-F-Z-7822",
+              "value": "Ma Huang Zhi Sou Wan "
+            },
+            {
+              "label": "TCMIP-F-Z-1345",
+              "value": "Fu Fang Mu Ma Huang Pian"
+            },
+            {
+              "label": "TCMIP-F-Z-2944",
+              "value": "Ma Huang Zhi Sou Jiao Nang"
+            },
+            {
+              "label": "TCMIP-F-Z-0347",
+              "value": "Bu Xin Wan"
+            }
+          ]
+        },
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-04712",
+              "value": "ShuiGuWan"
+            },
+            {
+              "label": "TCMIP-F-F-14767",
+              "value": "BaWeiDiHuangJiaTieLuoTang"
+            },
+            {
+              "label": "TCMIP-F-F-37500",
+              "value": "BaQiaYin"
+            },
+            {
+              "label": "TCMIP-F-F-45014",
+              "value": "ChengShuiYin"
+            },
+            {
+              "label": "TCMIP-F-F-45149",
+              "value": "GanGeSan"
+            }
+          ]
+        }
+      ]
+    },
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ]
+  },
+  {
+    "id": "f3",
+    "name": "桂枝汤",
+    "source": "伤寒论",
+    "indication": "太阳中风表虚证",
+    "herbs": [
+      "桂枝",
+      "白芍",
+      "生姜",
+      "甘草"
+    ],
+    "tags": [
+      "调和营卫",
+      "解肌"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-Z-1817",
+        "TCMIP-F-Z-7079",
+        "TCMIP-F-Z-1815",
+        "TCMIP-F-Z-7078",
+        "TCMIP-F-Z-1814"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "chinese_patent_drug",
+          "index": "chinese_patent_drug",
+          "title": "Chinese Patent Drugs",
+          "title_li": "Chinese Patent Drug",
+          "options": [
+            {
+              "label": "TCMIP-F-Z-1817",
+              "value": "Gui Zhi Ke Li"
+            },
+            {
+              "label": "TCMIP-F-Z-7079",
+              "value": "Gui Zhi He Ji "
+            },
+            {
+              "label": "TCMIP-F-Z-1815",
+              "value": "Gui Zhi Fu Ling Pian"
+            },
+            {
+              "label": "TCMIP-F-Z-7078",
+              "value": "Gui Zhi Fu Ling Wan "
+            },
+            {
+              "label": "TCMIP-F-Z-1814",
+              "value": "Gui Zhi Fu Ling Jiao Nang"
+            }
+          ]
+        },
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-04712",
+              "value": "ShuiGuWan"
+            },
+            {
+              "label": "TCMIP-F-F-31588",
+              "value": "GuiZhiTang"
+            },
+            {
+              "label": "TCMIP-F-F-31568",
+              "value": "GuiZhiJiaGuiTang"
+            },
+            {
+              "label": "TCMIP-F-F-31589",
+              "value": "GuiZhiTang1"
+            },
+            {
+              "label": "TCMIP-F-F-31590",
+              "value": "GuiZhiTang2"
+            }
+          ]
+        }
+      ]
+    },
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ]
+  },
+  {
+    "id": "f4",
+    "name": "四君子汤",
+    "source": "太平惠民和剂局方",
+    "indication": "脾胃气虚证",
+    "herbs": [
+      "人参",
+      "甘草"
+    ],
+    "tags": [
+      "补气",
+      "脾胃"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-Z-4265",
+        "TCMIP-F-Z-8674",
+        "TCMIP-F-Z-8675",
+        "TCMIP-F-Z-8673",
+        "TCMIP-F-Z-4268"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "chinese_patent_drug",
+          "index": "chinese_patent_drug",
+          "title": "Chinese Patent Drugs",
+          "title_li": "Chinese Patent Drug",
+          "options": [
+            {
+              "label": "TCMIP-F-Z-4265",
+              "value": "Si Jun Zi Wan"
+            },
+            {
+              "label": "TCMIP-F-Z-8674",
+              "value": "Si Jun Zi He Ji "
+            },
+            {
+              "label": "TCMIP-F-Z-8675",
+              "value": "Si Jun Zi Ke Li "
+            },
+            {
+              "label": "TCMIP-F-Z-8673",
+              "value": "Si Jun Zi Dai Pao Ji "
+            },
+            {
+              "label": "TCMIP-F-Z-4268",
+              "value": "Si Ni Tang"
+            }
+          ]
+        },
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-15096",
+              "value": "BaiCaoSan"
+            },
+            {
+              "label": "TCMIP-F-F-04481",
+              "value": "SiJunZiTang"
+            },
+            {
+              "label": "TCMIP-F-F-04482",
+              "value": "SiJunZiTang1"
+            },
+            {
+              "label": "TCMIP-F-F-04516",
+              "value": "SiJunZiWan"
+            },
+            {
+              "label": "TCMIP-F-F-04712",
+              "value": "ShuiGuWan"
+            }
+          ]
+        }
+      ]
+    },
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ]
+  },
+  {
+    "id": "f5",
+    "name": "黄连解毒汤",
+    "source": "外台秘要",
+    "indication": "三焦火毒热盛证",
+    "herbs": [
+      "黄连",
+      "黄芩",
+      "甘草"
+    ],
+    "tags": [
+      "清热",
+      "泻火解毒"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-Z-2026",
+        "TCMIP-F-Z-2748",
+        "TCMIP-F-Z-5889",
+        "TCMIP-F-Z-7413",
+        "TCMIP-F-Z-9596"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "chinese_patent_drug",
+          "index": "chinese_patent_drug",
+          "title": "Chinese Patent Drugs",
+          "title_li": "Chinese Patent Drug",
+          "options": [
+            {
+              "label": "TCMIP-F-Z-2026",
+              "value": "Huang Lian Jie Du Wan"
+            },
+            {
+              "label": "TCMIP-F-Z-2748",
+              "value": "Lian Zhi Jie Du Jiao Nang"
+            },
+            {
+              "label": "TCMIP-F-Z-5889",
+              "value": "Zhu She Yong Feng Du （ Dong Gan ）"
+            },
+            {
+              "label": "TCMIP-F-Z-7413",
+              "value": "Jie He Ling Pian "
+            },
+            {
+              "label": "TCMIP-F-Z-9596",
+              "value": "You Fu Ning Jiao Nang "
+            }
+          ]
+        },
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-36128",
+              "value": "DaHuangGao11"
+            },
+            {
+              "label": "TCMIP-F-F-39670",
+              "value": "HuangLianJieDuTang"
+            },
+            {
+              "label": "TCMIP-F-F-39677",
+              "value": "HuangLianJieDuSan"
+            },
+            {
+              "label": "TCMIP-F-F-39671",
+              "value": "HuangLianJieDuTang1"
+            },
+            {
+              "label": "TCMIP-F-F-39672",
+              "value": "HuangLianJieDuTang2"
+            }
+          ]
+        }
+      ]
+    },
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ]
+  },
+  {
+    "id": "f6",
+    "source": "小儿药证直诀",
+    "indication": "肾阴虚证",
+    "herbs": [
+      "熟地黄",
+      "山茱萸",
+      "山药",
+      "泽泻",
+      "牡丹皮",
+      "茯苓"
+    ],
+    "tags": [
+      "补阴",
+      "肾"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-00376",
+        "TCMIP-F-F-00377",
+        "TCMIP-F-F-05549",
+        "TCMIP-F-F-05550",
+        "TCMIP-F-F-05551"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-00376",
+              "value": "LiuWeiDiHuangWan"
+            },
+            {
+              "label": "TCMIP-F-F-00377",
+              "value": "LiuWeiDiHuangWanJiaHuangBaiZhiMuFang"
+            },
+            {
+              "label": "TCMIP-F-F-05549",
+              "value": "JiaWeiLiuWeiDiHuangWan"
+            },
+            {
+              "label": "TCMIP-F-F-05550",
+              "value": "JiaWeiLiuWeiDiHuangWan1"
+            },
+            {
+              "label": "TCMIP-F-F-05551",
+              "value": "JiaWeiLiuWeiDiHuangWan2"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "六味地黄丸",
+    "pinyin": "LiuWeiDiHuangWan"
+  },
+  {
+    "id": "f7",
+    "source": "太平惠民和剂局方",
+    "indication": "肝郁血虚脾弱证",
+    "herbs": [
+      "柴胡",
+      "当归",
+      "白芍",
+      "白术",
+      "茯苓",
+      "甘草",
+      "薄荷",
+      "生姜"
+    ],
+    "tags": [
+      "疏肝",
+      "养血"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-34374",
+        "TCMIP-F-F-34479",
+        "TCMIP-F-F-34480",
+        "TCMIP-F-F-34481",
+        "TCMIP-F-F-34482"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-34374",
+              "value": "DiaoJingXiaoYaoSan"
+            },
+            {
+              "label": "TCMIP-F-F-34479",
+              "value": "XiaoYaoSan"
+            },
+            {
+              "label": "TCMIP-F-F-34480",
+              "value": "XiaoYaoSan1"
+            },
+            {
+              "label": "TCMIP-F-F-34481",
+              "value": "XiaoYaoSan2"
+            },
+            {
+              "label": "TCMIP-F-F-34482",
+              "value": "XiaoYaoSan3"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "逍遥散",
+    "pinyin": "XiaoYaoSan"
+  },
+  {
+    "id": "f8",
+    "source": "脾胃论",
+    "indication": "脾胃气虚、中气下陷",
+    "herbs": [
+      "黄芪",
+      "人参",
+      "白术",
+      "甘草",
+      "当归",
+      "陈皮",
+      "升麻",
+      "柴胡"
+    ],
+    "tags": [
+      "补气",
+      "脾胃"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-05462",
+        "TCMIP-F-F-05463",
+        "TCMIP-F-F-05464",
+        "TCMIP-F-F-05465",
+        "TCMIP-F-F-05469"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-05462",
+              "value": "JiaWeiBuZhongYiQiTang9"
+            },
+            {
+              "label": "TCMIP-F-F-05463",
+              "value": "JiaWeiBuZhongYiQiTang10"
+            },
+            {
+              "label": "TCMIP-F-F-05464",
+              "value": "JiaWeiBuZhongYiQiTang11"
+            },
+            {
+              "label": "TCMIP-F-F-05465",
+              "value": "JiaWeiBuZhongYiQiTang12"
+            },
+            {
+              "label": "TCMIP-F-F-05469",
+              "value": "JiaWeiBuZhongYiQiTang13"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "补中益气汤",
+    "pinyin": "BuZhongYiQiTang"
+  },
+  {
+    "id": "f9",
+    "source": "伤寒论",
+    "indication": "少阳证",
+    "herbs": [
+      "柴胡",
+      "黄芩",
+      "半夏",
+      "生姜",
+      "人参",
+      "甘草",
+      "大枣"
+    ],
+    "tags": [
+      "和解少阳"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-01057",
+        "TCMIP-F-F-04775",
+        "TCMIP-F-F-04825",
+        "TCMIP-F-F-04848",
+        "TCMIP-F-F-04849"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-01057",
+              "value": "ShengMaTangHeXiaoChaiHuTang"
+            },
+            {
+              "label": "TCMIP-F-F-04775",
+              "value": "JiaWeiXiaoChaiHuTang"
+            },
+            {
+              "label": "TCMIP-F-F-04825",
+              "value": "JiaWeiXiaoChaiHuTang1"
+            },
+            {
+              "label": "TCMIP-F-F-04848",
+              "value": "JiaWeiXiaoChaiHuTang2"
+            },
+            {
+              "label": "TCMIP-F-F-04849",
+              "value": "JiaWeiXiaoChaiHuTang3"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "小柴胡汤",
+    "pinyin": "XiaoChaiHuTang"
+  },
+  {
+    "id": "f10",
+    "source": "伤寒论",
+    "indication": "气分热盛证",
+    "herbs": [
+      "石膏",
+      "知母",
+      "甘草",
+      "粳米"
+    ],
+    "tags": [
+      "清热",
+      "气分"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-01191",
+        "TCMIP-F-F-30866",
+        "TCMIP-F-F-31585",
+        "TCMIP-F-F-14439",
+        "TCMIP-F-F-14440"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-01191",
+              "value": "ShengMaGeGenHeRenShenBaiHuTang"
+            },
+            {
+              "label": "TCMIP-F-F-30866",
+              "value": "ChaiHuBaiHuTang"
+            },
+            {
+              "label": "TCMIP-F-F-31585",
+              "value": "GuiZhiHeBaiHuTang"
+            },
+            {
+              "label": "TCMIP-F-F-14439",
+              "value": "RuShenBaiHuTang"
+            },
+            {
+              "label": "TCMIP-F-F-14440",
+              "value": "RuShenBaiHuTang1"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "白虎汤",
+    "pinyin": "BaiHuTang"
+  },
+  {
+    "id": "f11",
+    "source": "医方集解",
+    "indication": "肝胆实火、湿热下注",
+    "herbs": [
+      "龙胆草",
+      "黄芩",
+      "栀子",
+      "泽泻",
+      "木通",
+      "车前子",
+      "当归",
+      "生地黄",
+      "柴胡",
+      "甘草"
+    ],
+    "tags": [
+      "清肝",
+      "利湿"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-05275",
+        "TCMIP-F-F-08640",
+        "TCMIP-F-F-08641",
+        "TCMIP-F-F-08642",
+        "TCMIP-F-F-08651"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-05275",
+              "value": "JiaWeiLongDanXieGanTang"
+            },
+            {
+              "label": "TCMIP-F-F-08640",
+              "value": "LongDanXieGanTang"
+            },
+            {
+              "label": "TCMIP-F-F-08641",
+              "value": "LongDanXieGanTang1"
+            },
+            {
+              "label": "TCMIP-F-F-08642",
+              "value": "LongDanXieGanTang2"
+            },
+            {
+              "label": "TCMIP-F-F-08651",
+              "value": "LongDanXieGanTang3"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "龙胆泻肝汤",
+    "pinyin": "LongDanXieGanTang"
+  },
+  {
+    "id": "f12",
+    "source": "医林改错",
+    "indication": "胸中血瘀证",
+    "herbs": [
+      "桃仁",
+      "红花",
+      "当归",
+      "生地黄",
+      "川芎",
+      "赤芍",
+      "牛膝",
+      "桔梗",
+      "柴胡",
+      "枳壳",
+      "甘草"
+    ],
+    "tags": [
+      "活血化瘀"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-13193"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-13193",
+              "value": "XueFuZhuYuTang"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "血府逐瘀汤",
+    "pinyin": "XueFuZhuYuTang"
+  },
+  {
+    "id": "f13",
+    "source": "伤寒论",
+    "indication": "寒热错杂之痞证",
+    "herbs": [
+      "半夏",
+      "黄芩",
+      "干姜",
+      "人参",
+      "黄连",
+      "大枣",
+      "甘草"
+    ],
+    "tags": [
+      "和胃",
+      "寒热错杂"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-02919",
+        "TCMIP-F-F-02920",
+        "TCMIP-F-F-02921",
+        "TCMIP-F-F-10040"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-02919",
+              "value": "BanXiaXieXinTangQuGanJiangGanCaoJiaZhiShiXingRenFang"
+            },
+            {
+              "label": "TCMIP-F-F-02920",
+              "value": "BanXiaXieXinTangQuRenShenGanCaoGanJiangDaZaoJiaZhi"
+            },
+            {
+              "label": "TCMIP-F-F-02921",
+              "value": "BanXiaXieXinTang"
+            },
+            {
+              "label": "TCMIP-F-F-10040",
+              "value": "ShengJiangBanXiaXieXinTang"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "半夏泻心汤",
+    "pinyin": "BanXiaXieXinTang"
+  },
+  {
+    "id": "f14",
+    "source": "太平惠民和剂局方",
+    "indication": "外感风寒、内伤湿滞",
+    "herbs": [
+      "藿香",
+      "紫苏叶",
+      "白芷",
+      "大腹皮",
+      "茯苓",
+      "白术",
+      "陈皮",
+      "半夏",
+      "厚朴",
+      "桔梗",
+      "甘草"
+    ],
+    "tags": [
+      "解表",
+      "化湿"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-05666",
+        "TCMIP-F-F-03609",
+        "TCMIP-F-F-46150",
+        "TCMIP-F-F-46161",
+        "TCMIP-F-F-46162"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-05666",
+              "value": "JiaWeiHuoXiangZhengQiSan"
+            },
+            {
+              "label": "TCMIP-F-F-03609",
+              "value": "JiaJianHuoXiangZhengQiSan"
+            },
+            {
+              "label": "TCMIP-F-F-46150",
+              "value": "HuoXiangZhengQiSan"
+            },
+            {
+              "label": "TCMIP-F-F-46161",
+              "value": "HuoXiangZhengQiSan1"
+            },
+            {
+              "label": "TCMIP-F-F-46162",
+              "value": "HuoXiangZhengQiSan2"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "藿香正气散",
+    "pinyin": "HuoXiangZhengQiSan"
+  },
+  {
+    "id": "f15",
+    "source": "太平惠民和剂局方",
+    "indication": "湿痰证",
+    "herbs": [
+      "半夏",
+      "橘红",
+      "茯苓",
+      "甘草",
+      "生姜",
+      "乌梅"
+    ],
+    "tags": [
+      "燥湿化痰"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-00115",
+        "TCMIP-F-F-31267",
+        "TCMIP-F-F-31505",
+        "TCMIP-F-F-31525",
+        "TCMIP-F-F-31839"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-00115",
+              "value": "WuHuErChenTang"
+            },
+            {
+              "label": "TCMIP-F-F-31267",
+              "value": "ChaiGeErChenTang"
+            },
+            {
+              "label": "TCMIP-F-F-31505",
+              "value": "GuiShuErChenTang"
+            },
+            {
+              "label": "TCMIP-F-F-31525",
+              "value": "GuiFuErChenTang"
+            },
+            {
+              "label": "TCMIP-F-F-31839",
+              "value": "DingXiangErChenTang"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "二陈汤",
+    "pinyin": "ErChenTang"
+  },
+  {
+    "id": "f16",
+    "source": "太平惠民和剂局方",
+    "indication": "湿滞脾胃证",
+    "herbs": [
+      "苍术",
+      "厚朴",
+      "陈皮",
+      "甘草"
+    ],
+    "tags": [
+      "燥湿",
+      "行气"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-00370",
+        "TCMIP-F-F-31268",
+        "TCMIP-F-F-32666",
+        "TCMIP-F-F-33586",
+        "TCMIP-F-F-37844"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-00370",
+              "value": "LiuWeiPingWeiSan"
+            },
+            {
+              "label": "TCMIP-F-F-31268",
+              "value": "ChaiGePingWeiSan"
+            },
+            {
+              "label": "TCMIP-F-F-32666",
+              "value": "XiaoDaoPingWeiSan"
+            },
+            {
+              "label": "TCMIP-F-F-33586",
+              "value": "MiChuanJiaJianPingWeiSan"
+            },
+            {
+              "label": "TCMIP-F-F-37844",
+              "value": "DingXiangPingWeiSan"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "平胃散",
+    "pinyin": "PingWeiSan"
+  },
+  {
+    "id": "f17",
+    "source": "正体类要",
+    "indication": "心脾气血两虚",
+    "herbs": [
+      "白术",
+      "茯神",
+      "黄芪",
+      "龙眼肉",
+      "酸枣仁",
+      "人参",
+      "木香",
+      "甘草",
+      "当归",
+      "远志",
+      "生姜",
+      "大枣"
+    ],
+    "tags": [
+      "补益",
+      "心脾"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-32565",
+        "TCMIP-F-F-05735",
+        "TCMIP-F-F-05736",
+        "TCMIP-F-F-05737",
+        "TCMIP-F-F-05738"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-32565",
+              "value": "DaGuiPiTang"
+            },
+            {
+              "label": "TCMIP-F-F-05735",
+              "value": "JiaWeiGuiPiTang"
+            },
+            {
+              "label": "TCMIP-F-F-05736",
+              "value": "JiaWeiGuiPiTang1"
+            },
+            {
+              "label": "TCMIP-F-F-05737",
+              "value": "JiaWeiGuiPiTang2"
+            },
+            {
+              "label": "TCMIP-F-F-05738",
+              "value": "JiaWeiGuiPiTang3"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "归脾汤",
+    "pinyin": "GuiPiTang"
+  },
+  {
+    "id": "f18",
+    "source": "三因极一病证方论",
+    "indication": "胆胃不和、痰热内扰",
+    "herbs": [
+      "半夏",
+      "竹茹",
+      "枳实",
+      "陈皮",
+      "甘草",
+      "茯苓",
+      "生姜",
+      "大枣"
+    ],
+    "tags": [
+      "化痰",
+      "清胆"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-31244",
+        "TCMIP-F-F-35964",
+        "TCMIP-F-F-12162",
+        "TCMIP-F-F-12808",
+        "TCMIP-F-F-03417"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-31244",
+              "value": "ChaiHuWenDanTang"
+            },
+            {
+              "label": "TCMIP-F-F-35964",
+              "value": "QingXinWenDanTang"
+            },
+            {
+              "label": "TCMIP-F-F-12162",
+              "value": "ZhuRuWenDanTang"
+            },
+            {
+              "label": "TCMIP-F-F-12808",
+              "value": "FangFengWenDanTang"
+            },
+            {
+              "label": "TCMIP-F-F-03417",
+              "value": "JiaWeiWenDanTang"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "温胆汤",
+    "pinyin": "WenDanTang"
+  },
+  {
+    "id": "f19",
+    "source": "仙授理伤续断秘方",
+    "indication": "营血虚滞证",
+    "herbs": [
+      "熟地黄",
+      "当归",
+      "白芍",
+      "川芎"
+    ],
+    "tags": [
+      "补血"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-00709",
+        "TCMIP-F-F-00785",
+        "TCMIP-F-F-00822",
+        "TCMIP-F-F-00928",
+        "TCMIP-F-F-30813"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-00709",
+              "value": "HuaQiSiWuTang"
+            },
+            {
+              "label": "TCMIP-F-F-00785",
+              "value": "HuaJiSiWuTang"
+            },
+            {
+              "label": "TCMIP-F-F-00822",
+              "value": "HuaTanSiWuTang"
+            },
+            {
+              "label": "TCMIP-F-F-00928",
+              "value": "ShengMaSiWuTang"
+            },
+            {
+              "label": "TCMIP-F-F-30813",
+              "value": "ChaiQinSiWuTang"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "四物汤",
+    "pinyin": "SiWuTang"
+  },
+  {
+    "id": "f20",
+    "source": "伤寒论",
+    "indication": "阳郁厥逆、肝脾气郁",
+    "herbs": [
+      "柴胡",
+      "白芍",
+      "枳实",
+      "甘草"
+    ],
+    "tags": [
+      "疏肝理脾"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-03952",
+        "TCMIP-F-F-04062",
+        "TCMIP-F-F-04495",
+        "TCMIP-F-F-04496"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-03952",
+              "value": "SiNiSanJiaWuWeiZiGanJiangTang"
+            },
+            {
+              "label": "TCMIP-F-F-04062",
+              "value": "SiNiSan"
+            },
+            {
+              "label": "TCMIP-F-F-04495",
+              "value": "SiNiSan1"
+            },
+            {
+              "label": "TCMIP-F-F-04496",
+              "value": "SiNiSan2"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "四逆散",
+    "pinyin": "SiNiSan"
+  },
+  {
+    "id": "f21",
+    "source": "伤寒论",
+    "indication": "表证未解、里热下利",
+    "herbs": [
+      "葛根",
+      "黄芩",
+      "黄连",
+      "甘草"
+    ],
+    "tags": [
+      "解表清里"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {},
+    "sourceDetails": {},
+    "name": "葛根芩连汤",
+    "pinyin": "GeGenQinLianTang"
+  },
+  {
+    "id": "f22",
+    "source": "伤寒论",
+    "indication": "阳明腑实证",
+    "herbs": [
+      "大黄",
+      "厚朴",
+      "枳实",
+      "芒硝"
+    ],
+    "tags": [
+      "攻下"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-30989",
+        "TCMIP-F-F-30990"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-30989",
+              "value": "DaChengQiTang"
+            },
+            {
+              "label": "TCMIP-F-F-30990",
+              "value": "DaChengQiTang1"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "大承气汤",
+    "pinyin": "DaChengQiTang"
+  },
+  {
+    "id": "f23",
+    "source": "医宗金鉴",
+    "indication": "血虚兼血瘀证",
+    "herbs": [
+      "桃仁",
+      "红花",
+      "熟地黄",
+      "当归",
+      "白芍",
+      "川芎"
+    ],
+    "tags": [
+      "养血",
+      "活血"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-48454",
+        "TCMIP-F-F-48483"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-48454",
+              "value": "TaoHongSiWuTang"
+            },
+            {
+              "label": "TCMIP-F-F-48483",
+              "value": "TaoHongSiWuTang1"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "桃红四物汤",
+    "pinyin": "TaoHongSiWuTang"
+  },
+  {
+    "id": "f24",
+    "source": "温病条辨",
+    "indication": "热入营分证",
+    "herbs": [
+      "犀角",
+      "生地黄",
+      "玄参",
+      "竹叶",
+      "麦冬",
+      "丹参",
+      "黄连",
+      "金银花",
+      "连翘"
+    ],
+    "tags": [
+      "清营",
+      "解毒"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-36457"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-36457",
+              "value": "QingYingTang"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "清营汤",
+    "pinyin": "QingYingTang"
+  },
+  {
+    "id": "f25",
+    "source": "金匮要略",
+    "indication": "肝血不足、虚热内扰",
+    "herbs": [
+      "酸枣仁",
+      "甘草",
+      "知母",
+      "茯苓",
+      "川芎"
+    ],
+    "tags": [
+      "安神"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-33755",
+        "TCMIP-F-F-28643",
+        "TCMIP-F-F-45176",
+        "TCMIP-F-F-45177",
+        "TCMIP-F-F-45178"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": [
+        {
+          "label": "traditional_chinese_medicine_formula",
+          "index": "traditional_chinese_medicine_formula",
+          "title": "Traditional Chinese Medicine Formulas",
+          "title_li": "Traditional Chinese Medicine Formula",
+          "options": [
+            {
+              "label": "TCMIP-F-F-33755",
+              "value": "MiChuanSuanZaoRenTang"
+            },
+            {
+              "label": "TCMIP-F-F-28643",
+              "value": "FuShenSuanZaoRenTang"
+            },
+            {
+              "label": "TCMIP-F-F-45176",
+              "value": "SuanZaoRenTang"
+            },
+            {
+              "label": "TCMIP-F-F-45177",
+              "value": "SuanZaoRenTang1"
+            },
+            {
+              "label": "TCMIP-F-F-45178",
+              "value": "SuanZaoRenTang2"
+            }
+          ]
+        }
+      ]
+    },
+    "name": "酸枣仁汤",
+    "pinyin": "SuanZaoRenTang"
+  }
+]

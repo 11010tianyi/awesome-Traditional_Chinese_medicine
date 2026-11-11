@@ -1,0 +1,27 @@
+[
+  {
+    "id": "d1",
+    "name": "Upper respiratory infection",
+    "cn": "上呼吸道感染"
+  },
+  {
+    "id": "d2",
+    "name": "Inflammation",
+    "cn": "炎症"
+  },
+  {
+    "id": "d3",
+    "name": "Tumor microenvironment",
+    "cn": "肿瘤微环境"
+  },
+  {
+    "id": "d4",
+    "name": "Asthma",
+    "cn": "哮喘"
+  },
+  {
+    "id": "d5",
+    "name": "Digestive disorder",
+    "cn": "消化功能紊乱"
+  }
+]

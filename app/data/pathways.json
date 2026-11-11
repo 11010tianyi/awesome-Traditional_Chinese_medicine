@@ -1,0 +1,38 @@
+[
+  {
+    "id": "p1",
+    "name": "Inflammatory mediator regulation",
+    "cn": "炎症介质调控",
+    "score": 0.008
+  },
+  {
+    "id": "p2",
+    "name": "TNF signaling pathway",
+    "cn": "TNF 信号通路",
+    "score": 0.012
+  },
+  {
+    "id": "p3",
+    "name": "IL-17 signaling pathway",
+    "cn": "IL-17 信号通路",
+    "score": 0.018
+  },
+  {
+    "id": "p4",
+    "name": "PI3K-Akt signaling pathway",
+    "cn": "PI3K-Akt 信号通路",
+    "score": 0.026
+  },
+  {
+    "id": "p5",
+    "name": "Apoptosis",
+    "cn": "细胞凋亡",
+    "score": 0.041
+  },
+  {
+    "id": "p6",
+    "name": "Viral infection response",
+    "cn": "病毒感染应答",
+    "score": 0.033
+  }
+]

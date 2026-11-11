@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TCM Insight MVP</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="项目导航">
+        <div class="brand">
+          <div class="brand-mark">TCM</div>
+          <div>
+            <h1>TCM Insight</h1>
+            <p>中医药查询与处方网络药理学 MVP</p>
+          </div>
+        </div>
+
+        <nav class="nav-list">
+          <a href="#search" class="nav-item active" data-nav="search">
+            <span data-icon="search"></span>
+            <span>统一查询</span>
+          </a>
+          <a href="#prescription" class="nav-item" data-nav="prescription">
+            <span data-icon="clipboard-list"></span>
+            <span>处方分析</span>
+          </a>
+          <a href="#network" class="nav-item" data-nav="network">
+            <span data-icon="share-2"></span>
+            <span>网络药理</span>
+          </a>
+          <a href="#visuals" class="nav-item" data-nav="visuals">
+            <span data-icon="bar-chart-3"></span>
+            <span>可视化</span>
+          </a>
+          <a href="#export" class="nav-item" data-nav="export">
+            <span data-icon="download"></span>
+            <span>导出</span>
+          </a>
+        </nav>
+
+        <div class="source-panel">
+          <div class="panel-title">数据源对照</div>
+          <a href="https://www.tcmsp-e.com/tcmsp.php" target="_blank" rel="noreferrer">TCMSP</a>
+          <a href="http://herb.ac.cn/" target="_blank" rel="noreferrer">HERB</a>
+          <a href="http://www.tcmip.cn/ETCM/" target="_blank" rel="noreferrer">ETCM</a>
+          <a href="http://www.symmap.org/" target="_blank" rel="noreferrer">SymMap</a>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">MVP · 真实来源同步知识库</p>
+            <h2>中医药基础信息查询、处方分析和网络药理学工作台</h2>
+          </div>
+          <div class="run-status">
+            <span class="status-dot"></span>
+            <span id="activeSummary">当前处方：银翘散</span>
+          </div>
+        </header>
+
+        <section class="metrics-grid" aria-label="当前分析摘要">
+          <div class="metric">
+            <span class="metric-label">药味</span>
+            <strong id="metricHerbs">0</strong>
+          </div>
+          <div class="metric">
+            <span class="metric-label">候选成分</span>
+            <strong id="metricCompounds">0</strong>
+          </div>
+          <div class="metric">
+            <span class="metric-label">预测靶点</span>
+            <strong id="metricTargets">0</strong>
+          </div>
+          <div class="metric">
+            <span class="metric-label">通路/疾病</span>
+            <strong id="metricPathways">0</strong>
+          </div>
+        </section>
+
+        <section class="sync-panel" aria-label="真实数据同步状态">
+          <div>
+            <p class="eyebrow">Real Data Snapshot</p>
+            <h3>真实来源同步状态</h3>
+          </div>
+          <div class="sync-grid" id="syncStatus"></div>
+        </section>
+
+        <section id="search" class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Unified Search</p>
+              <h3>统一查询</h3>
+            </div>
+            <div class="search-box">
+              <span data-icon="search"></span>
+              <input id="globalSearch" type="search" placeholder="搜索药材、方剂、成分、靶点、疾病或通路" />
+            </div>
+          </div>
+          <div class="filter-row" id="entityFilters"></div>
+          <div class="result-grid" id="searchResults"></div>
+          <div class="more-row">
+            <button class="ghost-button" id="openCatalogBtn" type="button">查看更多</button>
+          </div>
+        </section>
+
+        <section id="catalog" class="section-block catalog-section is-hidden">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Catalog Browser</p>
+              <h3>分类浏览</h3>
+            </div>
+            <div class="search-box">
+              <span data-icon="search"></span>
+              <input id="catalogSearch" type="search" placeholder="在当前分类中筛选" />
+            </div>
+          </div>
+          <div class="filter-row" id="catalogFilters"></div>
+          <div class="catalog-summary" id="catalogSummary"></div>
+          <div class="result-grid" id="catalogResults"></div>
+        </section>
+
+        <section id="prescription" class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Prescription</p>
+              <h3>处方分析</h3>
+            </div>
+            <div class="control-row">
+              <select id="formulaSelect" aria-label="选择经典方剂"></select>
+              <button class="icon-button" id="loadFormulaBtn" title="载入方剂">
+                <span data-icon="rotate-ccw"></span>
+              </button>
+              <button class="primary-button" id="analyzeBtn">
+                <span data-icon="activity"></span>
+                <span>分析</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="split-grid">
+            <div class="tool-panel">
+              <label for="prescriptionInput">处方组成</label>
+              <textarea id="prescriptionInput" spellcheck="false"></textarea>
+              <div class="hint-row">
+                <span>支持中文逗号、顿号、空格、换行分隔；剂量可写可不写。</span>
+              </div>
+              <div class="chip-row" id="matchedHerbs"></div>
+              <div class="custom-formula-box" aria-label="添加自定义处方">
+                <div class="panel-title">添加手动处方</div>
+                <div class="custom-formula-grid">
+                  <input id="customFormulaName" type="text" placeholder="处方名，如：自拟清热方" />
+                  <input id="customFormulaSource" type="text" placeholder="来源/备注，可选" />
+                  <input id="customFormulaIndication" type="text" placeholder="主治/适应证，可选" />
+                  <input id="customFormulaTags" type="text" placeholder="标签，可用逗号分隔" />
+                </div>
+                <button class="primary-button" id="saveFormulaBtn" type="button">
+                  <span data-icon="clipboard-list"></span>
+                  <span>保存到方剂列表</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="analysis-stack">
+              <div class="tool-panel compact-panel">
+                <div class="panel-title">药性结构</div>
+                <div id="natureChart" class="bar-chart"></div>
+              </div>
+              <div class="tool-panel compact-panel">
+                <div class="panel-title">五味分布</div>
+                <div id="flavorChart" class="bar-chart"></div>
+              </div>
+              <div class="tool-panel compact-panel">
+                <div class="panel-title">高频归经</div>
+                <div id="meridianChart" class="bar-chart"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-panel">
+            <div class="panel-title">核心药对与处方解释</div>
+            <div class="pairs-grid" id="corePairs"></div>
+          </div>
+        </section>
+
+        <section id="network" class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Network Pharmacology</p>
+              <h3>网络药理学</h3>
+            </div>
+            <div class="control-row">
+              <label class="range-label" for="confidenceRange">靶点置信度</label>
+              <input id="confidenceRange" type="range" min="45" max="95" step="5" value="60" />
+              <span id="confidenceValue">60</span>
+            </div>
+          </div>
+
+          <div class="network-layout">
+            <div class="network-panel">
+              <svg id="networkSvg" role="img" aria-label="药材成分靶点通路疾病网络图"></svg>
+            </div>
+            <aside class="detail-panel" id="nodeDetails">
+              <div class="panel-title">节点详情</div>
+              <p>点击网络节点查看实体信息、来源和关系。</p>
+            </aside>
+          </div>
+
+          <div class="legend-row">
+            <span><i class="legend herb"></i>药材</span>
+            <span><i class="legend compound"></i>成分</span>
+            <span><i class="legend target"></i>靶点</span>
+            <span><i class="legend pathway"></i>通路</span>
+            <span><i class="legend disease"></i>疾病</span>
+          </div>
+        </section>
+
+        <section id="visuals" class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Visual Analytics</p>
+              <h3>可视化</h3>
+            </div>
+            <div class="segmented" id="visualTabs">
+              <button class="active" data-tab="enrichment">富集</button>
+              <button data-tab="compounds">成分</button>
+              <button data-tab="evidence">证据</button>
+            </div>
+          </div>
+          <div id="visualPanel" class="visual-panel"></div>
+        </section>
+
+        <section id="export" class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Export</p>
+              <h3>导出</h3>
+            </div>
+          </div>
+          <div class="export-grid">
+            <button class="export-button" id="exportCsv">
+              <span data-icon="table"></span>
+              <span>网络边 CSV</span>
+            </button>
+            <button class="export-button" id="exportJson">
+              <span data-icon="braces"></span>
+              <span>分析 JSON</span>
+            </button>
+            <button class="export-button" id="exportSvg">
+              <span data-icon="image"></span>
+              <span>网络 SVG</span>
+            </button>
+            <button class="export-button" id="exportMd">
+              <span data-icon="file-text"></span>
+              <span>报告 Markdown</span>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

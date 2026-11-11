@@ -1,0 +1,157 @@
+[
+  {
+    "name": "TCMSP",
+    "fullName": "Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform",
+    "baseUrl": "https://www.tcmsp-e.com",
+    "integration": "HTML form endpoint parsed from tcmspsearch.php",
+    "endpoint": "https://www.tcmsp-e.com/tcmspsearch.php",
+    "status": [
+      {
+        "source": "TCMSP",
+        "entity": "herbs",
+        "matched": 49,
+        "total": 58,
+        "refreshed": 0
+      },
+      {
+        "source": "TCMSP",
+        "entity": "compounds",
+        "matched": 30,
+        "total": 32,
+        "refreshed": 0
+      },
+      {
+        "source": "TCMSP",
+        "entity": "targets",
+        "matched": 7,
+        "total": 24,
+        "refreshed": 0
+      }
+    ]
+  },
+  {
+    "name": "HERB",
+    "fullName": "High-throughput Experiment- and Reference-guided database of TCM",
+    "baseUrl": "http://herb.ac.cn/",
+    "integration": "JSON endpoint used by the public HERB frontend",
+    "endpoint": "http://herb.ac.cn/chedi/api/",
+    "status": [
+      {
+        "source": "HERB",
+        "entity": "herbs",
+        "matched": 58,
+        "total": 58,
+        "refreshed": 0
+      },
+      {
+        "source": "HERB",
+        "entity": "compounds",
+        "matched": 32,
+        "total": 32,
+        "refreshed": 0
+      },
+      {
+        "source": "HERB",
+        "entity": "targets",
+        "matched": 24,
+        "total": 24,
+        "refreshed": 0
+      }
+    ]
+  },
+  {
+    "name": "ETCM",
+    "fullName": "The Encyclopedia of Traditional Chinese Medicine v2.0",
+    "baseUrl": "http://www.tcmip.cn/ETCM2/front/#/",
+    "integration": "ETCM2 JSON endpoints discovered from frontend bundle",
+    "endpoint": "http://www.tcmip.cn:18124/home/homeEsSearch/",
+    "homeStats": [
+      {
+        "label": "Syndromes",
+        "value": 319,
+        "href": "http://www.tcmip.cn/ETCM2/front/#/browse/syndrome"
+      },
+      {
+        "label": "TCM Formulas",
+        "value": 48442,
+        "href": "http://www.tcmip.cn/ETCM2/front/#/browse/traditional_chinese_medicine_formula"
+      },
+      {
+        "label": "Chinese Patent Drugs",
+        "value": 9872,
+        "href": "http://www.tcmip.cn/ETCM2/front/#/browse/chinese_patent_drug"
+      },
+      {
+        "label": "Chinese medicinal materials",
+        "value": 2079,
+        "href": "http://www.tcmip.cn/ETCM2/front/#/browse/herb"
+      },
+      {
+        "label": "Ingredients",
+        "value": 38298,
+        "href": "http://www.tcmip.cn/ETCM2/front/#/browse/ingredient"
+      },
+      {
+        "label": "Targets",
+        "value": 1040,
+        "href": "http://www.tcmip.cn/ETCM2/front/#/browse/target"
+      },
+      {
+        "label": "Diseases",
+        "value": 8045,
+        "href": "http://www.tcmip.cn/ETCM2/front/#/browse/disease"
+      },
+      {
+        "label": "Systematic Analysis",
+        "value": "",
+        "href": "http://www.tcmip.cn/ETCM2/front/#/Analysis"
+      }
+    ],
+    "status": [
+      {
+        "source": "ETCM",
+        "entity": "formulas",
+        "matched": 24,
+        "total": 25,
+        "refreshed": 0
+      },
+      {
+        "source": "ETCM",
+        "entity": "herbs",
+        "matched": 56,
+        "total": 58,
+        "refreshed": 0
+      }
+    ]
+  },
+  {
+    "name": "SymMap",
+    "fullName": "Symptom Mapping database of Traditional Chinese Medicine",
+    "baseUrl": "http://www.symmap.org",
+    "integration": "Form POST endpoints used by the public SymMap search page",
+    "endpoint": "http://www.symmap.org/search/",
+    "status": [
+      {
+        "source": "SymMap",
+        "entity": "herbs",
+        "matched": 15,
+        "total": 58,
+        "refreshed": 0
+      },
+      {
+        "source": "SymMap",
+        "entity": "compounds",
+        "matched": 32,
+        "total": 32,
+        "refreshed": 32
+      },
+      {
+        "source": "SymMap",
+        "entity": "targets",
+        "matched": 24,
+        "total": 24,
+        "refreshed": 0
+      }
+    ]
+  }
+]

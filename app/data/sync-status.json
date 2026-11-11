@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-05-16T15:12:03.555Z",
+  "note": "真实源同步快照。HERB/ETCM/SymMap/TCMSP 均通过其公开网站前端可见接口或表单入口获取；外部数据库结构可能变更，重跑 npm run sync:data 可刷新。",
+  "summary": [
+    {
+      "source": "ETCM",
+      "entity": "formulas",
+      "matched": 24,
+      "total": 25,
+      "refreshed": 0
+    },
+    {
+      "source": "Classic texts",
+      "entity": "formulas",
+      "matched": 25,
+      "total": 25,
+      "refreshed": 20
+    },
+    {
+      "source": "HERB",
+      "entity": "herbs",
+      "matched": 58,
+      "total": 58,
+      "refreshed": 0
+    },
+    {
+      "source": "SymMap",
+      "entity": "herbs",
+      "matched": 15,
+      "total": 58,
+      "refreshed": 0
+    },
+    {
+      "source": "TCMSP",
+      "entity": "herbs",
+      "matched": 49,
+      "total": 58,
+      "refreshed": 0
+    },
+    {
+      "source": "ETCM",
+      "entity": "herbs",
+      "matched": 56,
+      "total": 58,
+      "refreshed": 0
+    },
+    {
+      "source": "HERB",
+      "entity": "compounds",
+      "matched": 32,
+      "total": 32,
+      "refreshed": 0
+    },
+    {
+      "source": "SymMap",
+      "entity": "compounds",
+      "matched": 32,
+      "total": 32,
+      "refreshed": 32
+    },
+    {
+      "source": "TCMSP",
+      "entity": "compounds",
+      "matched": 30,
+      "total": 32,
+      "refreshed": 0
+    },
+    {
+      "source": "HERB",
+      "entity": "targets",
+      "matched": 24,
+      "total": 24,
+      "refreshed": 0
+    },
+    {
+      "source": "SymMap",
+      "entity": "targets",
+      "matched": 24,
+      "total": 24,
+      "refreshed": 0
+    },
+    {
+      "source": "TCMSP",
+      "entity": "targets",
+      "matched": 7,
+      "total": 24,
+      "refreshed": 0
+    }
+  ],
+  "catalogCounts": {
+    "formulas": 25,
+    "herbs": 58,
+    "compounds": 32,
+    "targets": 24
+  },
+  "endpoints": [
+    {
+      "name": "TCMSP",
+      "endpoint": "https://www.tcmsp-e.com/tcmspsearch.php",
+      "integration": "HTML form endpoint parsed from tcmspsearch.php"
+    },
+    {
+      "name": "HERB",
+      "endpoint": "http://herb.ac.cn/chedi/api/",
+      "integration": "JSON endpoint used by the public HERB frontend"
+    },
+    {
+      "name": "ETCM",
+      "endpoint": "http://www.tcmip.cn:18124/home/homeEsSearch/",
+      "integration": "ETCM2 JSON endpoints discovered from frontend bundle"
+    },
+    {
+      "name": "SymMap",
+      "endpoint": "http://www.symmap.org/search/",
+      "integration": "Form POST endpoints used by the public SymMap search page"
+    }
+  ]
+}

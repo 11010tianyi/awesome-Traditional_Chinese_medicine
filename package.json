@@ -1,0 +1,11 @@
+{
+  "name": "awesome-traditional-chinese-medicine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TCM knowledge search, prescription analysis, network pharmacology and visualization MVP.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "sync:data": "node scripts/sync-real-data.mjs"
+  }
+}

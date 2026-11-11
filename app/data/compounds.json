@@ -1,0 +1,1283 @@
+[
+  {
+    "id": "c1",
+    "name": "Quercetin",
+    "cn": "槲皮素",
+    "ob": 46.4,
+    "dl": 0.28,
+    "targets": {
+      "t1": 86,
+      "t2": 82,
+      "t4": 73,
+      "t5": 66
+    },
+    "externalIds": {
+      "HERB": "HBIN041495",
+      "TCMSP": "MOL000098",
+      "SymMap": "SMIT00013"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN041495",
+        "name": "quercetin",
+        "alias": "2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxychromen-4-one; c0808; NCGC00025016-03; EINECS 204-187-1; Maybridge1_008992; quercetin-7-olate; 2-(3,4-Dihydroxyphenyl)-3,5,7-trihydroxy-4H-1-benzopyran-4-one; C00389; 73123-10-1; NCGC00015870-01; 2-(3,4-dihydroxyphenyl)-3,5-dihydroxy-4-oxo-4-chromen-7-olate; 3,5-Dihydroxy-2-(3,4-dihydroxyphenyl)-4-oxo-4H-1-benzopyran-7-ol anion; KBio2_003152; MEGxp0_000381; NCGC00015870-02; KBio1_000485; 3,5,7,3',4'-Pentahydroxyflavone; A1784/0075599; NCGC00025016-08; NCGC00015870-03; K00029; CI 75670; NChemBio.2007.10-comp11; AI3-26018; KBio3_000776; Spectrum5_001389; Natural Yellow 10; CPD-520; TNP00089; AIDS-000487; 6151-25-3 (DIHYDRATE); BiomolKI_000062; Spectrum_000124; C.I. natural red 1; CHEBI:57694; Cyanidelonon 1522; 4H-1-Benzopyran-4-one, 2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-; 117-39-5 (NEUTRAL ); 3,5,7,3',4'-pentahydroflavone; 3,7-Dihydroxy-2-(3,4-dihydroxyphenyl)-4-oxo-4H-1-benzopyran-5-ol anion; quercetin ; MixCom3_000183; KBioGR_001293; DivK1c_000485; Lopac-Q-0125; 3,3',4',5-7-pentahydroxyflavone; Quercetin content; KBio3_000775; 117-39-5; 3,5,7,3',4'-pentahydroxyflavone; C.I. 75670; Quertin; 3,3',4',5,6-pentahydroxyflavone; Flavin meletin; NSC 9219; NSC57655 (ALUMINUM SALT); IDI1_002129; SGCUT00001; EU-0100999; KBio2_005720; NINDS_000485; KBioSS_000584; 2-(3,4-Dihydroxy-phenyl)-3,5,7-trihydroxy-chromen-4-one; NCI-C60106; BRN 0317313; BPBio1_000477; Bio1_000858; 3,3',4',5,7-Pentahydroxyflavone; NSC9219; Prestwick1_000507; 2-(3,4-dihydr",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN041495&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00013",
+        "Molecule_name": "Quercetin",
+        "PubChem_CID": "5280343",
+        "TCMID_id": "18302",
+        "TCMSP_id": "MOL000098",
+        "OB_score": 46.4333,
+        "TCM_ID_id": "1425|9871",
+        "CAS_id": "117-39-5",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00013"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000098",
+        "molecule_ID": "98",
+        "molecule_synonyms": "Quercetin content"
+      }
+    }
+  },
+  {
+    "id": "c2",
+    "name": "Kaempferol",
+    "cn": "山柰酚",
+    "ob": 41.9,
+    "dl": 0.24,
+    "targets": {
+      "t1": 80,
+      "t3": 76,
+      "t5": 70,
+      "t8": 64
+    },
+    "externalIds": {
+      "HERB": "HBIN031753",
+      "TCMSP": "MOL000422",
+      "SymMap": "SMIT00041"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN031753",
+        "name": "kaempferol",
+        "alias": "TNP00039; nchembio.2007.28-comp30; Kaempherol; 5-18-05-00251 (Beilstein Handbook Reference); Prestwick2_001098; CHEBI:28499; Prestwick1_001098; CAS-520-18-3; BRN 0304401; Flavone, 3,4',5,7-tetrahydroxy-; ST030560; MEGxp0_001283; 4H-1-Benzopyran-4-one, 3,5,7-trihydroxy-2-(4-hydroxyphenyl)-5,7,4'-Trihydroxyflavonol; C.I. 75640; Swartziol; K0133_SIGMA; kaempferol oxoanion; NCGC00016480-01; 60010_FLUKA; EINECS 208-287-6; Pelargidenon; Nimbecetin; 3,5,7-trihydroxy-2-(4-hydroxyphenyl)-4-chromenone; NSC 407289; 3,4',5,7-Tetrahydroxyflavone; HSCI1_000027; Pelargidenolon 1497; NSC407289; Robigenin; C05903; CPD1F-90; Kampferol; NSC 656277; Prestwick0_001098; 3,5,7-trihydroxy-2-(4-hydroxyphenyl)chromen-4-one; Populnetin; Kampcetin; Prestwick3_001098; AIDS-001404; ZINC00137345; kaempferol ; 5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxo-4H-chromen-3-olate; 3,4&prime;,5,7-Tetrahydroxyflavone; Rhamnolutein; NCGC00016480-02; ACon1_001867; NSC656277; 3,4&#8242;,5,7-Tetrahydroxyflavone; BSPBio_001176; SPBio_003058; Oprea1_650954; 5,7,4'-Trihydroxyflavonol; 4H-1-Benzopyran-4-one,3,5,7-trihydroxy-2-(4-hydroxyphenyl)-5,7,4'-Trihydroxyflavonol; 4H-1-Benzopyran-4-one, 3,5,7-trihydroxy-2-(4-hydroxyphenyl)- (9CI); Campherol; 520-18-3; 3,5,7-TRIHYDROXY-2-(4-HYDROXYPHENYL)-4H-CHROMEN-4-ONE; S00111; Trifolitin; Kampherol; AI3-36096; 3,5,7-trihydroxy-2-(4-hydroxyphenyl)chromone; Indigo yellow; Pelargidenolon; AIDS001404; nchembio718-comp14; NCGC00091036-01; Flavone, 3,4',5,7-tetrahydroxy- (7CI,8CI); CHEBI:5857",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN031753&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00041",
+        "Molecule_name": "Kaempferol",
+        "PubChem_CID": "5280863",
+        "TCMID_id": "12017",
+        "TCMSP_id": "MOL000422",
+        "OB_score": 41.8822,
+        "TCM_ID_id": "3239|9868",
+        "CAS_id": "520-18-3",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00041"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000422",
+        "molecule_ID": "422",
+        "molecule_synonyms": "kaempferol"
+      }
+    }
+  },
+  {
+    "id": "c3",
+    "name": "Luteolin",
+    "cn": "木犀草素",
+    "ob": 36.2,
+    "dl": 0.25,
+    "targets": {
+      "t2": 84,
+      "t4": 78,
+      "t6": 72
+    },
+    "externalIds": {
+      "HERB": "HBIN033803",
+      "TCMSP": "MOL000006",
+      "SymMap": "SMIT00002"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN033803",
+        "name": "luteolin",
+        "alias": "Prestwick3_000870; TNP00073; 2-(3,4-dihydroxyphenyl)-5-hydroxy-4-oxo-4H-chromen-7-olate luteolin-7-olate(1-); 62696_FLUKA; ACon1_000223; 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-chromenone; Digitoflavone; SMR000326896; luteolin-7-olate anion; 4H-Benzopyran-4-one, 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-; CHEBI:57545; FLAVONE, 3',4',5,7-TETRAHYDROXY-; 2-(3,4-Dihydroxyphenyl)-5,7-dihydroxy-4-benzopyrone; A827664; BPBio1_001011; MEGxp0_000143; 4H-1-Benzopyran-4-one, 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy- (9CI); Weld Lake; BSPBio_000919; CHEBI:15864; 2-(3,4-dihydroxyphenyl)-5-hydroxy-4-oxo-4H-chromen-7-olate; 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-chromen-4-one; Oprea1_849964; Yama kariyasu; 4-[5,7-bis(oxidanyl)-4-oxidanylidene-chromen-2-yl]-2-oxidanyl-phenolate; ST024703; luteolin ; NCGC00016467-02; EINECS 207-741-0; AIDS001406; NCGC00142375-02; C.I. Natural Yellow 2; S00110; Luteoline; Luteolin; Luteolol; 3&prime;,4&prime;,5,7-Tetrahydroxyflavone; 2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromen-4-one; 4H-1-Benzopyran-4-one, 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-; Prestwick_122; 5,7,3',4'-Tetrahydroxyflavone; BRN 0292084; CAS-491-70-3; 4-(5,7-dihydroxy-4-oxo-1-benzopyran-2-yl)-2-hydroxyphenolate; ZINC00008613; NCGC00142375-01; Prestwick1_000870; AIDS-001406; C01514; CCRIS 3790; 3',4',5,7-Tetrahydroxyflavone; Flacitran; Cyanidenon 1470; MLS000697655; SPBio_002840; 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4H-chromen-4-one; Lopac0_000660; NCGC00016467-01; C.I. 75590; Prestwick0_000870; 491-7",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN033803&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00002",
+        "Molecule_name": "Luteolin",
+        "PubChem_CID": "5280445",
+        "TCMID_id": "13130",
+        "TCMSP_id": "MOL000006",
+        "OB_score": 36.1626,
+        "TCM_ID_id": "2858",
+        "CAS_id": "491-70-3",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00002"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000006",
+        "molecule_ID": "6",
+        "molecule_synonyms": "Luteolin"
+      }
+    }
+  },
+  {
+    "id": "c4",
+    "name": "Chlorogenic acid",
+    "cn": "绿原酸",
+    "ob": 33.1,
+    "dl": 0.31,
+    "targets": {
+      "t1": 68,
+      "t3": 71,
+      "t7": 60
+    },
+    "externalIds": {
+      "HERB": "HBIN020363",
+      "TCMSP": "MOL001955",
+      "SymMap": "SMIT01671"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN020363",
+        "name": "chlorogenic acid",
+        "alias": "3-methyl-1,4,5-tris(oxidanyl)cyclohexane-1-carboxylic acid; 4-prop-1-enylbenzene-1,2-diol; A821421; 4-prop-1-enylbenzene-1,2-diol; 1,3,4-trihydroxy-5-methyl-1-cyclohexanecarboxylic acid; chlorogenic acid ; Chlorogenic acid; chlorogenicacid",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN020363&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01671",
+        "Molecule_name": "Chlorogenic Acid",
+        "PubChem_CID": "1794427",
+        "TCMID_id": "23122|3551",
+        "TCMSP_id": "MOL003871",
+        "OB_score": 13.6079,
+        "TCM_ID_id": "5758",
+        "CAS_id": "327-97-9",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01671"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL001955",
+        "molecule_ID": "1955",
+        "molecule_synonyms": "Chlorogenic acid (8CI)"
+      }
+    }
+  },
+  {
+    "id": "c5",
+    "name": "Baicalin",
+    "cn": "黄芩苷",
+    "ob": 40.1,
+    "dl": 0.75,
+    "targets": {
+      "t1": 90,
+      "t2": 83,
+      "t6": 75,
+      "t10": 68
+    },
+    "externalIds": {
+      "HERB": "HBIN017516",
+      "TCMSP": "MOL002776",
+      "SymMap": "SMIT01290"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN017516",
+        "name": "baicalin",
+        "alias": "21967-41-9; STOCK1N-21299; (2S,3S,4S,5R,6S)-6-(5,6-dihydroxy-4-oxo-2-phenyl-chromen-7-yl)oxy-3,4,5-trihydroxy-oxane-2-carboxylic acid; (2S,3S,4S,5R,6S)-6-(5,6-dihydroxy-4-oxo-2-phenylchromen-7-yl)oxy-3,4,5-trihydroxyoxane-2-carboxylic acid; 5,6,7-Trihydroxyflavone-7-O-.beta.-D-glucopyranosideuronic acid; C10025; Baicalin; AIDS001402; 100647-26-5; 7-D-Glucuronic acid-5,6-dihydroxyflavone; 5,6-dihydroxy-4-oxo-2-phenyl-4H-chromen-7-yl beta-D-glucopyranosiduronic acid; 31564-28-0; (2S,3S,4S,5R,6S)-6-(5,6-dihydroxy-4-keto-2-phenyl-chromen-7-yl)oxy-3,4,5-trihydroxy-tetrahydropyran-2-carboxylic acid; Baicalein-7-D-glucuronide; TJN-151; CHEBI:2981; (2S,3S,4S,5R,6S)-6-(5,6-dihydroxy-4-oxo-2-phenyl-chromen-7-yl)oxy-3,4,5-trihydroxy-tetrahydropyran-2-carboxylic acid; beta-D-Glucopyranosiduronic acid, 5,6-dihydroxy-4-oxo-2-phenyl-4H-1-benzopyran-7-yl; LMPK12111081; baicalin ; 5,6-dihydroxy-4-oxo-2-phenyl-4H-1-benzopyran-7-yl beta-D-glucopyranosiduronic acid; Baicalein 7-O-glucuronide; 27462-75-5; Baicalein 7-glucuronide; AIDS-001402; (2S,3S,4S,5R,6S)-6-[(5,6-dihydroxy-4-oxo-2-phenyl-7-chromenyl)oxy]-3,4,5-trihydroxy-2-tetrahydropyrancarboxylic acid; 572667_ALDRICH",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN017516&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01290",
+        "Molecule_name": "Baicalin",
+        "PubChem_CID": "64982",
+        "TCMID_id": "2106",
+        "TCMSP_id": "MOL002776|MOL002935",
+        "OB_score": 40.1236,
+        "TCM_ID_id": "6440",
+        "CAS_id": "21967-41-9|31564-28-0",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01290"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL002776",
+        "molecule_ID": "2776",
+        "molecule_synonyms": "Baicalin"
+      }
+    }
+  },
+  {
+    "id": "c6",
+    "name": "Glycyrrhizic acid",
+    "cn": "甘草酸",
+    "ob": 48.5,
+    "dl": 0.62,
+    "targets": {
+      "t1": 74,
+      "t3": 69,
+      "t9": 63
+    },
+    "externalIds": {
+      "HERB": "HBIN028190",
+      "TCMSP": "MOL004876",
+      "SymMap": "SMIT01688"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN028190",
+        "name": "glycyrrhizic acid",
+        "alias": "glycyrrhizicacid; CS-W019908; Glycyrrhizic acid",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN028190&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01688",
+        "Molecule_name": "Glycyrrhizic Acid",
+        "PubChem_CID": "45356931|46878350|16395512|45358013|9897518|134747495|128229|16213698|78577433|132399058|137706400|3495|14982|131632430",
+        "TCMID_id": "23251|8845",
+        "TCMSP_id": null,
+        "OB_score": null,
+        "TCM_ID_id": "3938",
+        "CAS_id": "1405-86-3",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01688"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL004876",
+        "molecule_ID": "4876",
+        "molecule_synonyms": "18-beta-Glycyrrhizic acid"
+      }
+    }
+  },
+  {
+    "id": "c7",
+    "name": "Paeoniflorin",
+    "cn": "芍药苷",
+    "ob": 53.9,
+    "dl": 0.79,
+    "targets": {
+      "t5": 78,
+      "t8": 74,
+      "t10": 64
+    },
+    "externalIds": {
+      "HERB": "HBIN038606",
+      "TCMSP": "MOL001924",
+      "SymMap": "SMIT00129"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN038606",
+        "name": "paeoniflorin",
+        "alias": "Paeoniflorin; 23180-57-6; C09959; paeoniflorin ; AIDS-002238; AIDS002238; AKOS015962161; AC-15908; .beta.-D-Glucopyranoside, (1aR,2S,3aR,5R,5aR,5bS)-5b-[(benzoyloxy)methyl]tetrahydro-5-hydroxy-2-methyl-2,5-methano-1H-3,4-dioxacyclobuta[cd]pentalen-1a(2H)-yl",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN038606&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00129",
+        "Molecule_name": "Paeoniflorin",
+        "PubChem_CID": "53384387|46882877|5458396|102004404|118701402|134693106|74787565|137706376|129010043|6918445|12313906|129316829|122130185|45358140|425990|442534|51340230|122173183",
+        "TCMID_id": "16514",
+        "TCMSP_id": "MOL001924",
+        "OB_score": 53.8704,
+        "TCM_ID_id": "2080",
+        "CAS_id": "23180-57-6",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00129"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL001924",
+        "molecule_ID": "1924",
+        "molecule_synonyms": "Paeoniflorin"
+      }
+    }
+  },
+  {
+    "id": "c8",
+    "name": "Ferulic acid",
+    "cn": "阿魏酸",
+    "ob": 39.6,
+    "dl": 0.18,
+    "targets": {
+      "t4": 66,
+      "t6": 62,
+      "t8": 60
+    },
+    "externalIds": {
+      "HERB": "HBIN026465",
+      "TCMSP": "MOL000360",
+      "SymMap": "SMIT01860"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN026465",
+        "name": "ferulic acid",
+        "alias": "(E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate; caffeic acid 3-methyl ether; ferulicacid; A803063; (E)-3-(4-Hydroxy-3-methoxyphenyl)-2-propenoate; CJ-00500; ZB002373; ferulate; CHEBI:29749; (2E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate; 3-Methoxy-4-hydroxy-trans-cinnamate; (E)-3-(3-methoxy-4-oxidanyl-phenyl)prop-2-enoate; Ferulic Acid; AC1NUT2L; ferulic acid",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN026465&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01860",
+        "Molecule_name": "Ferulic Acid",
+        "PubChem_CID": "445858",
+        "TCMID_id": "23696|7767",
+        "TCMSP_id": "MOL002665",
+        "OB_score": 40.4343,
+        "TCM_ID_id": "4369",
+        "CAS_id": "1135-24-6",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01860"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000360",
+        "molecule_ID": "360",
+        "molecule_synonyms": "CINNAMIC ACID,4-HYDROXY,3-METHOXY   FERULIC ACID"
+      }
+    }
+  },
+  {
+    "id": "c9",
+    "name": "Ephedrine",
+    "cn": "麻黄碱",
+    "ob": 88.4,
+    "dl": 0.09,
+    "targets": {
+      "t9": 81,
+      "t3": 58
+    },
+    "externalIds": {
+      "HERB": "HBIN025241",
+      "TCMSP": "MOL006594",
+      "SymMap": "SMIT15245"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN025241",
+        "name": "ephedrine",
+        "alias": "SCHEMBL8098202; CHEMBL1620154; ephedrine ; (s)-2-methylamino-1-phenylpropan-1-ol; (1S)-1-Phenyl-2-(methylamino)-1-propanol",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN025241&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT15245",
+        "Molecule_name": "Ephedrine",
+        "PubChem_CID": "9294",
+        "TCMID_id": "6814",
+        "TCMSP_id": null,
+        "OB_score": null,
+        "TCM_ID_id": null,
+        "CAS_id": null,
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT15245"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL006594",
+        "molecule_ID": "6594",
+        "molecule_synonyms": "Ephedrine [USAN:BAN]"
+      }
+    }
+  },
+  {
+    "id": "c10",
+    "name": "Cinnamaldehyde",
+    "cn": "桂皮醛",
+    "ob": 31,
+    "dl": 0.13,
+    "targets": {
+      "t4": 73,
+      "t8": 67,
+      "t10": 62
+    },
+    "externalIds": {
+      "HERB": "HBIN020653",
+      "TCMSP": "MOL000250",
+      "SymMap": "SMIT00089"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN020653",
+        "name": "cinnamaldehyde",
+        "alias": "trans-Cinnamaldehyde, >=98%, FCC, FG; (E)-3-phenylacrolein; DSSTox_GSID_24834; 3-Phenyl-2-propenal; LS-378; UNII-SR60A3XG0F; (3E)-3-phenylprop-2-enal; Cinnamal; ZINC1532777; CS-0009609; (trans)-cinnamaldehyde; NSC-16935; NCGC00091512-02; NSC 16935; ST50213393; D0PJ3M; Aldehyd skoricovy; MolPort-004-288-292; Abion CA; BRN 1071571; 2-propenal, 3-phenyl-, (2E)-; trans-3-Phenylacrolein; FEMA No. 2286; transcinnamaldehyde; Cinnamaldehyde, trans-; Cinnamic aldehyde; DTXSID6024834; 3-Phenylpropenal; 3-Phenyl-2-propen-1-al; 3-phenylprop-2-enal; Cinnamaldehyde (trans), neat; AIDS-097032; BB_NC-2240; trans-Cinnamic aldehyde; NSC40346; TRANS-CINNAMALDEHYDE (SEE ALSO CINNAMALDEHYDE (104-55-2)); CCRIS 6222; trans-3-Phenyl-2-propenal; 3-Fenylpropenal [Czech]; CCRIS 3189; BBL010378; MLS002454394; SCHEMBL3441; NCGC00091512-05; ST5213393; AIDS097032; CNMA; CAS-14371-10-9; Zimtaldehyde; (2E)-3-phenylprop-2-enal; Cinnamaldehyde, United States Pharmacopeia (USP) Reference Standard; InChI=1/C9H8O/c10-8-4-7-9-5-2-1-3-6-9/h1-8H/b7-4; NCGC00259353-01; 2-Propenal, 3-phenyl-, (E)- (9CI); Cassia aldehyde; 3-Phenylacrylaldehyde; 3-Phenylacrolein; NCGC00257017-01; M181; SR60A3XG0F; W228605_ALDRICH; 14371-10-9; Hefty Dog and Cat Repellent; trans cinnamic aldehyde; (E)-Cinnamic aldehyde; NCI-C56111; NSC16935; BDBM50203065; 2-Propenal, 3-phenyl-; (2E)-3-phenylacrylaldehyde; AK-77787; A801001; trans-Cinnamaldehyde, >=99%; GTPL2423; CINNAMALDEHYDE (TRANS); AS-12078; Benzylideneacetaldehyde; Cinnamaldehyde [NF",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN020653&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00089",
+        "Molecule_name": "Cinnamaldehyde",
+        "PubChem_CID": "637511",
+        "TCMID_id": "3693",
+        "TCMSP_id": "MOL000991",
+        "OB_score": 31.9904,
+        "TCM_ID_id": "5672",
+        "CAS_id": "104-55-2",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00089"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000250",
+        "molecule_ID": "250",
+        "molecule_synonyms": "cis-Cinnamaldehyde"
+      }
+    }
+  },
+  {
+    "id": "c11",
+    "name": "Ginsenoside Rg1",
+    "cn": "人参皂苷 Rg1",
+    "ob": 42.3,
+    "dl": 0.48,
+    "targets": {
+      "t5": 72,
+      "t7": 69,
+      "t10": 66
+    },
+    "externalIds": {
+      "HERB": "HBIN027746",
+      "SymMap": "SMIT01670"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN027746",
+        "name": "ginsenoside rg1",
+        "alias": "ginsenosiderg1; ginsenoside r g1; sanchinoside C1; (20S)-3beta,12beta-Dihydroxy-4,4,8beta,14alpha-tetramethyl-6alpha,20-bis(beta-D-glucopyranosyloxy)-18-norcholestane-24-ene",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN027746&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01670",
+        "Molecule_name": "Ginsenoside Rg1",
+        "PubChem_CID": "441923",
+        "TCMID_id": "23117|8429",
+        "TCMSP_id": null,
+        "OB_score": null,
+        "TCM_ID_id": "4022",
+        "CAS_id": "22427-39-0",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01670"
+      },
+      "TCMSP": {
+        "error": "Expected property name or '}' in JSON at position 3 (line 1 column 4)"
+      }
+    }
+  },
+  {
+    "id": "c12",
+    "name": "Berberine",
+    "cn": "小檗碱",
+    "ob": 36.9,
+    "dl": 0.78,
+    "targets": {
+      "t1": 88,
+      "t2": 82,
+      "t5": 77,
+      "t9": 66
+    },
+    "externalIds": {
+      "HERB": "HBIN017893",
+      "TCMSP": "MOL001455",
+      "SymMap": "SMIT00104"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN017893",
+        "name": "berberine",
+        "alias": "berberine ; isoquinoline alkaloid",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN017893&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00104",
+        "Molecule_name": "Berberine",
+        "PubChem_CID": "2353|25201694",
+        "TCMID_id": "2303",
+        "TCMSP_id": "MOL001454",
+        "OB_score": 36.8612,
+        "TCM_ID_id": "6346",
+        "CAS_id": "2086-83-1",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00104"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL001455",
+        "molecule_ID": "1455",
+        "molecule_synonyms": "Tetrahydroberberine"
+      }
+    }
+  },
+  {
+    "id": "c13",
+    "cn": "淫羊藿苷",
+    "ob": 41.6,
+    "dl": 0.61,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN029922",
+      "TCMSP": "MOL004378",
+      "SymMap": "SMIT06349"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN029922",
+        "name": "Icariin",
+        "alias": "5-hydroxy-2-(4-methoxyphenyl)-8-(3-methylbut-2-enyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-tetrahydropyran-2-yl]oxy-chromen-4-one; MLS000759413; Spectrum4_001975; ZINC03960893; 5-hydroxy-2-(4-methoxyphenyl)-8-(3-methylbut-2-enyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-oxan-2-yl]oxy-chromen-4-one; Spectrum2_001695; 5-hydroxy-2-(4-methoxyphenyl)-8-(3-methylbut-2-enyl)-7-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxy]-3-[[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-2-tetrahydropyranyl]oxy]-4-chromenone; 5-hydroxy-2-(4-methoxyphenyl)-8-(3-methylbut-2-enyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-tetrahydropyran-2-yl]oxy-chromone; Spectrum3_001130; 5-hydroxy-2-(4-methoxyphenyl)-8-(3-methylbut-2-enyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one; 489-32-7; 2-(4'-methoxyl phenyl)-3-rhamnosido-5-hydroxyl-7-glucosido-8-(3'-methyl-2-butylenyl)-4-chromanone; SPBio_001650; SPECTRUM1505257; KBio3_002099; KBioGR_002475; SDCCGMLS-0066754.P001; SMR000466309; BB_NC-0999; 3-((6-Deoxymannopyranosyl)oxy)-7-(glucopyranosyloxy)-5-hydroxy-2-(4-methoxyphenyl)-8-(3-methyl-2-butenyl)-4H-1-benzopyran-4-one; Spectrum5_000933; icariin; BSPBio_00",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN029922&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT06349",
+        "Molecule_name": "Icariin",
+        "PubChem_CID": "5318997",
+        "TCMID_id": null,
+        "TCMSP_id": "MOL004425",
+        "OB_score": 41.5834,
+        "TCM_ID_id": "3598",
+        "CAS_id": "489-32-7",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT06349"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL004378",
+        "molecule_ID": "4378",
+        "molecule_synonyms": "Wushanicariin"
+      }
+    },
+    "name": "Icariin",
+    "sources": []
+  },
+  {
+    "id": "c14",
+    "cn": "丹参酮 IIA",
+    "ob": 49.9,
+    "dl": 0.4,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN045506",
+      "TCMSP": "MOL007046",
+      "SymMap": "SMIT00353"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN045506",
+        "name": "tanshinone iia",
+        "alias": "SCHEMBL4126834; CHEMBL187266; UNII-4GPC9FQG6L; tanshinone II A; Phenanthro[1,2-b]furan-10,11-dione, 6,7,8,9-tetrahydro-1,6,6-trimethyl-; 568T729; BB_NC-1062; HMS1361P19; 17545-07-2; SCHEMBL2026738; CHEBI:108595; FT-0652880; AKOS004120032; MLS006011840; AC-1440; BSPBio_002426; HMS2270D15; SMR000387068; Acid Red 5 sodium salt; CT0134; Tanshinone IIA, >=97% (HPLC); NCGC00095755-03; Tanshinone IIA, United States Pharmacopeia (USP) Reference Standard; ACN-035345; CTK5A5836; Tanshinone IIA, analytical standard; AIDS-150197; s2365; NCGC00095709-01; HMS1791P19; CCG-208275; SC-17279; 1,6,6-Trimethyl-1,2,6,7,8,9-hexahydrophenanthro[1,2-b]furan-10,11-dione-, (R)-; I06-0439; SR-01000758926-4; KBio3_000634; 1,6,6-trimethyl-6,7,8,9-tetrahydrophenanthro[1,2-b]furan-10,11-dion; 6,6,14-trimethyl-12-oxatetracyclo[8.7.0.0^{2,7}.0^{11,15}]heptadeca-1(10),2(7),8,11(15),13-pentaene-16,17-dione; Tanshinon II; AC1L4V8J; 4CN-0930; KBio2_000317; HSDB 8104; AN-14938; Tanshinone IIA; RTR-031585; BC205184; BRD-K00141480-001-03-0; AC1LAW3B; TL8003671; NCI60_031209; Phenanthro[1,2-b]furan-10,11-dione, 1,2,6,7,8,9-hexahydro-1,6,6-trimethyl-, (R)-; 6,7,8,9-Tetrahydro-1,6,6-trimethylphenanthro[1,2-b]furan-10,11-dione; SMR004703500; CCG-207955; N1846; (?)-Cryptotanshinone; NCGC00095709-04; Phenanthro[1,11-dione, 6,7,8,9-tetrahydro-1,6,6-trimethyl-; Tanshinone II; 1,6,6-Trimethyl-6,7,8,9-tetrahydrophenanthro[1,2-b]furan-10,11-dione #; HMS3656C11; 1,6,6-Trimethyl-6,7,8,9-tetrahydrophenanthro[1,2-b]furan-10,11-di",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN045506&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00353",
+        "Molecule_name": "Tanshinone Iia",
+        "PubChem_CID": "164676",
+        "TCMID_id": "20670",
+        "TCMSP_id": "MOL007154",
+        "OB_score": 49.8873,
+        "TCM_ID_id": "639",
+        "CAS_id": "568-72-9",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00353"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL007046",
+        "molecule_ID": "7046",
+        "molecule_synonyms": "3beta-Hydroxytanshinone IIA"
+      }
+    },
+    "name": "Tanshinone IIA",
+    "sources": []
+  },
+  {
+    "id": "c15",
+    "cn": "大黄素",
+    "ob": 24.4,
+    "dl": 0.24,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN025041",
+      "TCMSP": "MOL000471",
+      "SymMap": "SMIT00049"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN025041",
+        "name": "emodin",
+        "alias": "6-Methyl-1,3,8-tri- hydroxy- anthra- quinone; KBio3_001544; EU-0100552; Spectrum3_000742; 9,10-Anthracenedione, 1,3,8-trihydroxy-6-methyl-; NCGC00091540-01; Spectrum_001954; NSC 408120; KBioSS_002508; ST055355; NCGC00015420-01; KBio2_005068; NCGC00091540-05; CHEBI:77659; Persian Berry Lake; 1,3,8-Trihydroxy-6-methyl-9,10-anthracenedione; 518-82-1; Rheum emodin; MLS001066370; NCGC00015420-02; K00056; E7881_SIGMA; BSPBio_002324; Lopac-E-7881; 9,10-Anthracenedione, 1,3,8-trihydroxy-6-methyl- (9CI); 4,5-dihydroxy-7-methyl-9,10-dioxo-9,10-dihydroanthracen-2-olate; Frangula emodin; C10343; 6-Methyl-1,3,8-trihydroxyanthraquinone; KBio2_002500; LMPK02000037; NSC 622947; BRN 1888141; KBioGR_002234; emodin ; MEGxp0_000460; NSC408120; 1,3,8-Tri- hydroxy-6-methyl- anthra- quinone; Spectrum2_000895; 1,3,8-trihydroxy-6-methylanthraquinone; KBio1_001372; 1,3,8-Trihydroxy-6-methylanthraquinone; Anthraquinone, 1,3,8-trihydroxy-6-methyl- (8CI); 1,3,8-Trihydroxy-6-methyl-9,10-anthraquinone; ACon1_001939; NCIMech_000049; Emodol; 3-Methyl-1,6,8-trihydroxyanthraquinone; HSDB 7093; KBio2_007636; CCRIS 3528; SPBio_000710; C.I. Natural Yellow 14; Anthraquinone, 1,3,8-trihydroxy-6-methyl-; SMP2_000211; 1,3,8-trihydroxy-6-methyl-anthracene-9,10-dione; 1,3,8-trihydroxy-6-methylanthra-9,10-quinone; ZINC03824868; C.I. 75440; Spectrum4_001757; CHEBI:42223; AIDS001392; NSC622947; Spectrum5_000614; NCI60_003906; SMR000326798; emodin(1-); TNP00318; 1,3,8-trihydroxy-6-methylanthracene-9,10-dione; 4-08-00-03575",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN025041&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00049",
+        "Molecule_name": "Emodin",
+        "PubChem_CID": "3220",
+        "TCMID_id": "6775",
+        "TCMSP_id": "MOL000472",
+        "OB_score": 24.3983,
+        "TCM_ID_id": "4633",
+        "CAS_id": "518-82-1",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00049"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000471",
+        "molecule_ID": "471",
+        "molecule_synonyms": "Aloe-emodin"
+      }
+    },
+    "name": "Emodin",
+    "sources": []
+  },
+  {
+    "id": "c16",
+    "cn": "葛根素",
+    "ob": 24,
+    "dl": 0.69,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN041253",
+      "TCMSP": "MOL012297",
+      "SymMap": "SMIT00321"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN041253",
+        "name": "puerarin",
+        "alias": "8-(beta-D-Glucopyranosyl-7-hydroxy-3- (4-hydroxyphenyl)-4H-1-benzopyran-4-one; NPI-31G; 7-hydroxy-3-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one; SCHEMBL14329031; 7-hydroxy-3-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]-4-chromenone; 82435_FLUKA; daidzein 8-C-glucoside; Puerarin; P5555_SIGMA; 7-hydroxy-3-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]chromen-4-one; 3681-99-0; ANGC-3681-99-0; 8-(beta-D-Glucopyranosyl)-4',7-dihydroxyisoflavone; C10524; 7-hydroxy-3-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]chromone",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN041253&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00321",
+        "Molecule_name": "Puerarin",
+        "PubChem_CID": "44257207|24211992|53384442|5281807|5385074|5486172",
+        "TCMID_id": "18166",
+        "TCMSP_id": "MOL012297",
+        "OB_score": 24.0309,
+        "TCM_ID_id": "1468",
+        "CAS_id": "3681-99-0",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00321"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL012297",
+        "molecule_ID": "12297",
+        "molecule_synonyms": "Puerarin"
+      }
+    },
+    "name": "Puerarin",
+    "sources": []
+  },
+  {
+    "id": "c17",
+    "cn": "黄芪甲苷",
+    "ob": 22.5,
+    "dl": 0.15,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN014911",
+      "SymMap": "SMIT14408"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN014911",
+        "name": "agroastragaloside iv",
+        "alias": "NA",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN014911&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT14408",
+        "Molecule_name": "Astragaloside Iv",
+        "PubChem_CID": "24720993|146159870|53486398|134694234|122173189|126968937|45006101|71463944|500122|74787536|129316822|132399062|13943299|13943297|131632366|131665145|122361866|122130767|137706357|77519853|158694",
+        "TCMID_id": "1939",
+        "TCMSP_id": null,
+        "OB_score": null,
+        "TCM_ID_id": null,
+        "CAS_id": null,
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT14408"
+      },
+      "TCMSP": {
+        "error": "Expected property name or '}' in JSON at position 3 (line 1 column 4)"
+      }
+    },
+    "name": "Astragaloside IV",
+    "sources": []
+  },
+  {
+    "id": "c18",
+    "cn": "姜黄素",
+    "ob": 33,
+    "dl": 0.18,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN021985",
+      "TCMSP": "MOL000090",
+      "SymMap": "SMIT01361"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN021985",
+        "name": "curcumin",
+        "alias": "(1E,4Z,6E)-5-hydroxy-1,7-bis(4-hydroxy-3-methoxy-phenyl)hepta-1,4,6-trien-3-one; C10443; BSPBio_003590; NCGC00095321-01; Curcumin; KBio3_003004; InChI=1/C21H20O6/c1-26-20-11-14(5-9-18(20)24)3-7-16(22)13-17(23)8-4-15-6-10-19(25)21(12-15)27-2/h3-13,22,24-25H,1-2H3/b7-3+,8-4+,16-13; curcumin ; diferuloylmethane; 5-hydroxy-1,7-bis(4-hydroxy-3-methoxy-phenyl)hepta-1,4,6-trien-3-one; Kacha haldi; (1E,4Z,6E)-5-hydroxy-1,7-bis(4-hydroxy-3-methoxyphenyl)hepta-1,4,6-trien-3-one; ZINC00899824; 458-37-7; SDCCGMLS-0066836.P001; SCHEMBL2622435; Spectrum3_001990; DivK1c_006683; KBio1_001627; SpecPlus_000587; SPBio_001728; Spectrum2_001714; 5-hydroxy-1,7-bis(4-hydroxy-3-methoxyphenyl)hepta-1,4,6-trien-3-one",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN021985&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01361",
+        "Molecule_name": "Curcumin",
+        "PubChem_CID": "969516",
+        "TCMID_id": "4397",
+        "TCMSP_id": "MOL000090",
+        "OB_score": 5.15077,
+        "TCM_ID_id": "5362",
+        "CAS_id": "458-37-7|485-37-7",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01361"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000090",
+        "molecule_ID": "90",
+        "molecule_synonyms": "Curcumin"
+      }
+    },
+    "name": "Curcumin",
+    "sources": []
+  },
+  {
+    "id": "c19",
+    "cn": "没食子酸",
+    "ob": 31.7,
+    "dl": 0.04,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN027030",
+      "TCMSP": "MOL000106",
+      "SymMap": "SMIT01683"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN027030",
+        "name": "gallic acid",
+        "alias": "Spectrum4_001544; NSC-755825; 4CN-0954; KBio2_000822; NCGC00260064-01; KBio3_001168; CHEBI:30778; GTPL5549; D0Y3TZ; NCGC00091125-01; 632XD903SP; ARONIS23903; Spectrum5_000108; Jsp002851; T7419; Gallic acid, puriss., 98.0%; I14-9302; NCGC00091125-07; ZINC1504; 3,4,5-trihydroxybenzoic acid (ACD/Name 4.0); KBioGR_002008; AK-65266; pyrogallol-5-carboxylate; BRD-K77345217-001-01-9; Gallicum acidum; LNTHITQWFMADLM-UHFFFAOYSA-N; KBio2_003390; EBD679760; NCGC00091125-04; AJ-08037; Gallic acid; ZB000350; BG01502846; A808977; (?)-Gallic acid; WLN: QVR CQ DQ EQ; N1830; AC1NEVA5; SBB008781; 149-91-7; GALLIC ACID ANHYDROUS; Gallic acid [NF]; KS-00000IWM; CS-8191; LS-870; C01424; KS-00004784; CHEBI:16918; SPECTRUM210369; c0006; UNII-632XD903SP; ACMC-20aku5; CTK0H5618; BIDD:ER0374; AC1Q732X; NCGC00091125-02; F1908-0156; Oprea1_087792; CG0029; DSSTox_RID_75711; Kyselina 3,4,5-trihydroxybenzoova; 3-10-00-02070 (Beilstein Handbook Reference); RP23206; NSC36997; Gallic acid, certified reference material, TraceCERT(R); AI3-16412; CCG-38670; STK298718; Tox21_202515; bmse000389; AN-15162; AB00052697_03; SR-05000001537-2; NSC-36997; 1886-EP2374526A1; 5-Carboxybenzene-1,2,3-triol; KBio2_005958; SR-05000001537-3; NCGC00091125-05; KBio1_001347; Kyselina gallova [Czech]; KSC175M1R; KBioSS_000822; HMS2091A07; gallate; CPD-183; Spectrum3_000254; 78563C7D-0E2D-4766-A8EA-670A03C78FCF; gallic acid ; InChI=1/C7H6O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1-2,8-10H,(H,11,12; GDE; SBI-0052184.P002; EINECS 205-749-9; CA",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN027030&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01683",
+        "Molecule_name": "Gallic Acid",
+        "PubChem_CID": "370",
+        "TCMID_id": "23225|8094",
+        "TCMSP_id": null,
+        "OB_score": null,
+        "TCM_ID_id": "4216",
+        "CAS_id": "149-91-7",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01683"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000106",
+        "molecule_ID": "106",
+        "molecule_synonyms": "Pyrogallic acid"
+      }
+    },
+    "name": "Gallic acid",
+    "sources": []
+  },
+  {
+    "id": "c20",
+    "cn": "β-谷甾醇",
+    "ob": 36.9,
+    "dl": 0.75,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN018278",
+      "TCMSP": "MOL001488",
+      "SymMap": "SMIT00034"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN018278",
+        "name": "beta-sitosterol",
+        "alias": "24.alpha.-Ethylcholesterol; alpha-Dihydrofucosterol; 83-46-5; MEGxp0_001710; SPBio_002950; 16-(5-ethyl-6-methyl-heptan-2-yl)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; 16-(5-ethyl-6-methylheptan-2-yl)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; 24beta-Ethylcholesterol; SKF 14463; Prestwick1_000985; (3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; S1270_SIGMA; Angelicin (steroid); 5-Stigmasten-3beta-ol; Cinchol; ZINC04095717; A840577; Stigmasterol, 22,23-dihydro-; NSC49083; BSPBio_001049; Harzol; .beta.-Sitosterin; beta-Sitosterol; β-sitosterol; Prestwick0_000985; Prestwick3_000985; BPBio1_001155; .beta.Sitosterin; Prestwick2_000985; S9889_SIGMA; Cupreol; 24-Ethylcholest-5-en-3.beta.-ol; .alpha.-Dihydrofucosterol; SBB012603; (3S,8S,9S,10R,13R,14S,17R)-17-[(1R,4R)-4-ethyl-1,5-dimethylhexyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; Rhamnol; AIDS-011900; (3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methyl-heptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; 47133_SUPELCO; (3beta)-Stigmast-5-en-3-ol; beta-sitosterol ; ACon1_000287; LMST01040129; β-sitos-terol; alpha.Dihydrofucosterol; SMP1_000274; NSC8096; Stigmast-5-en-3-ol, (3.beta.)-; (3S,8S,9S,10R,13R,14S,17R)-17-[(1R,4R)-",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN018278&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00034",
+        "Molecule_name": "Beta-Sitosterol",
+        "PubChem_CID": "222284",
+        "TCMID_id": "23097|23514|24065",
+        "TCMSP_id": "MOL000358",
+        "OB_score": 36.9139,
+        "TCM_ID_id": "6245",
+        "CAS_id": "83-46-5",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00034"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL001488",
+        "molecule_ID": "1488",
+        "molecule_synonyms": "(-)-beta-Sitosterol"
+      }
+    },
+    "name": "Beta-sitosterol",
+    "sources": []
+  },
+  {
+    "id": "c21",
+    "cn": "豆甾醇",
+    "ob": 43.8,
+    "dl": 0.76,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN044918",
+      "TCMSP": "MOL000358",
+      "SymMap": "SMIT01630"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN044918",
+        "name": "stigmasterol",
+        "alias": "(3beta,22E)-Stigmasta-5,22-dien-3-ol; (3S,8S,9S,10R,13R,14S,17R)-17-[(1R,4S)-4-ethyl-1,5-dimethyl-hex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; stigmasta-5,22E-dien-3beta-ol; 24-Ethyl-5,22-cholestadien-3beta-ol; (24S)-Stigmast-5,22-dien-3beta-ol; Stigmasterin; Stigmasta-5,22-dien-3-ol, (3beta,22E)- (9CI); (24S)-5,22-Stigmastadien-3beta-ol; CCRIS 7476; NSC 8095; Delta5-Stigmasterol; (24S)-24-Ethylcholesta-5,22-dien-3beta-ol; AIDS-002709; Stigmasta-5,22-dien-3beta-ol (8CI); C05442; SBB012602; (3S,8S,9S,10R,13R,14S,17R)-17-[(E,1R,4S)-4-ethyl-1,5-dimethylhex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; (3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5S)-5-ethyl-6-methyl-hept-3-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; beta-Stigmasterol; stigmasta-5,22-dien-3-ol; ZINC04096712; Delta5,22-Stigmastadien-3beta-ol; (3S,8S,9S,10R,13R,14S,17R)-17-[(1R,4S)-4-ethyl-1,5-dimethylhex-2-enyl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol; stigmasterol ; SMP1_000280; Stigmasta-5,22-dien-3-ol, (3beta,22E)-; Stigmasta-5,22-dien-3-ol, (3beta)-; (3.beta.,22E)-Stigmasta-5,22-dien-3-ol; Stigmasta-5,22-dien-3-beta-ol; EINECS 201-482-7; 83-48-7; LMST01040123; (3S,8S,9S,10R,13R,14S,17R)-17-[(E,2R,5S)-5-ethyl-6-methylhept-3-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phe",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN044918&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01630",
+        "Molecule_name": "Stigmasterol",
+        "PubChem_CID": "5280794",
+        "TCMID_id": "20353",
+        "TCMSP_id": "MOL000449|MOL002045",
+        "OB_score": 43.8299,
+        "TCM_ID_id": "747",
+        "CAS_id": "83-48-7",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01630"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000358",
+        "molecule_ID": "358",
+        "molecule_synonyms": "22,23-Dihydrostigmasterol"
+      }
+    },
+    "name": "Stigmasterol",
+    "sources": []
+  },
+  {
+    "id": "c22",
+    "cn": "柚皮素",
+    "ob": 59.3,
+    "dl": 0.21,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN036366",
+      "TCMSP": "MOL000771",
+      "SymMap": "SMIT00202"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN036366",
+        "name": "naringenin",
+        "alias": "(2S)-5,7-dihydroxy-2-(4-hydroxyphenyl)chroman-4-one; ZINC1785; Spectrum2_000325; 2,3-Dihydro-5,7-dihydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one; (-)-Naringenin; SDCCGMLS-0066570.P001; (2R)-5,7-dihydroxy-2-(4-hydroxyphenyl)-2,3-dihydrochromen-4-one; MLS000574861; KBio2_000727; CHEBI:50201; HMS3468H18; ALBB-015405; NCGC00017346-01; BBL010488; AJ-08090; DivK1c_000118; BB 0261506; (S)-2,3-dihydo-5,7-dihydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one; CAS-480-41-1; KBio3_001454; SC-85987; 4H-1-benzopyran-4-one, 2,3-dihydro-5,7-dihydroxy-2-(4-hydroxyphenyl)-, (2R)-; AIDS-001417; NINDS_000118; SCHEMBL17166263; Spectrum3_000567; 2,3-dihydro-5,7-dihydroxy-2-(4-hydroxyphenyl)-4-benzopyrone; (2R)-naringenin; (2S)-5,7-dihydroxy-2-(4-hydroxyphenyl)-4-chromanone; BSPBio_001954; BB_NC-1001; MCULE-5852778653; NCGC00163598-01; BG01564988; MFCD03265520; naringenin ; 4H-1-Benzopyran-4-one, 2,3-dihydro-5,7-dihydroxy-2-(4-hydroxyphenyl)-, (2S)-; (2R)-5,7,4'-trihydroxyflavone; AKOS004119880; CHEBI:17846; ST24036200; AC1LDI7C; KBioGR_000508; ZINC00156701; Phytochemistry 8: 127 (1969); R6691; Asahina; 4',5, 7-Trihydroxyflavanone; N1370; (2S)-5,7-dihydroxy-2-(4-hydroxyphenyl)-2,3-dihydro-4H-chromen-4-one; C00509; 480-41-1; KBio2_003295; (2R)-4',5,7-trihydroxyflavanone; (+)-naringenin; Spectrum_000247; ZB000410; NAR; pelargidanon 1602; (R)-naringenin; IDI1_000118; STK801623; Spectrum5_001423; MolPort-002-507-277; Spectrum4_000124; 17654-19-2; KBio1_000118; KBioSS_000727; (+)-(2R)-5,7-dihydroxy-2",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN036366&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00202",
+        "Molecule_name": "Naringenin",
+        "PubChem_CID": "439246|932|667495",
+        "TCMID_id": "15271",
+        "TCMSP_id": "MOL004328",
+        "OB_score": 59.2939,
+        "TCM_ID_id": "2421|10876",
+        "CAS_id": "480-41-1|67604-48-2",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00202"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000771",
+        "molecule_ID": "771",
+        "molecule_synonyms": "Naringeninic acid"
+      }
+    },
+    "name": "Naringenin",
+    "sources": []
+  },
+  {
+    "id": "c23",
+    "cn": "芦丁",
+    "ob": 3.2,
+    "dl": 0.68,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN042670",
+      "TCMSP": "MOL000415",
+      "SymMap": "SMIT00039"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN042670",
+        "name": "rutin",
+        "alias": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-2-yl]oxy-chromone; 56764-99-9; 153-18-4; Rutin [JAN]; 3,3',4',5,5',7-Hexahydroxyflavone (6-O-alpha-L-rhamnosyl-beta-D-glucoside); Glucopyranoside, quercetin-3 6-O-(6-deoxy-alpha-L-mannopyranosyl)-, beta-D-; 164535-43-7; 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-oxan-2-yl]oxymethyl]oxan-2-yl]oxy-chromen-4-one; NINDS_000644; USAF CF-5; 4H-1-Benzopyran-4-one, 3-[[6-O-(6-deoxy-.alpha.-L-mannopyranosyl)-.beta.-D-glucopyranosyl]-oxy]-2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-; 2-(2,3-dihydroxyphenyl)-5,7-dihydroxy-3-[[3,4,5-trihydroxy-6-[(3,4,5-trihydroxy-6-methyl-2-oxanyl)oxymethyl]-2-oxanyl]oxy]-1-benzopyran-4-one; RUT; Rutoside; 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-2-yl]oxy-chromen-4-one; quercetin-3-O-(6-O-alpha-l-rhamnopyranosyl)-beta-d-glucopyranoside; 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one; Rutosido [INN-Spanish]; 115888-40-9; A809400; 2-[2,3-bis(oxidanyl)phenyl]-3-[6-[[6-methyl-3,4,5-tris(oxidanyl)oxan-2-yl]oxymethyl]-3,4,5-tris(oxidanyl)oxan-2-yl]oxy-5,7-bis(oxidanyl)chromen-4",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN042670&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00039",
+        "Molecule_name": "Rutin",
+        "PubChem_CID": "5280805",
+        "TCMID_id": "19072",
+        "TCMSP_id": "MOL000415",
+        "OB_score": 3.20153,
+        "TCM_ID_id": "1336|9873",
+        "CAS_id": "153-18-4",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00039"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000415",
+        "molecule_ID": "415",
+        "molecule_synonyms": "Quercetin 3-O-beta-D-rutinoside"
+      }
+    },
+    "name": "Rutin",
+    "sources": []
+  },
+  {
+    "id": "c24",
+    "cn": "汉黄芩素",
+    "ob": 30.7,
+    "dl": 0.23,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN048372",
+      "TCMSP": "MOL000173",
+      "SymMap": "SMIT00392"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN048372",
+        "name": "wogonin",
+        "alias": "CTK5B8471; AIDS-001403; CCG-208499; ZB015158; 5,7-dihydroxy-8-methoxyflavone; ZINC899093; 5,7-dihydroxy-8-methoxy-2-phenyl-chromone; BG01576594; AN-46964; 632-85-9; V1530; MCULE-9854289767; 5,7-dihydroxy-8-methoxy-2-phenyl-4-chromenone; Vogonin; AIDS001403; NSC717845; SC-25044; 10-29-7; AC1NQYXJ; 5,7-Dihydroxy-8-methoxy-2-phenyl-chromen-4-one(Wogonin); NCGC00247464-01; IN1943; ZINC111327191; BN0711; 4H-1-Benzopyran-4-one,5,7-dihydroxy-8-methoxy-2-phenyl-; s4743; SR-05000002216-2; Norwogonin 8-methyl ether; 5,7-dihydroxy-8-methoxy-2-phenyl-4H-chromen-4-one; 5,7-dihydroxy-8-methoxy-2-phenylchromen-4-one; HY-N0400; BDBM50140257; MFCD12828871; ST077088; 4H-1-Benzopyran-4-one, 5,7-dihydroxy-8-methoxy-2-phenyl-; DTXSID70212557; 5,7-dihydroxy-8-methoxy-2-phenyl-chromen-4-one; 632W859; MFCD00017736; CHEBI:10043; 5,7-dihydroxy-8-methoxy-2-phenyl-4H-1-benzopyran-4-one; BRN 0287152; Wogonin; N1283; SCHEMBL139083; LMPK12111330; I14-8669; NCI60_040649; HMS2270G08; FT-0603499; wagonin; 5-18-04-00571 (Beilstein Handbook Reference); Q-100730; MolPort-001-742-489; SMR001397111; POK93PO28W; AC-20338; MLS002473006; SR-05000002216; CS-3959; CHEMBL16171; D00MXS; 4CN-1056; wogonin ; AKOS015917860; UNII-POK93PO28W; TR-021802; NSC-717845; C-17890; LS-68974; 5,7-Dihydroxy-8-methoxy-2-phenyl-chromen-4-one; FLAVONE, 5,7-DIHYDROXY-8-METHOXY-; XLTFNNCXVBYBSX-UHFFFAOYSA-N; C10197; GP7400; 5,7-Dihydroxy-8-methoxyflavone",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN048372&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00392",
+        "Molecule_name": "Wogonin",
+        "PubChem_CID": "5281703",
+        "TCMID_id": "22702",
+        "TCMSP_id": "MOL000173",
+        "OB_score": 30.6846,
+        "TCM_ID_id": null,
+        "CAS_id": "632-85-9",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00392"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000173",
+        "molecule_ID": "173",
+        "molecule_synonyms": "Norwogonin 8-methyl ether"
+      }
+    },
+    "name": "Wogonin",
+    "sources": []
+  },
+  {
+    "id": "c25",
+    "cn": "千层纸素 A",
+    "ob": 41.4,
+    "dl": 0.23,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN038303",
+      "TCMSP": "MOL002928",
+      "SymMap": "SMIT00521"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN038303",
+        "name": "oroxylin a",
+        "alias": "5,7-dihydroxy-6-methoxy-2-phenyl-4H-chromen-4-one; CTK1D7949; ZINC5998558; Oroxylin A; CHEMBL183513; 5,7-Dihydroxy-6-methoxy-2-phenyl-chromen-4-one; SC-69298; NP-005013; HY-N0560; oroxylina; MolPort-019-937-219; 5,7-dihydroxy-6-methoxy-2-phenyl-4H-1-benzopyran-4-one; AKOS015903364; 5,7-dihydroxy-6-methoxy-2-phenyl-chromone; Oroxylin-A; MFCD02259441; AIDS089021; 5,7-dihydroxy-6-methoxy-2-phenyl-4-chromenone; UNII-53K24Z586G; 5,7-dihydroxy-6-methoxy-2-phenylchromen-4-one; 6-Methoxybaicalein;; FT-0688332; Oroxylin A, >=98% (HPLC); CHEBI:61668; 5,7-dihydroxy-6-methoxyflavone; BDBM50430091; AC1NSZBG; 4H-1-Benzopyran-4-one, 5,7-dihydroxy-6-methoxy-2-phenyl-; 5,7-Dihydroxy-6-methoxyflavone;; Y0150; I14-19006; baicalein 6-methyl ether; 53K24Z586G; DTXSID70197375; Baicalein 6-methyl ether;6-Methoxybaicalein; 480-11-5; SCHEMBL431423; LMPK12111096; AIDS-089021; Oroxylin; CS-4948",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN038303&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00521",
+        "Molecule_name": "Oroxylin A",
+        "PubChem_CID": "5320315",
+        "TCMID_id": "16205",
+        "TCMSP_id": "MOL002928",
+        "OB_score": 41.3676,
+        "TCM_ID_id": null,
+        "CAS_id": "480-11-5",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00521"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL002928",
+        "molecule_ID": "2928",
+        "molecule_synonyms": "Oroxylin A"
+      }
+    },
+    "name": "Oroxylin A",
+    "sources": []
+  },
+  {
+    "id": "c26",
+    "cn": "芒柄花素",
+    "ob": 69.7,
+    "dl": 0.21,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN026662",
+      "TCMSP": "MOL000391",
+      "SymMap": "SMIT00037"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN026662",
+        "name": "formononetin",
+        "alias": "Oprea1_815287; AIDS027672; 7-hydroxy-3-(4-methoxyphenyl)-4H-benzopyran-4-one; Isoflavone, 7-hydroxy-4'-methoxy- (8CI); NCI60_042081; NCGC00095207-03; Oprea1_139748; NCIOpen2_005983; SDCCGMLS-0066428.P001; CHEBI:18088; TNP00176; 485-72-3; Formononetol; Isoflavone, 7-hydroxy-4'-methoxy-; 7-hydroxy-3-(4-methoxyphenyl)chromone; Spectrum2_000560; Formononetin; NSC 93360; EINECS 207-623-9; 47752_FLUKA; KBio2_000853; 7-Hydroxy-3-(4-methoxyphenyl)-4-benzopyrone; Spectrum5_000258; KBio3_001519; NSC93360; KBioSS_000853; Spectrum_000373; SPECTRUM102007; KBio2_005989; Biochanin B; KBioGR_001878; NCGC00017269-01; 7-Hydroxy-3-(4&prime;-methoxyphenyl)-4H-benzopyran-4-one; formononetin ; 7-hydroxy-4'-methoxy-isoflavone; BSPBio_002299; ZINC00113304; 4H-1-Benzopyran-4-one, 7-hydroxy-3-(4-methoxyphenyl)- (9CI); SBB016445; Spectrum3_000660; 7-hydroxy-3-(4-methoxyphenyl)-4H-chromen-4-one; Spectrum4_001429; DivK1c_006319; KBio2_003421; SPBio_000639; NCGC00095207-01; KBio1_001263; AIDS-027672; 7-Hydroxy-4'-methoxyisoflavone; C00858; 4H-1-Benzopyran-4-one, 7-hydroxy-3-(4-methoxyphenyl)-; NCGC00095207-02; SpecPlus_000223",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN026662&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00037",
+        "Molecule_name": "Formononetin",
+        "PubChem_CID": "5280378",
+        "TCMID_id": "23519|7882",
+        "TCMSP_id": "MOL000392",
+        "OB_score": 69.6739,
+        "TCM_ID_id": "4327",
+        "CAS_id": "485-72-3",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00037"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000391",
+        "molecule_ID": "391",
+        "molecule_synonyms": "Formononetin-7-glucoside"
+      }
+    },
+    "name": "Formononetin",
+    "sources": []
+  },
+  {
+    "id": "c27",
+    "cn": "毛蕊异黄酮",
+    "ob": 47.8,
+    "dl": 0.24,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN019425",
+      "TCMSP": "MOL000417",
+      "SymMap": "SMIT01316"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN019425",
+        "name": "calycosin",
+        "alias": "HSDB 8109; 7-hydroxy-3-(3-hydroxy-4-methoxyphenyl)chromen-4-one; CHEBI:17793; 7-hydroxy-3-(3-hydroxy-4-methoxyphenyl)-4H-chromen-4-one; 09N3E8P7TA; calycosin (OLD); 20575-57-9; HY-N0519; ZINC6018563; 7-hydroxy-3-(3-hydroxy-4-methoxyphenyl)-1-benzopyran-4-one; 3'-hydroxy-formononetin; calycosin ; LMPK12050056; MEGxp0_001325; BRD-K05039497-001-01-6; 7-hydroxy-3-(3-hydroxy-4-methoxyphenyl)-4H-1-benzopyran-4-one; 3',7-dihydroxy-4'-methoxy-isoflavone; AKOS015896719; UNII-09N3E8P7TA; 4H-1-Benzopyran-4-one, 7-hydroxy-3-(3-hydroxy-4-methoxyphenyl)-; 3', 7-dihydroxy-4'-methoxyisoflavone; 575C579; C01562; HMS2268B05; C-17889; MolPort-001-741-659; Calycosin; X1103; SCHEMBL73013; Q-100254; AC1NQX1G; 7-hydroxy-3-(3-hydroxy-4-methoxy-phenyl)chromen-4-one; 7-hydroxy-3-(3-hydroxy-4-methoxyphenyl)-4-chromenone; 7-hydroxy-3-(3-hydroxy-4-methoxy-phenyl)chromone; CHEMBL241608; CS-3715; ZZAJQOPSWWVMBI-UHFFFAOYSA-N; BG01576591; MLS000876988; DTXSID70174580; 3',7-dihydroxy-4'-methoxyisoflavone; ACon1_000650; I07-0176; NP-004576; NCGC00169494-01; 3-(4-methoxy-3-oxidanyl-phenyl)-7-oxidanyl-chromen-4-one; MCULE-7559555984; 7,3'-dihydroxy-4'-methoxyisoflavone; A814711; N1412; 3'-hydroxyformononetin; FT-0630465; MFCD00210598; SMR000440659; AN-8397; AC-8043",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN019425&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01316",
+        "Molecule_name": "Calycosin",
+        "PubChem_CID": "5280448",
+        "TCMID_id": "3004",
+        "TCMSP_id": "MOL000417",
+        "OB_score": 47.7518,
+        "TCM_ID_id": "6008",
+        "CAS_id": "20575-57-9",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01316"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000417",
+        "molecule_ID": "417",
+        "molecule_synonyms": "Calycosin"
+      }
+    },
+    "name": "Calycosin",
+    "sources": []
+  },
+  {
+    "id": "c28",
+    "cn": "大豆苷元",
+    "ob": 23.1,
+    "dl": 0.06,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN022577",
+      "TCMSP": "MOL000390",
+      "SymMap": "SMIT00036"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN022577",
+        "name": "daidzein",
+        "alias": "486-66-8; AIDS-059333; ST057515; KBio2_005871; CCRIS 7600; 7-Hydroxy-3-(4-hydroxy- phenyl)- chromone; SPBio_000205; AIDS059333; 4&#8242;,7-Dihydroxy- iso- flavone; nchembio.2007.28-comp31; KBio2_003303; Spectrum3_000191; Isoflavone, 4',7-dihydroxy- (8CI); Oprea1_182317; 7-hydroxy-3-(4-hydroxyphenyl)chromen-4-one; Spectrum5_000857; NCGC00025156-01; BiomolKI_000060; S00273; NCGC00015365-01; KBio1_001023; BiomolKI2_000066; KBioSS_000735; Daidzeol; SMP1_000089; 7,4'-Dihydroxyisoflavone; 7-Hydroxy-3-(4-hydroxyphenyl)-4-benzopyrone; C10208; SPECTRUM200789; nchembio.76-comp16; BSPBio_001741; NCGC00025156-09; Daidzein (6CI); 4H-1-Benzopyran-4-one, 7-hydroxy-3-(4-hydroxyphenyl)-; BRN 0231523; 5-18-04-00089 (Beilstein Handbook Reference); Daidzein; Daidzein (4',7-Dihydroxyisoflavone); KBioGR_002432; NINDS_001023; KBio2_000735; ACon1_000543; NCGC00025156-07; ZINC00047551; daidzein ; NCGC00025156-02; Lopac-D-7802; Tocris-1417; 7-hydroxy-3-(4-hydroxyphenyl)chromone; ACon0_001477; 7-Hydroxy-3-(4-hydroxy-phenyl)-chromone; KBio3_001241; DivK1c_001023; Spectrum4_001964; K 251b; UPCMLD-DP052:001; IDI1_001023; MEGxm0_000123; Lopac0_000412; D7802_SIGMA; Spectrum2_000053; EINECS 207-635-4; Spectrum_000255; 4&prime;,7-Dihydroxyisoflavone; NCGC00025156-05; 4',7-Dihydroxy-iso-flavone; NCGC00025156-04; 7-hydroxy-3-(4-hydroxyphenyl)-4H-chromen-4-one; 7-Hydroxy-3-(4-hydroxyphenyl)-4H-1-benzopyran-4-one; 7-hydroxy-3-(4-hydroxyphenyl)-4-chromenone; 7-Hydroxy-3-(4-hydroxy- phenyl)-4H-1-benzo- pyran-4-one;",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN022577&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00036",
+        "Molecule_name": "Daidzein",
+        "PubChem_CID": "5281708",
+        "TCMID_id": "4603",
+        "TCMSP_id": "MOL000390",
+        "OB_score": 19.4411,
+        "TCM_ID_id": "5196",
+        "CAS_id": "486-66-8",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00036"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000390",
+        "molecule_ID": "390",
+        "molecule_synonyms": "Daidzein (4',7-Dihydroxyisoflavone)"
+      }
+    },
+    "name": "Daidzein",
+    "sources": []
+  },
+  {
+    "id": "c29",
+    "cn": "染料木素",
+    "ob": 17.9,
+    "dl": 0.21,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN027456",
+      "TCMSP": "MOL000480",
+      "SymMap": "SMIT00052"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN027456",
+        "name": "genistein",
+        "alias": "BSPBio_002375; Lopac-G-6649; NCGC00015479-02; K00046; Genisteol; Spectrum_000320; NCGC00025005-01; Sophoricol; KBio2_003368; 4,6,7-Trihydroxyisoflavone; SMR000112580; SIPI 807-1; KBio2_007700; 5,7,4'-Trihydroxyisoflavone; Spectrum4_001543; GEN; NCGC00025005-04; Lopac0_000520; AIDS097204; 5,7-Dihydroxy-3-(4-hydroxyphenyl)-4-benzopyrone; 5,7-dihydroxy-3-(4-hydroxyphenyl)-4H-chromen-4-one; Spectrum5_000106; Bio1_001423; NCGC00025005-05; NSC 36586; NCGC00025005-02; 4&prime;,5,7-Trihydroxyisoflavone; Differenol A; NPI 031L; ACon1_001065; 4H-1-Benzopyran-4-one, 5,7-dihydroxy-3-(4-hydroxyphenyl)-; Bio1_000934; NCI60_003369; UPCMLD-DP096:001; NCGC00015479-01; genistein ; Spectrum2_000638; KBio2_002564; nchembio.76-comp6; G6776_SIGMA; DivK1c_006401; 5-18-04-00594 (Beilstein Handbook Reference); cMAP_000086; EU-0100520; 5-hydroxy-3-(4-hydroxyphenyl)-4-oxo-4H-chromen-7-olate; Tocris-1110; CHEBI:74224; KBioGR_002006; Bio1_000445; BRN 0263823; 446-72-0; MEGxp0_000568; Oprea1_437815; SMP1_000133; KBio1_001345; 5,7-DIHYDROXY-3-(4-HYDROXYPHENYL)-4H-1-BENZOPYRAN-4-ONE; Lactoferrin-genistein; SPECTRUM210296; 4',5, 7-trihydroxyisoflavone; NSC36586; EINECS 207-174-9; CHEBI:28088; Oprea1_224620; AIDS-097204; 4',5,7-Trihydroxyisoflavone; C06563; KBio3_003042; SPBio_000636; genistein(1-); KBio2_000800; 4&#8242;,5,7-Trihydroxyisoflavone; G6649_SIGMA; Prunetol; KBioGR_002564; C.I. 75610; KBioSS_000800; Genistein; TNP00151; CCRIS 7675; MolMap_000022; KBio2_005132; KBio3_001595; ZINC00041692; AIDS01649",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN027456&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00052",
+        "Molecule_name": "Genistein",
+        "PubChem_CID": "5280961",
+        "TCMID_id": "8277",
+        "TCMSP_id": "MOL000481",
+        "OB_score": 17.9329,
+        "TCM_ID_id": "4137",
+        "CAS_id": "446-72-0",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00052"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000480",
+        "molecule_ID": "480",
+        "molecule_synonyms": "Genistein, 7-O-beta-D-glucoside"
+      }
+    },
+    "name": "Genistein",
+    "sources": []
+  },
+  {
+    "id": "c30",
+    "cn": "苦杏仁苷",
+    "ob": 21.1,
+    "dl": 0.62,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN015934",
+      "TCMSP": "MOL001320",
+      "SymMap": "SMIT01267"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN015934",
+        "name": "amygdalin",
+        "alias": "(2R)-2-phenyl-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxan-2-yl]oxyacetonitrile; (2R)-2-phenyl-2-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)-2-tetrahydropyranyl]oxymethyl]-2-tetrahydropyranyl]oxy]acetonitrile; (2R)-2-phenyl-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-2-yl]oxy-acetonitrile; ethane; 2-(hydroxymethyl)-6-[[6-(methoxymethyl)-3,4,5-tris(oxidanyl)oxan-2-yl]methoxymethyl]oxane-3,4,5-triol; methanenitrile; methylbenzene; molecular hydrogen; (2R)-2-phenyl-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxan-2-yl]oxy-ethanenitrile; C08325; CHEBI:17019; (2R)-2-phenyl-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxymethyl]tetrahydropyran-2-yl]oxy-acetonitrile; 29883-15-6; STOCK1N-52529; (-)-D-mandelonitrile beta-D-gentiobioside; (2R)-[(6-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl)oxy](phenyl)acetonitrile; A820093; SMP1_000103; Amygdalin; ethane; formonitrile; 2-(hydroxymethyl)-6-[[3,4,5-trihydroxy-6-(methoxymethyl)-2-oxanyl]methoxymethyl]oxane-3,4,5-triol; molecular hydrogen; toluene",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN015934&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01267",
+        "Molecule_name": "Amygdalin",
+        "PubChem_CID": "66509032|656495|34751|656516|441462|24801909|2180|134694146",
+        "TCMID_id": "1102",
+        "TCMSP_id": "MOL001320",
+        "OB_score": 4.41505,
+        "TCM_ID_id": "6820",
+        "CAS_id": "29883-15-6",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01267"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL001320",
+        "molecule_ID": "1320",
+        "molecule_synonyms": "Amygdalin"
+      }
+    },
+    "name": "Amygdalin",
+    "sources": []
+  },
+  {
+    "id": "c31",
+    "cn": "和厚朴酚",
+    "ob": 30.7,
+    "dl": 0.38,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN029531",
+      "TCMSP": "MOL005955",
+      "SymMap": "SMIT00240"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN029531",
+        "name": "honokiol",
+        "alias": "VZ32385; 354H746; NCGC00163567-01; HMS2051C12; 11513CCO0N; {1,1'-Biphenyl]-2,4'-diol, 3,5-di-2-propenyl-; 2-(4-hydroxy-3-prop-2-enyl-phenyl)-4-prop-2-enyl-phenol; ZINC00001536; STK801954; AIDS002243; FVYXIJYOAGAUQK-UHFFFAOYSA-N; AC-486; SMP2_000040; 5,3&prime; C10630; AX8008971; NSC-293100; AS-15333; W-2613; 3',5-diallyl-2,4'-biphenyldiol; AC1Q7A9U; MLS000759481; TR-014635; 564-73-8; SR-01000758208-5; 3',5-Dipropenyl-(1,1'-biphenyl)-2,4'-diol; J10347; NC00114; SAM001246690; Bio-0326; MLS001423980; CHEBI:5759; 3'',5-diallylbiphenyl-2,4''-diol; REGID_for_CID_72303; O900; MolPort-002-507-432; SCHEMBL133034; InChI=1/C18H18O2/c1-3-5-13-7-9-18(20)16(11-13)14-8-10-17(19)15(12-14)6-4-2/h3-4,7-12,19-20H,1-2,5-6H; BC205226; AN-15767; ANW-56605; MCULE-5001549020; ACN-035410; 3,5'-Diallyl-4,2'-dihydroxybiphenyl; Honokiol, >=98% (HPLC), powder; D04DQJ; CTK5J3931; BG01559998; SR-01000758208; BRD-K98493452-001-01-6; AC1L2HTG; AB0016711; AKOS005622639; 4-allyl-2-(3-allyl-4-hydroxy-phenyl)phenol; AT-5464; 5,3''''-Diallyl-biphenyl-2,4''''-diol; RTR-014635; cid_72303; 2-(4-hydroxy-3-prop-2-enylphenyl)-4-prop-2-enylphenol; 3',5-diallyl-[1,1'-biphenyl]-2,4'-diol; CHEMBL16901; 3',5-Diallyl-2,4'-dihydroxybiphenyl; 35354-74-6; 5,3&#8242;-Diallyl-2,4&#8242;-dihydroxybiphenyl; houpa; UNII-11513CCO0N; 3',5-di(prop-2-en-1-yl)biphenyl-2,4'-diol; CPD000387107; HY-N0003; HMS3393C12; Honokiol; Q-100425; FT-0601638; 5,3''-Diallyl-biphenyl-2,4''-diol; 3'',5-di-2-propenyl-1,1''-biphenyl-2,4''-diol; BBL027819; ",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN029531&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00240",
+        "Molecule_name": "Honokiol",
+        "PubChem_CID": "72303",
+        "TCMID_id": "9630",
+        "TCMSP_id": "MOL005955",
+        "OB_score": 60.6694,
+        "TCM_ID_id": "3685",
+        "CAS_id": "35354-74-6",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00240"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL005955",
+        "molecule_ID": "5955",
+        "molecule_synonyms": "Honokiol"
+      }
+    },
+    "name": "Honokiol",
+    "sources": []
+  },
+  {
+    "id": "c32",
+    "cn": "厚朴酚",
+    "ob": 61,
+    "dl": 0.19,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN034250",
+      "TCMSP": "MOL000210",
+      "SymMap": "SMIT01500"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN034250",
+        "name": "magnolol",
+        "alias": "UPCMLD-DP037:001; UNII-001E35HGVF; 001E35HGVF; TR-031540; FT-0628104; SR-01000758206-3; AN-15430; 2'-Bichavicol; NSC 293099; MLS001048917; STK801955; KS-000009BG; ZINC00001645; [1,1'-Biphenyl]-2,2'-diol, 5,5'-di-2-propenyl-; 5,5'-bis(prop-2-en-1-yl)-[1,1'-biphenyl]-2,2'-diol; HMS3651O18; ZINC1645; PubChem19035; DS-1284; CTK1G9448; ST24029219; NCGC00161609-01; 2-(2-hydroxy-5-prop-2-enyl-phenyl)-4-prop-2-enyl-phenol; 5,5'-Di-2-propenyl-[1,1'-biphenyl]-2,2'-diol; HY-N0163; BN0720; 2-(2-hydroxy-5-prop-2-enylphenyl)-4-prop-2-enylphenol; MFCD00016658; SMP2_000086; SCHEMBL132477; 5,5'-Diallyl-2,2'-dihydroxybiphenyl; (1,1'-Biphenyl)-2,2'-diol, 5,5'-di-2-propenyl-; 3r5n; BC205200; Magnolol, European Pharmacopoeia (EP) Reference Standard; NSC293099; Magnolol, >=95% (HPLC), from plant; ACN-035415; SMR000387108; CM0085; Magnolol; NCGC00161609-02; magnolol ; MCULE-1351244567; AB0016717; VVOAZFWZEDHOOU-UHFFFAOYSA-N; 4-allyl-2-(5-allyl-2-hydroxy-phenyl)phenol; 2-[2-hydroxy-5-(prop-2-en-1-yl)phenyl]-4-(prop-2-en-1-yl)phenol; 5,5'-Diallyl-[1,1'-biphenyl]-2,2'-diol; 2-(2-oxidanyl-5-prop-2-enyl-phenyl)-4-prop-2-enyl-phenol; 528-43-8; 4-allyl-2-(5-allyl-2-hydroxyphenyl)phenol; HMS2269N09; Dehydrodichavicol; AC1Q7B1V; 4CN-0760; D3971; 5,5&#8242;-Diallyl-2,2&#8242;-biphenyldiol; BBL027818; s2321; 5,5'-Diallylbiphenyl-2,2'-diol; NSC-293099; KB-279770; CHEMBL180920; CCG-208588; AJ-08064; S-2836; 5,5'-Diallyl-2,2'-biphenyldiol; 5,5'-di(prop-2-en-1-yl)biphenyl-2,2'-diol; SR-01000758206; HSDB 7686; DTX",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN034250&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01500",
+        "Molecule_name": "Magnolol",
+        "PubChem_CID": "72300",
+        "TCMID_id": "13381",
+        "TCMSP_id": "MOL000210",
+        "OB_score": 69.1927,
+        "TCM_ID_id": "2831",
+        "CAS_id": "528-43-8",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01500"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000210",
+        "molecule_ID": "210",
+        "molecule_synonyms": "Magnolol"
+      }
+    },
+    "name": "Magnolol",
+    "sources": []
+  }
+]
