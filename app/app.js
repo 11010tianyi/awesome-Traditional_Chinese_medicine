@@ -53,8 +53,34 @@ async function loadData() {
     })
   );
   db = { ...db, ...Object.fromEntries(entries) };
+  db.customFormulas = mergeFormulas(db.customFormulas, readLocalCustomFormulas());
   db.formulas = mergeFormulas(db.formulas, db.customFormulas);
   rebuildIndexes();
+}
+
+const CUSTOM_FORMULA_KEY = "tcm-custom-formulas";
+
+function readLocalCustomFormulas() {
+  try {
+    const raw = localStorage.getItem(CUSTOM_FORMULA_KEY);
+    const parsed = raw ? JSON.parse(raw) : [];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function writeLocalCustomFormulas(formulas) {
+  localStorage.setItem(CUSTOM_FORMULA_KEY, JSON.stringify(formulas));
+}
+
+function slugify(value) {
+  return String(value || "formula")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9\u4e00-\u9fa5]+/gi, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 40) || "formula";
 }
 
 function mergeFormulas(baseFormulas, customFormulas) {
@@ -272,6 +298,8 @@ async function saveCustomFormula() {
     custom: true
   };
 
+  let saved = null;
+  let savedOnPages = false;
   try {
     const response = await fetch("/api/formulas", {
       method: "POST",
@@ -280,20 +308,29 @@ async function saveCustomFormula() {
     });
     const payload = await response.json();
     if (!response.ok || !payload.formula) throw new Error(payload.error || "保存失败");
-    db.customFormulas = mergeFormulas(db.customFormulas, [payload.formula]);
-    db.formulas = mergeFormulas(db.formulas, [payload.formula]);
-    renderFormulaSelect();
-    state.formulaId = payload.formula.id;
-    loadFormula(payload.formula.id);
-    renderAll();
-    $("#customFormulaName").value = "";
-    $("#customFormulaSource").value = "";
-    $("#customFormulaIndication").value = "";
-    $("#customFormulaTags").value = "";
-    toast("自定义处方已保存，并加入方剂列表。");
+    saved = payload.formula;
   } catch (error) {
-    toast(`保存失败：${error.message}`);
+    const existing = db.customFormulas.find((item) => item.name === name);
+    saved = {
+      ...formula,
+      id: existing?.id || `custom-${Date.now()}-${slugify(name)}`,
+      updatedAt: new Date().toISOString()
+    };
+    writeLocalCustomFormulas(mergeFormulas(readLocalCustomFormulas(), [saved]));
+    savedOnPages = true;
   }
+
+  db.customFormulas = mergeFormulas(db.customFormulas, [saved]);
+  db.formulas = mergeFormulas(db.formulas, [saved]);
+  renderFormulaSelect();
+  state.formulaId = saved.id;
+  loadFormula(saved.id);
+  renderAll();
+  $("#customFormulaName").value = "";
+  $("#customFormulaSource").value = "";
+  $("#customFormulaIndication").value = "";
+  $("#customFormulaTags").value = "";
+  toast(savedOnPages ? "自定义处方已保存在本机浏览器，并加入方剂列表。" : "自定义处方已保存，并加入方剂列表。");
 }
 
 function renderAll() {
@@ -820,7 +857,7 @@ function toast(message) {
 document.addEventListener("DOMContentLoaded", () => {
   init().catch((error) => {
     console.error(error);
-    const message = "数据文件加载失败，请通过本地服务访问项目并检查 app/data/*.json。";
+    const message = "数据文件加载失败，请检查 app/data/*.json，或通过本地服务 / GitHub Pages 访问。";
     const toastEl = $("#toast");
     if (toastEl) {
       toastEl.textContent = message;

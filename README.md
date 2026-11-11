@@ -21,6 +21,10 @@
 
 ## MVP 工具网站
 
+在线预览：[https://11010tianyi.github.io/awesome-Traditional_Chinese_medicine/](https://11010tianyi.github.io/awesome-Traditional_Chinese_medicine/)
+
+GitHub Pages 部署的是 `app/` 静态站点。自定义处方在线上版本会保存在浏览器本地，不会写回仓库；本地 `npm run dev` 仍可写入 `app/data/custom-formulas.json`。
+
 已内置一个可运行的浏览器端 MVP：
 
 ```bash
