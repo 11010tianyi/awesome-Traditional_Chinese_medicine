@@ -23,76 +23,31 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-Z-9581",
-        "TCMIP-F-Z-8366",
-        "TCMIP-F-Z-5527",
-        "TCMIP-F-Z-5526",
-        "TCMIP-F-Z-9576"
+        "TCMIP-F-F-37135"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "chinese_patent_drug",
-          "index": "chinese_patent_drug",
-          "title": "Chinese Patent Drugs",
-          "title_li": "Chinese Patent Drug",
-          "options": [
-            {
-              "label": "TCMIP-F-Z-9581",
-              "value": "Yin Qiao San "
-            },
-            {
-              "label": "TCMIP-F-Z-8366",
-              "value": "Sang Ju Yin Qiao San "
-            },
-            {
-              "label": "TCMIP-F-Z-5527",
-              "value": "Yin Qiao Pian"
-            },
-            {
-              "label": "TCMIP-F-Z-5526",
-              "value": "Yin Qiao Ke Li"
-            },
-            {
-              "label": "TCMIP-F-Z-9576",
-              "value": "Yin Qiao He Ji "
-            }
-          ]
-        },
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-37135",
-              "value": "YinQiaoSan"
-            },
-            {
-              "label": "TCMIP-F-F-37134",
-              "value": "YinQiaoTang"
-            },
-            {
-              "label": "TCMIP-F-F-48402",
-              "value": "QiShengSan5"
-            },
-            {
-              "label": "TCMIP-F-F-37133",
-              "value": "YinQiaoMaBoSan"
-            },
-            {
-              "label": "TCMIP-F-F-04117",
-              "value": "JiaJianYinQiaoSan"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-37135",
+            "value": "YinQiaoSan"
+          }
+        ]
+      }
     },
     "sources": [
       "经典方书",
       "ETCM"
+    ],
+    "pinyin": "YinQiaoSan",
+    "references": [
+      {
+        "title": "温病条辨·银翘散",
+        "url": "",
+        "detail": "吴瑭方，药味沿用既有目录"
+      }
     ]
   },
   {
@@ -110,78 +65,24 @@
       "风寒",
       "宣肺平喘"
     ],
-    "externalIds": {
-      "ETCM": [
-        "TCMIP-F-Z-4272",
-        "TCMIP-F-Z-7822",
-        "TCMIP-F-Z-1345",
-        "TCMIP-F-Z-2944",
-        "TCMIP-F-Z-0347"
-      ]
-    },
+    "externalIds": {},
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "chinese_patent_drug",
-          "index": "chinese_patent_drug",
-          "title": "Chinese Patent Drugs",
-          "title_li": "Chinese Patent Drug",
-          "options": [
-            {
-              "label": "TCMIP-F-Z-4272",
-              "value": "Si Wei Jiang Huang Tang San"
-            },
-            {
-              "label": "TCMIP-F-Z-7822",
-              "value": "Ma Huang Zhi Sou Wan "
-            },
-            {
-              "label": "TCMIP-F-Z-1345",
-              "value": "Fu Fang Mu Ma Huang Pian"
-            },
-            {
-              "label": "TCMIP-F-Z-2944",
-              "value": "Ma Huang Zhi Sou Jiao Nang"
-            },
-            {
-              "label": "TCMIP-F-Z-0347",
-              "value": "Bu Xin Wan"
-            }
-          ]
-        },
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-04712",
-              "value": "ShuiGuWan"
-            },
-            {
-              "label": "TCMIP-F-F-14767",
-              "value": "BaWeiDiHuangJiaTieLuoTang"
-            },
-            {
-              "label": "TCMIP-F-F-37500",
-              "value": "BaQiaYin"
-            },
-            {
-              "label": "TCMIP-F-F-45014",
-              "value": "ChengShuiYin"
-            },
-            {
-              "label": "TCMIP-F-F-45149",
-              "value": "GanGeSan"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
     },
     "sources": [
       "经典方书",
       "ETCM"
+    ],
+    "pinyin": "MaHuangTang",
+    "references": [
+      {
+        "title": "伤寒论·麻黄汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "麻黄、桂枝、甘草、杏仁"
+      }
     ]
   },
   {
@@ -193,7 +94,8 @@
       "桂枝",
       "白芍",
       "生姜",
-      "甘草"
+      "甘草",
+      "大枣"
     ],
     "tags": [
       "调和营卫",
@@ -201,77 +103,33 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-Z-1817",
-        "TCMIP-F-Z-7079",
-        "TCMIP-F-Z-1815",
-        "TCMIP-F-Z-7078",
-        "TCMIP-F-Z-1814"
+        "TCMIP-F-F-31588"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "chinese_patent_drug",
-          "index": "chinese_patent_drug",
-          "title": "Chinese Patent Drugs",
-          "title_li": "Chinese Patent Drug",
-          "options": [
-            {
-              "label": "TCMIP-F-Z-1817",
-              "value": "Gui Zhi Ke Li"
-            },
-            {
-              "label": "TCMIP-F-Z-7079",
-              "value": "Gui Zhi He Ji "
-            },
-            {
-              "label": "TCMIP-F-Z-1815",
-              "value": "Gui Zhi Fu Ling Pian"
-            },
-            {
-              "label": "TCMIP-F-Z-7078",
-              "value": "Gui Zhi Fu Ling Wan "
-            },
-            {
-              "label": "TCMIP-F-Z-1814",
-              "value": "Gui Zhi Fu Ling Jiao Nang"
-            }
-          ]
-        },
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-04712",
-              "value": "ShuiGuWan"
-            },
-            {
-              "label": "TCMIP-F-F-31588",
-              "value": "GuiZhiTang"
-            },
-            {
-              "label": "TCMIP-F-F-31568",
-              "value": "GuiZhiJiaGuiTang"
-            },
-            {
-              "label": "TCMIP-F-F-31589",
-              "value": "GuiZhiTang1"
-            },
-            {
-              "label": "TCMIP-F-F-31590",
-              "value": "GuiZhiTang2"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-31588",
+            "value": "GuiZhiTang"
+          }
+        ]
+      }
     },
     "sources": [
       "经典方书",
       "ETCM"
-    ]
+    ],
+    "pinyin": "GuiZhiTang",
+    "references": [
+      {
+        "title": "伤寒论·桂枝汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "桂枝三两、芍药三两、甘草二两、生姜三两、大枣十二枚"
+      }
+    ],
+    "notes": "原目录缺大枣。维基文库《伤寒论》桂枝汤方为桂枝、芍药、甘草、生姜、大枣；目录中的芍药用白芍。"
   },
   {
     "id": "f4",
@@ -280,6 +138,8 @@
     "indication": "脾胃气虚证",
     "herbs": [
       "人参",
+      "白术",
+      "茯苓",
       "甘草"
     ],
     "tags": [
@@ -288,77 +148,33 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-Z-4265",
-        "TCMIP-F-Z-8674",
-        "TCMIP-F-Z-8675",
-        "TCMIP-F-Z-8673",
-        "TCMIP-F-Z-4268"
+        "TCMIP-F-F-04481"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "chinese_patent_drug",
-          "index": "chinese_patent_drug",
-          "title": "Chinese Patent Drugs",
-          "title_li": "Chinese Patent Drug",
-          "options": [
-            {
-              "label": "TCMIP-F-Z-4265",
-              "value": "Si Jun Zi Wan"
-            },
-            {
-              "label": "TCMIP-F-Z-8674",
-              "value": "Si Jun Zi He Ji "
-            },
-            {
-              "label": "TCMIP-F-Z-8675",
-              "value": "Si Jun Zi Ke Li "
-            },
-            {
-              "label": "TCMIP-F-Z-8673",
-              "value": "Si Jun Zi Dai Pao Ji "
-            },
-            {
-              "label": "TCMIP-F-Z-4268",
-              "value": "Si Ni Tang"
-            }
-          ]
-        },
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-15096",
-              "value": "BaiCaoSan"
-            },
-            {
-              "label": "TCMIP-F-F-04481",
-              "value": "SiJunZiTang"
-            },
-            {
-              "label": "TCMIP-F-F-04482",
-              "value": "SiJunZiTang1"
-            },
-            {
-              "label": "TCMIP-F-F-04516",
-              "value": "SiJunZiWan"
-            },
-            {
-              "label": "TCMIP-F-F-04712",
-              "value": "ShuiGuWan"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-04481",
+            "value": "SiJunZiTang"
+          }
+        ]
+      }
     },
     "sources": [
       "经典方书",
       "ETCM"
-    ]
+    ],
+    "pinyin": "SiJunZiTang",
+    "references": [
+      {
+        "title": "太平惠民和剂局方·四君子汤",
+        "url": "",
+        "detail": "人参、白术、茯苓、甘草"
+      }
+    ],
+    "notes": "原目录只剩人参、甘草。补回《太平惠民和剂局方》四君子汤的白术、茯苓。"
   },
   {
     "id": "f5",
@@ -368,7 +184,8 @@
     "herbs": [
       "黄连",
       "黄芩",
-      "甘草"
+      "黄柏",
+      "栀子"
     ],
     "tags": [
       "清热",
@@ -376,77 +193,38 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-Z-2026",
-        "TCMIP-F-Z-2748",
-        "TCMIP-F-Z-5889",
-        "TCMIP-F-Z-7413",
-        "TCMIP-F-Z-9596"
+        "TCMIP-F-F-39670"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "chinese_patent_drug",
-          "index": "chinese_patent_drug",
-          "title": "Chinese Patent Drugs",
-          "title_li": "Chinese Patent Drug",
-          "options": [
-            {
-              "label": "TCMIP-F-Z-2026",
-              "value": "Huang Lian Jie Du Wan"
-            },
-            {
-              "label": "TCMIP-F-Z-2748",
-              "value": "Lian Zhi Jie Du Jiao Nang"
-            },
-            {
-              "label": "TCMIP-F-Z-5889",
-              "value": "Zhu She Yong Feng Du （ Dong Gan ）"
-            },
-            {
-              "label": "TCMIP-F-Z-7413",
-              "value": "Jie He Ling Pian "
-            },
-            {
-              "label": "TCMIP-F-Z-9596",
-              "value": "You Fu Ning Jiao Nang "
-            }
-          ]
-        },
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-36128",
-              "value": "DaHuangGao11"
-            },
-            {
-              "label": "TCMIP-F-F-39670",
-              "value": "HuangLianJieDuTang"
-            },
-            {
-              "label": "TCMIP-F-F-39677",
-              "value": "HuangLianJieDuSan"
-            },
-            {
-              "label": "TCMIP-F-F-39671",
-              "value": "HuangLianJieDuTang1"
-            },
-            {
-              "label": "TCMIP-F-F-39672",
-              "value": "HuangLianJieDuTang2"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-39670",
+            "value": "HuangLianJieDuTang"
+          }
+        ]
+      }
     },
     "sources": [
       "经典方书",
       "ETCM"
-    ]
+    ],
+    "pinyin": "HuangLianJieDuTang",
+    "references": [
+      {
+        "title": "外台秘要引崔氏方",
+        "url": "",
+        "detail": "黄连、黄芩、黄柏、栀子"
+      },
+      {
+        "title": "外台秘要引崔氏方·黄连解毒汤",
+        "url": "",
+        "detail": "黄连、黄芩、黄柏、栀子"
+      }
+    ],
+    "notes": "原目录作黄连、黄芩、甘草。改为《外台秘要》引崔氏方的黄连、黄芩、黄柏、栀子。"
   },
   {
     "id": "f6",
@@ -470,47 +248,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-00376",
-        "TCMIP-F-F-00377",
-        "TCMIP-F-F-05549",
-        "TCMIP-F-F-05550",
-        "TCMIP-F-F-05551"
+        "TCMIP-F-F-00376"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-00376",
-              "value": "LiuWeiDiHuangWan"
-            },
-            {
-              "label": "TCMIP-F-F-00377",
-              "value": "LiuWeiDiHuangWanJiaHuangBaiZhiMuFang"
-            },
-            {
-              "label": "TCMIP-F-F-05549",
-              "value": "JiaWeiLiuWeiDiHuangWan"
-            },
-            {
-              "label": "TCMIP-F-F-05550",
-              "value": "JiaWeiLiuWeiDiHuangWan1"
-            },
-            {
-              "label": "TCMIP-F-F-05551",
-              "value": "JiaWeiLiuWeiDiHuangWan2"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-00376",
+            "value": "LiuWeiDiHuangWan"
+          }
+        ]
+      }
     },
     "name": "六味地黄丸",
-    "pinyin": "LiuWeiDiHuangWan"
+    "pinyin": "LiuWeiDiHuangWan",
+    "references": []
   },
   {
     "id": "f7",
@@ -536,47 +290,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-34374",
-        "TCMIP-F-F-34479",
-        "TCMIP-F-F-34480",
-        "TCMIP-F-F-34481",
-        "TCMIP-F-F-34482"
+        "TCMIP-F-F-34479"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-34374",
-              "value": "DiaoJingXiaoYaoSan"
-            },
-            {
-              "label": "TCMIP-F-F-34479",
-              "value": "XiaoYaoSan"
-            },
-            {
-              "label": "TCMIP-F-F-34480",
-              "value": "XiaoYaoSan1"
-            },
-            {
-              "label": "TCMIP-F-F-34481",
-              "value": "XiaoYaoSan2"
-            },
-            {
-              "label": "TCMIP-F-F-34482",
-              "value": "XiaoYaoSan3"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-34479",
+            "value": "XiaoYaoSan"
+          }
+        ]
+      }
     },
     "name": "逍遥散",
-    "pinyin": "XiaoYaoSan"
+    "pinyin": "XiaoYaoSan",
+    "references": []
   },
   {
     "id": "f8",
@@ -602,47 +332,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-05462",
-        "TCMIP-F-F-05463",
-        "TCMIP-F-F-05464",
-        "TCMIP-F-F-05465",
-        "TCMIP-F-F-05469"
+        "TCMIP-F-F-16581"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-05462",
-              "value": "JiaWeiBuZhongYiQiTang9"
-            },
-            {
-              "label": "TCMIP-F-F-05463",
-              "value": "JiaWeiBuZhongYiQiTang10"
-            },
-            {
-              "label": "TCMIP-F-F-05464",
-              "value": "JiaWeiBuZhongYiQiTang11"
-            },
-            {
-              "label": "TCMIP-F-F-05465",
-              "value": "JiaWeiBuZhongYiQiTang12"
-            },
-            {
-              "label": "TCMIP-F-F-05469",
-              "value": "JiaWeiBuZhongYiQiTang13"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-16581",
+            "value": "BuZhongYiQiTang"
+          }
+        ]
+      }
     },
     "name": "补中益气汤",
-    "pinyin": "BuZhongYiQiTang"
+    "pinyin": "BuZhongYiQiTang",
+    "references": []
   },
   {
     "id": "f9",
@@ -666,47 +372,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-01057",
-        "TCMIP-F-F-04775",
-        "TCMIP-F-F-04825",
-        "TCMIP-F-F-04848",
-        "TCMIP-F-F-04849"
+        "TCMIP-F-F-39994"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-01057",
-              "value": "ShengMaTangHeXiaoChaiHuTang"
-            },
-            {
-              "label": "TCMIP-F-F-04775",
-              "value": "JiaWeiXiaoChaiHuTang"
-            },
-            {
-              "label": "TCMIP-F-F-04825",
-              "value": "JiaWeiXiaoChaiHuTang1"
-            },
-            {
-              "label": "TCMIP-F-F-04848",
-              "value": "JiaWeiXiaoChaiHuTang2"
-            },
-            {
-              "label": "TCMIP-F-F-04849",
-              "value": "JiaWeiXiaoChaiHuTang3"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-39994",
+            "value": "XiaoChaiHuTang"
+          }
+        ]
+      }
     },
     "name": "小柴胡汤",
-    "pinyin": "XiaoChaiHuTang"
+    "pinyin": "XiaoChaiHuTang",
+    "references": []
   },
   {
     "id": "f10",
@@ -728,47 +410,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-01191",
-        "TCMIP-F-F-30866",
-        "TCMIP-F-F-31585",
-        "TCMIP-F-F-14439",
-        "TCMIP-F-F-14440"
+        "TCMIP-F-F-07491"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-01191",
-              "value": "ShengMaGeGenHeRenShenBaiHuTang"
-            },
-            {
-              "label": "TCMIP-F-F-30866",
-              "value": "ChaiHuBaiHuTang"
-            },
-            {
-              "label": "TCMIP-F-F-31585",
-              "value": "GuiZhiHeBaiHuTang"
-            },
-            {
-              "label": "TCMIP-F-F-14439",
-              "value": "RuShenBaiHuTang"
-            },
-            {
-              "label": "TCMIP-F-F-14440",
-              "value": "RuShenBaiHuTang1"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-07491",
+            "value": "BaiHuTang"
+          }
+        ]
+      }
     },
     "name": "白虎汤",
-    "pinyin": "BaiHuTang"
+    "pinyin": "BaiHuTang",
+    "references": []
   },
   {
     "id": "f11",
@@ -796,47 +454,24 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-05275",
-        "TCMIP-F-F-08640",
-        "TCMIP-F-F-08641",
-        "TCMIP-F-F-08642",
-        "TCMIP-F-F-08651"
+        "TCMIP-F-F-08640"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-05275",
-              "value": "JiaWeiLongDanXieGanTang"
-            },
-            {
-              "label": "TCMIP-F-F-08640",
-              "value": "LongDanXieGanTang"
-            },
-            {
-              "label": "TCMIP-F-F-08641",
-              "value": "LongDanXieGanTang1"
-            },
-            {
-              "label": "TCMIP-F-F-08642",
-              "value": "LongDanXieGanTang2"
-            },
-            {
-              "label": "TCMIP-F-F-08651",
-              "value": "LongDanXieGanTang3"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-08640",
+            "value": "LongDanXieGanTang"
+          }
+        ]
+      }
     },
     "name": "龙胆泻肝汤",
-    "pinyin": "LongDanXieGanTang"
+    "pinyin": "LongDanXieGanTang",
+    "notes": "木通用药典木通科木通，不用马兜铃科关木通。",
+    "references": []
   },
   {
     "id": "f12",
@@ -868,23 +503,19 @@
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-13193",
-              "value": "XueFuZhuYuTang"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-13193",
+            "value": "XueFuZhuYuTang"
+          }
+        ]
+      }
     },
     "name": "血府逐瘀汤",
-    "pinyin": "XueFuZhuYuTang"
+    "pinyin": "XueFuZhuYuTang",
+    "references": []
   },
   {
     "id": "f13",
@@ -909,42 +540,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-02919",
-        "TCMIP-F-F-02920",
-        "TCMIP-F-F-02921",
-        "TCMIP-F-F-10040"
+        "TCMIP-F-F-02921"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-02919",
-              "value": "BanXiaXieXinTangQuGanJiangGanCaoJiaZhiShiXingRenFang"
-            },
-            {
-              "label": "TCMIP-F-F-02920",
-              "value": "BanXiaXieXinTangQuRenShenGanCaoGanJiangDaZaoJiaZhi"
-            },
-            {
-              "label": "TCMIP-F-F-02921",
-              "value": "BanXiaXieXinTang"
-            },
-            {
-              "label": "TCMIP-F-F-10040",
-              "value": "ShengJiangBanXiaXieXinTang"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-02921",
+            "value": "BanXiaXieXinTang"
+          }
+        ]
+      }
     },
     "name": "半夏泻心汤",
-    "pinyin": "BanXiaXieXinTang"
+    "pinyin": "BanXiaXieXinTang",
+    "references": []
   },
   {
     "id": "f14",
@@ -973,47 +585,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-05666",
-        "TCMIP-F-F-03609",
-        "TCMIP-F-F-46150",
-        "TCMIP-F-F-46161",
-        "TCMIP-F-F-46162"
+        "TCMIP-F-F-46150"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-05666",
-              "value": "JiaWeiHuoXiangZhengQiSan"
-            },
-            {
-              "label": "TCMIP-F-F-03609",
-              "value": "JiaJianHuoXiangZhengQiSan"
-            },
-            {
-              "label": "TCMIP-F-F-46150",
-              "value": "HuoXiangZhengQiSan"
-            },
-            {
-              "label": "TCMIP-F-F-46161",
-              "value": "HuoXiangZhengQiSan1"
-            },
-            {
-              "label": "TCMIP-F-F-46162",
-              "value": "HuoXiangZhengQiSan2"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-46150",
+            "value": "HuoXiangZhengQiSan"
+          }
+        ]
+      }
     },
     "name": "藿香正气散",
-    "pinyin": "HuoXiangZhengQiSan"
+    "pinyin": "HuoXiangZhengQiSan",
+    "references": []
   },
   {
     "id": "f15",
@@ -1036,47 +624,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-00115",
-        "TCMIP-F-F-31267",
-        "TCMIP-F-F-31505",
-        "TCMIP-F-F-31525",
-        "TCMIP-F-F-31839"
+        "TCMIP-F-F-04676"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-00115",
-              "value": "WuHuErChenTang"
-            },
-            {
-              "label": "TCMIP-F-F-31267",
-              "value": "ChaiGeErChenTang"
-            },
-            {
-              "label": "TCMIP-F-F-31505",
-              "value": "GuiShuErChenTang"
-            },
-            {
-              "label": "TCMIP-F-F-31525",
-              "value": "GuiFuErChenTang"
-            },
-            {
-              "label": "TCMIP-F-F-31839",
-              "value": "DingXiangErChenTang"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-04676",
+            "value": "ErChenTang"
+          }
+        ]
+      }
     },
     "name": "二陈汤",
-    "pinyin": "ErChenTang"
+    "pinyin": "ErChenTang",
+    "references": []
   },
   {
     "id": "f16",
@@ -1098,47 +662,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-00370",
-        "TCMIP-F-F-31268",
-        "TCMIP-F-F-32666",
-        "TCMIP-F-F-33586",
-        "TCMIP-F-F-37844"
+        "TCMIP-F-F-09307"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-00370",
-              "value": "LiuWeiPingWeiSan"
-            },
-            {
-              "label": "TCMIP-F-F-31268",
-              "value": "ChaiGePingWeiSan"
-            },
-            {
-              "label": "TCMIP-F-F-32666",
-              "value": "XiaoDaoPingWeiSan"
-            },
-            {
-              "label": "TCMIP-F-F-33586",
-              "value": "MiChuanJiaJianPingWeiSan"
-            },
-            {
-              "label": "TCMIP-F-F-37844",
-              "value": "DingXiangPingWeiSan"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-09307",
+            "value": "PingWeiSan"
+          }
+        ]
+      }
     },
     "name": "平胃散",
-    "pinyin": "PingWeiSan"
+    "pinyin": "PingWeiSan",
+    "references": []
   },
   {
     "id": "f17",
@@ -1168,47 +708,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-32565",
-        "TCMIP-F-F-05735",
-        "TCMIP-F-F-05736",
-        "TCMIP-F-F-05737",
-        "TCMIP-F-F-05738"
+        "TCMIP-F-F-09367"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-32565",
-              "value": "DaGuiPiTang"
-            },
-            {
-              "label": "TCMIP-F-F-05735",
-              "value": "JiaWeiGuiPiTang"
-            },
-            {
-              "label": "TCMIP-F-F-05736",
-              "value": "JiaWeiGuiPiTang1"
-            },
-            {
-              "label": "TCMIP-F-F-05737",
-              "value": "JiaWeiGuiPiTang2"
-            },
-            {
-              "label": "TCMIP-F-F-05738",
-              "value": "JiaWeiGuiPiTang3"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-09367",
+            "value": "GuiPiTang"
+          }
+        ]
+      }
     },
     "name": "归脾汤",
-    "pinyin": "GuiPiTang"
+    "pinyin": "GuiPiTang",
+    "references": []
   },
   {
     "id": "f18",
@@ -1234,47 +750,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-31244",
-        "TCMIP-F-F-35964",
-        "TCMIP-F-F-12162",
-        "TCMIP-F-F-12808",
-        "TCMIP-F-F-03417"
+        "TCMIP-F-F-41745"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-31244",
-              "value": "ChaiHuWenDanTang"
-            },
-            {
-              "label": "TCMIP-F-F-35964",
-              "value": "QingXinWenDanTang"
-            },
-            {
-              "label": "TCMIP-F-F-12162",
-              "value": "ZhuRuWenDanTang"
-            },
-            {
-              "label": "TCMIP-F-F-12808",
-              "value": "FangFengWenDanTang"
-            },
-            {
-              "label": "TCMIP-F-F-03417",
-              "value": "JiaWeiWenDanTang"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-41745",
+            "value": "WenDanTang"
+          }
+        ]
+      }
     },
     "name": "温胆汤",
-    "pinyin": "WenDanTang"
+    "pinyin": "WenDanTang",
+    "references": []
   },
   {
     "id": "f19",
@@ -1295,47 +787,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-00709",
-        "TCMIP-F-F-00785",
-        "TCMIP-F-F-00822",
-        "TCMIP-F-F-00928",
-        "TCMIP-F-F-30813"
+        "TCMIP-F-F-03701"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-00709",
-              "value": "HuaQiSiWuTang"
-            },
-            {
-              "label": "TCMIP-F-F-00785",
-              "value": "HuaJiSiWuTang"
-            },
-            {
-              "label": "TCMIP-F-F-00822",
-              "value": "HuaTanSiWuTang"
-            },
-            {
-              "label": "TCMIP-F-F-00928",
-              "value": "ShengMaSiWuTang"
-            },
-            {
-              "label": "TCMIP-F-F-30813",
-              "value": "ChaiQinSiWuTang"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-03701",
+            "value": "SiWuTang"
+          }
+        ]
+      }
     },
     "name": "四物汤",
-    "pinyin": "SiWuTang"
+    "pinyin": "SiWuTang",
+    "references": []
   },
   {
     "id": "f20",
@@ -1356,42 +824,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-03952",
-        "TCMIP-F-F-04062",
-        "TCMIP-F-F-04495",
-        "TCMIP-F-F-04496"
+        "TCMIP-F-F-04062"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-03952",
-              "value": "SiNiSanJiaWuWeiZiGanJiangTang"
-            },
-            {
-              "label": "TCMIP-F-F-04062",
-              "value": "SiNiSan"
-            },
-            {
-              "label": "TCMIP-F-F-04495",
-              "value": "SiNiSan1"
-            },
-            {
-              "label": "TCMIP-F-F-04496",
-              "value": "SiNiSan2"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-04062",
+            "value": "SiNiSan"
+          }
+        ]
+      }
     },
     "name": "四逆散",
-    "pinyin": "SiNiSan"
+    "pinyin": "SiNiSan",
+    "references": []
   },
   {
     "id": "f21",
@@ -1411,9 +860,21 @@
       "ETCM"
     ],
     "externalIds": {},
-    "sourceDetails": {},
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
+    },
     "name": "葛根芩连汤",
-    "pinyin": "GeGenQinLianTang"
+    "pinyin": "GeGenQinLianTang",
+    "references": [
+      {
+        "title": "伤寒论·葛根黄芩黄连汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "葛根、甘草、黄芩、黄连"
+      }
+    ]
   },
   {
     "id": "f22",
@@ -1434,32 +895,29 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-30989",
-        "TCMIP-F-F-30990"
+        "TCMIP-F-F-30989"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-30989",
-              "value": "DaChengQiTang"
-            },
-            {
-              "label": "TCMIP-F-F-30990",
-              "value": "DaChengQiTang1"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-30989",
+            "value": "DaChengQiTang"
+          }
+        ]
+      }
     },
     "name": "大承气汤",
-    "pinyin": "DaChengQiTang"
+    "pinyin": "DaChengQiTang",
+    "references": [
+      {
+        "title": "伤寒论·大承气汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "大黄、厚朴、枳实、芒硝"
+      }
+    ]
   },
   {
     "id": "f23",
@@ -1483,32 +941,23 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-48454",
-        "TCMIP-F-F-48483"
+        "TCMIP-F-F-48454"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-48454",
-              "value": "TaoHongSiWuTang"
-            },
-            {
-              "label": "TCMIP-F-F-48483",
-              "value": "TaoHongSiWuTang1"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-48454",
+            "value": "TaoHongSiWuTang"
+          }
+        ]
+      }
     },
     "name": "桃红四物汤",
-    "pinyin": "TaoHongSiWuTang"
+    "pinyin": "TaoHongSiWuTang",
+    "references": []
   },
   {
     "id": "f24",
@@ -1539,23 +988,20 @@
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-36457",
-              "value": "QingYingTang"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-36457",
+            "value": "QingYingTang"
+          }
+        ]
+      }
     },
     "name": "清营汤",
-    "pinyin": "QingYingTang"
+    "pinyin": "QingYingTang",
+    "notes": "犀角为历史方原文用药，不作为可新增药材收录。现行处方以水牛角代替，见本目录“水牛角”。",
+    "references": []
   },
   {
     "id": "f25",
@@ -1577,46 +1023,1252 @@
     ],
     "externalIds": {
       "ETCM": [
-        "TCMIP-F-F-33755",
-        "TCMIP-F-F-28643",
-        "TCMIP-F-F-45176",
-        "TCMIP-F-F-45177",
-        "TCMIP-F-F-45178"
+        "TCMIP-F-F-45176"
       ]
     },
     "sourceDetails": {
-      "ETCM": [
-        {
-          "label": "traditional_chinese_medicine_formula",
-          "index": "traditional_chinese_medicine_formula",
-          "title": "Traditional Chinese Medicine Formulas",
-          "title_li": "Traditional Chinese Medicine Formula",
-          "options": [
-            {
-              "label": "TCMIP-F-F-33755",
-              "value": "MiChuanSuanZaoRenTang"
-            },
-            {
-              "label": "TCMIP-F-F-28643",
-              "value": "FuShenSuanZaoRenTang"
-            },
-            {
-              "label": "TCMIP-F-F-45176",
-              "value": "SuanZaoRenTang"
-            },
-            {
-              "label": "TCMIP-F-F-45177",
-              "value": "SuanZaoRenTang1"
-            },
-            {
-              "label": "TCMIP-F-F-45178",
-              "value": "SuanZaoRenTang2"
-            }
-          ]
-        }
-      ]
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-45176",
+            "value": "SuanZaoRenTang"
+          }
+        ]
+      }
     },
     "name": "酸枣仁汤",
-    "pinyin": "SuanZaoRenTang"
+    "pinyin": "SuanZaoRenTang",
+    "references": [
+      {
+        "title": "金匮要略",
+        "url": "https://zh.wikisource.org/wiki/金匱要略",
+        "detail": "酸枣仁汤主治虚劳虚烦不得眠"
+      }
+    ]
+  },
+  {
+    "id": "f26",
+    "source": "伤寒论",
+    "indication": "风寒表实、项背强几几",
+    "herbs": [
+      "葛根",
+      "麻黄",
+      "桂枝",
+      "白芍",
+      "生姜",
+      "甘草",
+      "大枣"
+    ],
+    "tags": [
+      "解表",
+      "太阳"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-43350"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-43350",
+            "value": "GeGenTang"
+          }
+        ]
+      }
+    },
+    "name": "葛根汤",
+    "pinyin": "GeGenTang",
+    "notes": "原文芍药，目录用白芍。",
+    "references": [
+      {
+        "title": "伤寒论·葛根汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "葛根、麻黄、桂枝、生姜、甘草、芍药、大枣"
+      }
+    ]
+  },
+  {
+    "id": "f27",
+    "source": "伤寒论",
+    "indication": "肺热咳喘",
+    "herbs": [
+      "麻黄",
+      "杏仁",
+      "甘草",
+      "石膏"
+    ],
+    "tags": [
+      "清热",
+      "宣肺"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {},
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
+    },
+    "name": "麻杏石甘汤",
+    "pinyin": "MaXingShiGanTang",
+    "notes": "全称麻黄杏仁甘草石膏汤。",
+    "references": [
+      {
+        "title": "伤寒论·麻黄杏仁甘草石膏汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "麻黄、杏仁、甘草、石膏"
+      }
+    ]
+  },
+  {
+    "id": "f28",
+    "source": "伤寒论",
+    "indication": "少阴病阳虚寒厥",
+    "herbs": [
+      "附子",
+      "干姜",
+      "甘草"
+    ],
+    "tags": [
+      "回阳救逆"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-04474"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-04474",
+            "value": "SiNiTang"
+          }
+        ]
+      }
+    },
+    "name": "四逆汤",
+    "pinyin": "SiNiTang",
+    "references": [
+      {
+        "title": "伤寒论·四逆汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "甘草、干姜、生附子"
+      }
+    ]
+  },
+  {
+    "id": "f29",
+    "source": "伤寒论",
+    "indication": "中焦虚寒",
+    "herbs": [
+      "人参",
+      "干姜",
+      "白术",
+      "甘草"
+    ],
+    "tags": [
+      "温中"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-36685"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-36685",
+            "value": "LiZhongWan"
+          }
+        ]
+      }
+    },
+    "name": "理中丸",
+    "pinyin": "LiZhongWan",
+    "references": [
+      {
+        "title": "伤寒论·理中丸方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "人参、干姜、甘草、白术"
+      }
+    ]
+  },
+  {
+    "id": "f30",
+    "source": "伤寒论",
+    "indication": "阳虚水泛",
+    "herbs": [
+      "茯苓",
+      "白芍",
+      "生姜",
+      "白术",
+      "附子"
+    ],
+    "tags": [
+      "温阳利水"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-33411"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-33411",
+            "value": "ZhenWuTang"
+          }
+        ]
+      }
+    },
+    "name": "真武汤",
+    "pinyin": "ZhenWuTang",
+    "notes": "原文芍药，目录用白芍；附子为炮附子。",
+    "references": [
+      {
+        "title": "伤寒论·真武汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "茯苓、芍药、生姜、白术、炮附子"
+      }
+    ]
+  },
+  {
+    "id": "f31",
+    "source": "伤寒论",
+    "indication": "外寒内饮",
+    "herbs": [
+      "麻黄",
+      "白芍",
+      "细辛",
+      "干姜",
+      "甘草",
+      "桂枝",
+      "五味子",
+      "半夏"
+    ],
+    "tags": [
+      "解表",
+      "化饮"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-39981"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-39981",
+            "value": "XiaoQingLongTang"
+          }
+        ]
+      }
+    },
+    "name": "小青龙汤",
+    "pinyin": "XiaoQingLongTang",
+    "notes": "原文芍药，目录用白芍。",
+    "references": [
+      {
+        "title": "伤寒论·小青龙汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "麻黄、芍药、细辛、干姜、甘草、桂枝、五味子、半夏"
+      }
+    ]
+  },
+  {
+    "id": "f32",
+    "source": "伤寒论",
+    "indication": "膀胱气化不利、水湿内停",
+    "herbs": [
+      "猪苓",
+      "泽泻",
+      "白术",
+      "茯苓",
+      "桂枝"
+    ],
+    "tags": [
+      "利水"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-00106"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-00106",
+            "value": "WuLingSan"
+          }
+        ]
+      }
+    },
+    "name": "五苓散",
+    "pinyin": "WuLingSan",
+    "notes": "维基文库句作“株茯苓”，与宋本“茯苓十八铢”对应，目录用茯苓。",
+    "references": [
+      {
+        "title": "伤寒论·五苓散方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "猪苓、泽泻、白术、茯苓、桂枝"
+      }
+    ]
+  },
+  {
+    "id": "f33",
+    "source": "伤寒论",
+    "indication": "下焦蓄血",
+    "herbs": [
+      "桃仁",
+      "大黄",
+      "桂枝",
+      "甘草",
+      "芒硝"
+    ],
+    "tags": [
+      "活血",
+      "攻下"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-32007"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-32007",
+            "value": "TaoHeChengQiTang"
+          }
+        ]
+      }
+    },
+    "name": "桃核承气汤",
+    "pinyin": "TaoHeChengQiTang",
+    "references": [
+      {
+        "title": "伤寒论·桃核承气汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "桃仁、大黄、桂枝、甘草、芒硝"
+      }
+    ]
+  },
+  {
+    "id": "f34",
+    "source": "伤寒论",
+    "indication": "心动悸、脉结代",
+    "herbs": [
+      "甘草",
+      "生姜",
+      "人参",
+      "生地黄",
+      "桂枝",
+      "阿胶",
+      "麦冬",
+      "火麻仁",
+      "大枣"
+    ],
+    "tags": [
+      "益气",
+      "复脉"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-22588"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-22588",
+            "value": "ZhiGanCaoTang"
+          }
+        ]
+      }
+    },
+    "name": "炙甘草汤",
+    "pinyin": "ZhiGanCaoTang",
+    "notes": "原文用清酒煎，麦门冬作麦冬，麻仁作火麻仁。",
+    "references": [
+      {
+        "title": "伤寒论·炙甘草汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "甘草、生姜、人参、桂枝、生地黄、阿胶、麦门冬、麻仁、大枣"
+      }
+    ]
+  },
+  {
+    "id": "f35",
+    "source": "伤寒论",
+    "indication": "中焦虚寒、虚劳腹痛",
+    "herbs": [
+      "桂枝",
+      "甘草",
+      "大枣",
+      "白芍",
+      "生姜",
+      "饴糖"
+    ],
+    "tags": [
+      "温中",
+      "补虚"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-39486"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-39486",
+            "value": "XiaoJianZhongTang"
+          }
+        ]
+      }
+    },
+    "name": "小建中汤",
+    "pinyin": "XiaoJianZhongTang",
+    "notes": "原文芍药、胶饴。",
+    "references": [
+      {
+        "title": "伤寒论·小建中汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "桂枝、甘草、大枣、芍药、生姜、胶饴"
+      }
+    ]
+  },
+  {
+    "id": "f36",
+    "source": "金匮要略",
+    "indication": "肾阳不足",
+    "herbs": [
+      "生地黄",
+      "山药",
+      "山茱萸",
+      "泽泻",
+      "茯苓",
+      "牡丹皮",
+      "桂枝",
+      "附子"
+    ],
+    "tags": [
+      "补肾",
+      "温阳"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-05860"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-05860",
+            "value": "ShenQiWan"
+          }
+        ]
+      }
+    },
+    "name": "金匮肾气丸",
+    "pinyin": "ShenQiWan",
+    "notes": "崔氏八味丸原文为干地黄、薯蓣。干地黄对应目录生地黄，薯蓣对应山药。后世桂附地黄丸常改熟地黄。",
+    "references": [
+      {
+        "title": "金匮要略·崔氏八味丸",
+        "url": "https://zh.wikisource.org/wiki/金匱要略",
+        "detail": "干地黄、山茱萸、薯蓣、泽泻、茯苓、牡丹皮、桂枝、炮附子"
+      }
+    ]
+  },
+  {
+    "id": "f37",
+    "source": "伤寒论",
+    "indication": "湿热黄疸",
+    "herbs": [
+      "茵陈",
+      "栀子",
+      "大黄"
+    ],
+    "tags": [
+      "利湿",
+      "退黄"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-28905"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-28905",
+            "value": "YinChenHaoTang"
+          }
+        ]
+      }
+    },
+    "name": "茵陈蒿汤",
+    "pinyin": "YinChenHaoTang",
+    "references": [
+      {
+        "title": "伤寒论·茵陈蒿汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "茵陈蒿、栀子、大黄"
+      }
+    ]
+  },
+  {
+    "id": "f38",
+    "source": "金匮要略",
+    "indication": "瘀阻胞宫",
+    "herbs": [
+      "桂枝",
+      "茯苓",
+      "牡丹皮",
+      "桃仁",
+      "白芍"
+    ],
+    "tags": [
+      "活血"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-31622"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-31622",
+            "value": "GuiZhiFuLingWan"
+          }
+        ]
+      }
+    },
+    "name": "桂枝茯苓丸",
+    "pinyin": "GuiZhiFuLingWan",
+    "notes": "原文芍药，目录用白芍。",
+    "references": [
+      {
+        "title": "金匮要略·桂枝茯苓丸方",
+        "url": "https://zh.wikisource.org/wiki/金匱要略",
+        "detail": "桂枝、茯苓、牡丹、桃仁、芍药各等分"
+      }
+    ]
+  },
+  {
+    "id": "f39",
+    "source": "伤寒论",
+    "indication": "中阳不足、痰饮内停",
+    "herbs": [
+      "茯苓",
+      "桂枝",
+      "白术",
+      "甘草"
+    ],
+    "tags": [
+      "温化痰饮"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {},
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
+    },
+    "name": "苓桂术甘汤",
+    "pinyin": "LingGuiZhuGanTang",
+    "notes": "原文名茯苓桂枝白术甘草汤。",
+    "references": [
+      {
+        "title": "伤寒论·茯苓桂枝白术甘草汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "茯苓、桂枝、白术、甘草"
+      }
+    ]
+  },
+  {
+    "id": "f40",
+    "source": "金匮要略",
+    "indication": "脏躁",
+    "herbs": [
+      "甘草",
+      "小麦",
+      "大枣"
+    ],
+    "tags": [
+      "养心"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {},
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
+    },
+    "name": "甘麦大枣汤",
+    "pinyin": "GanMaiDaZaoTang",
+    "notes": "维基文库本记主治“妇人脏躁，喜悲伤欲哭”，未逐录药味。药味依通行本：甘草、小麦、大枣。",
+    "references": [
+      {
+        "title": "金匮要略·妇人杂病",
+        "url": "https://zh.wikisource.org/wiki/金匱要略",
+        "detail": "甘麦大枣汤主脏躁"
+      }
+    ]
+  },
+  {
+    "id": "f41",
+    "source": "金匮要略",
+    "indication": "梅核气",
+    "herbs": [
+      "半夏",
+      "厚朴",
+      "茯苓",
+      "生姜",
+      "紫苏叶"
+    ],
+    "tags": [
+      "行气",
+      "化痰"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {},
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
+    },
+    "name": "半夏厚朴汤",
+    "pinyin": "BanXiaHouPoTang",
+    "notes": "维基文库本记“妇人咽中如有炙脔，半夏厚朴汤主之”，未逐录药味。药味依通行本，干苏叶作紫苏叶。",
+    "references": [
+      {
+        "title": "金匮要略·妇人杂病",
+        "url": "https://zh.wikisource.org/wiki/金匱要略",
+        "detail": "半夏厚朴汤主咽中如有炙脔"
+      }
+    ]
+  },
+  {
+    "id": "f42",
+    "source": "金匮要略",
+    "indication": "血痹",
+    "herbs": [
+      "黄芪",
+      "白芍",
+      "桂枝",
+      "生姜",
+      "大枣"
+    ],
+    "tags": [
+      "益气",
+      "和营"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-48444"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-48444",
+            "value": "HuangQiGuiZhiWuWuTang"
+          }
+        ]
+      }
+    },
+    "name": "黄芪桂枝五物汤",
+    "pinyin": "HuangQiGuiZhiWuWuTang",
+    "notes": "原文芍药，目录用白芍。",
+    "references": [
+      {
+        "title": "金匮要略·黄芪桂枝五物汤方",
+        "url": "https://zh.wikisource.org/wiki/金匱要略",
+        "detail": "黄芪、芍药、桂枝、生姜、大枣"
+      }
+    ]
+  },
+  {
+    "id": "f43",
+    "source": "究原方",
+    "indication": "表虚自汗",
+    "herbs": [
+      "黄芪",
+      "白术",
+      "防风"
+    ],
+    "tags": [
+      "固表"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-09052"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-09052",
+            "value": "YuPingFengSan"
+          }
+        ]
+      }
+    },
+    "name": "玉屏风散",
+    "pinyin": "YuPingFengSan",
+    "references": [
+      {
+        "title": "究原方，丹溪心法收录",
+        "url": "",
+        "detail": "黄芪、白术、防风"
+      }
+    ]
+  },
+  {
+    "id": "f44",
+    "source": "医林改错",
+    "indication": "气虚血瘀中风",
+    "herbs": [
+      "黄芪",
+      "当归",
+      "赤芍",
+      "地龙",
+      "川芎",
+      "红花",
+      "桃仁"
+    ],
+    "tags": [
+      "补气",
+      "活血"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {},
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
+    },
+    "name": "补阳还五汤",
+    "pinyin": "BuYangHuanWuTang",
+    "notes": "原文当归尾，目录用当归。",
+    "references": [
+      {
+        "title": "医林改错·补阳还五汤",
+        "url": "",
+        "detail": "黄芪、当归尾、赤芍、地龙、川芎、红花、桃仁"
+      }
+    ]
+  },
+  {
+    "id": "f45",
+    "source": "温病条辨",
+    "indication": "风温初起、咳嗽",
+    "herbs": [
+      "桑叶",
+      "菊花",
+      "杏仁",
+      "连翘",
+      "薄荷",
+      "桔梗",
+      "甘草",
+      "芦根"
+    ],
+    "tags": [
+      "疏风",
+      "宣肺"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-32194"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-32194",
+            "value": "SangJuYin"
+          }
+        ]
+      }
+    },
+    "name": "桑菊饮",
+    "pinyin": "SangJuYin",
+    "references": [
+      {
+        "title": "温病条辨·桑菊饮",
+        "url": "",
+        "detail": "桑叶、菊花、杏仁、连翘、薄荷、桔梗、甘草、芦根"
+      }
+    ]
+  },
+  {
+    "id": "f46",
+    "source": "温病条辨",
+    "indication": "阳明温病、阴虚液涸",
+    "herbs": [
+      "玄参",
+      "麦冬",
+      "生地黄"
+    ],
+    "tags": [
+      "养阴"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-44969"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-44969",
+            "value": "ZengYeTang"
+          }
+        ]
+      }
+    },
+    "name": "增液汤",
+    "pinyin": "ZengYeTang",
+    "references": [
+      {
+        "title": "温病条辨·增液汤",
+        "url": "",
+        "detail": "玄参、麦冬、细生地"
+      }
+    ]
+  },
+  {
+    "id": "f47",
+    "source": "太平惠民和剂局方",
+    "indication": "脾虚夹湿泄泻",
+    "herbs": [
+      "人参",
+      "白术",
+      "茯苓",
+      "甘草",
+      "山药",
+      "莲子",
+      "白扁豆",
+      "薏苡仁",
+      "砂仁",
+      "桔梗"
+    ],
+    "tags": [
+      "健脾",
+      "渗湿"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {},
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
+    },
+    "name": "参苓白术散",
+    "pinyin": "ShenLingBaiZhuSan",
+    "notes": "依局方药味，不另加后世有的陈皮。",
+    "references": [
+      {
+        "title": "太平惠民和剂局方·参苓白术散",
+        "url": "",
+        "detail": "人参、白术、茯苓、甘草、山药、莲子、白扁豆、薏苡仁、砂仁、桔梗"
+      }
+    ]
+  },
+  {
+    "id": "f48",
+    "source": "太平惠民和剂局方",
+    "indication": "外感风邪头痛",
+    "herbs": [
+      "川芎",
+      "荆芥",
+      "白芷",
+      "羌活",
+      "甘草",
+      "细辛",
+      "防风",
+      "薄荷"
+    ],
+    "tags": [
+      "头痛",
+      "疏风"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {},
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": true,
+        "note": "ETCM 方剂自动补全没有与拼音精确相等的方剂。中成药命中不再写入。"
+      }
+    },
+    "name": "川芎茶调散",
+    "pinyin": "ChuanXiongChaTiaoSan",
+    "notes": "用清茶调服。",
+    "references": [
+      {
+        "title": "太平惠民和剂局方·川芎茶调散",
+        "url": "",
+        "detail": "川芎、荆芥、白芷、羌活、甘草、细辛、防风、薄荷"
+      }
+    ]
+  },
+  {
+    "id": "f49",
+    "source": "医学启源",
+    "indication": "气阴两虚",
+    "herbs": [
+      "人参",
+      "麦冬",
+      "五味子"
+    ],
+    "tags": [
+      "益气",
+      "养阴"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-04240"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-04240",
+            "value": "ShengMaiSan"
+          }
+        ]
+      }
+    },
+    "name": "生脉散",
+    "pinyin": "ShengMaiSan",
+    "references": [
+      {
+        "title": "医学启源·生脉散",
+        "url": "",
+        "detail": "人参、麦冬、五味子"
+      }
+    ]
+  },
+  {
+    "id": "f50",
+    "source": "医学正传",
+    "indication": "脾胃气虚兼痰湿",
+    "herbs": [
+      "人参",
+      "白术",
+      "茯苓",
+      "甘草",
+      "陈皮",
+      "半夏"
+    ],
+    "tags": [
+      "健脾",
+      "化痰"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-00355"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-00355",
+            "value": "LiuJunZiTang"
+          }
+        ]
+      }
+    },
+    "name": "六君子汤",
+    "pinyin": "LiuJunZiTang",
+    "references": [
+      {
+        "title": "医学正传·六君子汤",
+        "url": "",
+        "detail": "四君子汤加陈皮、半夏"
+      }
+    ]
+  },
+  {
+    "id": "f51",
+    "source": "丹溪心法",
+    "indication": "脾虚肝旺泄泻",
+    "herbs": [
+      "白术",
+      "白芍",
+      "陈皮",
+      "防风"
+    ],
+    "tags": [
+      "补脾",
+      "柔肝"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-41497"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-41497",
+            "value": "TongXieYaoFang"
+          }
+        ]
+      }
+    },
+    "name": "痛泻要方",
+    "pinyin": "TongXieYaoFang",
+    "references": [
+      {
+        "title": "丹溪心法·痛泻要方",
+        "url": "",
+        "detail": "白术、白芍、陈皮、防风"
+      }
+    ]
+  },
+  {
+    "id": "f52",
+    "source": "伤寒论",
+    "indication": "热毒血痢",
+    "herbs": [
+      "白头翁",
+      "黄柏",
+      "黄连",
+      "秦皮"
+    ],
+    "tags": [
+      "凉血",
+      "止痢"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-10301"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-10301",
+            "value": "BaiTouWengTang"
+          }
+        ]
+      }
+    },
+    "name": "白头翁汤",
+    "pinyin": "BaiTouWengTang",
+    "notes": "原文“两檗”即黄柏。",
+    "references": [
+      {
+        "title": "伤寒论·白头翁汤方",
+        "url": "https://zh.wikisource.org/wiki/傷寒論",
+        "detail": "白头翁、黄柏、黄连、秦皮"
+      }
+    ]
+  },
+  {
+    "id": "f53",
+    "source": "东垣试效方",
+    "indication": "大头瘟、风热疫毒",
+    "herbs": [
+      "黄芩",
+      "黄连",
+      "陈皮",
+      "甘草",
+      "玄参",
+      "柴胡",
+      "桔梗",
+      "连翘",
+      "板蓝根",
+      "马勃",
+      "牛蒡子",
+      "薄荷",
+      "僵蚕",
+      "升麻"
+    ],
+    "tags": [
+      "清热解毒"
+    ],
+    "sources": [
+      "经典方书",
+      "ETCM"
+    ],
+    "externalIds": {
+      "ETCM": [
+        "TCMIP-F-F-42005"
+      ]
+    },
+    "sourceDetails": {
+      "ETCM": {
+        "unmatched": false,
+        "matches": [
+          {
+            "label": "TCMIP-F-F-42005",
+            "value": "PuJiXiaoDuYin"
+          }
+        ]
+      }
+    },
+    "name": "普济消毒饮",
+    "pinyin": "PuJiXiaoDuYin",
+    "notes": "原方或有人参。此处用方剂学常用十四味，不含人参。",
+    "references": [
+      {
+        "title": "东垣试效方·普济消毒饮",
+        "url": "",
+        "detail": "黄芩、黄连、陈皮、甘草、玄参、柴胡、桔梗、连翘、板蓝根、马勃、牛蒡子、薄荷、僵蚕、升麻"
+      }
+    ]
   }
 ]

@@ -38,7 +38,7 @@ npm run dev
 - 处方分析：识别药味，统计药性、五味、归经，生成核心药对。
 - 手动处方：可把当前处方组成保存为自定义方剂，并持久写入 `app/data/custom-formulas.json`。
 - 网络药理学：生成药材-成分-靶点-通路-疾病关系网络，并支持靶点置信度筛选。
-- 可视化：富集通路、成分 ADME、数据源证据分布。
+- 可视化：目录通路覆盖、GO/KEGG 富集、成分 ADME、数据源证据分布。本地 `npm run dev` 会用 R/clusterProfiler 做人类 GO/KEGG；GitHub Pages 没有 R，点击分析时改用公开的 g:Profiler。两者都只展示服务实际返回的条目。
 - 导出：网络边 CSV、分析 JSON、网络 SVG、Markdown 报告。
 
 ### 数据同步
@@ -53,8 +53,8 @@ npm run sync:data
 
 - `HERB`：`http://herb.ac.cn/chedi/api/`，回填药材、成分、靶点 ID 和详情链接。
 - `SymMap`：`http://www.symmap.org/search/` 表单接口，回填药材、成分、靶点 ID。
-- `TCMSP`：`https://www.tcmsp-e.com/tcmspsearch.php` 页面表格接口，解析药材、成分、靶点结果。
-- `ETCM`：`http://www.tcmip.cn:18124/home/homeEsSearch/` 与 `home_data`，回填可搜索命中与站点统计。
+- `TCMSP`：`https://old.tcmsp-e.com/tcmspsearch.php` 遗留站表格。2026-11-21 核对时，`https://www.tcmsp-e.com/tcmspsearch.php` 已变成门户页，不再返回旧检索结果；同步脚本会读取遗留站公开表单里的 token。
+- `ETCM`：`http://www.tcmip.cn:18124/home/homeEsSearch/` 与 `home_data`，只回填药材或方剂分组中的精确命中。
 
 同步结果写入：
 
@@ -64,7 +64,7 @@ npm run sync:data
 - `app/data/sources.json`
 - `app/data/sync-status.json`
 
-当前扩展同步会先合并 `scripts/catalog-seeds.mjs` 中的常用实体种子，再回填外部来源 ID。最近一次快照包含：方剂 25 条、药材 58 条、成分 32 条、靶点 24 条。
+当前扩展同步会先合并 `scripts/catalog-seeds.mjs` 中的常用实体种子，再回填外部来源 ID。2026-11-21 快照包含：方剂 53 条、药材 93 条、成分 47 条、靶点 32 条、通路 13 条、疾病 7 条。相对 2026-05-16 的方剂 25、药材 58、成分 32、靶点 24，这次新增方剂 28、药材 35、成分 15、靶点 8，并补上 7 条 KEGG 通路和 2 条 MeSH 疾病。匹配明细和未命中说明在 `app/data/sync-status.json`。
 
 ## 快速入口
 

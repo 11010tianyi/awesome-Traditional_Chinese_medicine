@@ -1,10 +1,13 @@
 import http from "node:http";
+import { spawn } from "node:child_process";
 import { createReadStream, existsSync, statSync } from "node:fs";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("./app", import.meta.url));
+const enrichScript = fileURLToPath(new URL("./scripts/enrich-go-kegg.R", import.meta.url));
 const customFormulasPath = join(root, "data", "custom-formulas.json");
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
@@ -73,8 +76,76 @@ async function saveCustomFormula(request, response) {
   }
 }
 
+function runCommand(command, args, timeoutMs = 20000) {
+  return new Promise((resolve, reject) => {
+    const child = spawn(command, args, { timeout: timeoutMs });
+    let stdout = "";
+    let stderr = "";
+    child.stdout.on("data", (chunk) => { stdout += chunk; });
+    child.stderr.on("data", (chunk) => { stderr += chunk; });
+    child.once("error", reject);
+    child.once("close", (code) => resolve({ code, stdout, stderr }));
+  });
+}
+
+async function enrichmentStatus() {
+  try {
+    const check = await runCommand("Rscript", ["-e", "quit(status=if (requireNamespace('clusterProfiler', quietly=TRUE) && requireNamespace('org.Hs.eg.db', quietly=TRUE) && requireNamespace('ggplot2', quietly=TRUE)) 0 else 2)"]);
+    if (check.code === 0) {
+      return { available: true, engine: "clusterProfiler", organism: "Homo sapiens", reason: "本地服务会调用 R/clusterProfiler 和 org.Hs.eg.db，并用 ggplot2 画出条形图、气泡图和基因重叠网络。" };
+    }
+    return { available: false, engine: null, reason: "已找到 Rscript，但 clusterProfiler、org.Hs.eg.db 或 ggplot2 未安装。" };
+  } catch (error) {
+    const missing = error.code === "ENOENT";
+    return { available: false, engine: null, reason: missing ? "未安装 Rscript，无法在本地运行 clusterProfiler。" : error.message };
+  }
+}
+
+function cleanGenes(value) {
+  if (!Array.isArray(value)) return [];
+  return [...new Set(value.map((item) => String(item || "").trim()).filter((item) => /^[A-Za-z][A-Za-z0-9.-]{0,31}$/.test(item)))].slice(0, 200);
+}
+
+async function runClusterProfiler(genes) {
+  const dir = await mkdtemp(join(tmpdir(), "tcm-enrich-"));
+  const input = join(dir, "input.json");
+  const output = join(dir, "output.json");
+  try {
+    await writeFile(input, JSON.stringify({ genes }));
+    const result = await runCommand("Rscript", [enrichScript, input, output], 180000);
+    try {
+      return JSON.parse(await readFile(output, "utf8"));
+    } catch {
+      const detail = `${result.stderr || result.stdout}`.trim().slice(0, 700);
+      return { ok: false, error: detail || `Rscript 退出码 ${result.code}` };
+    }
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+}
+
+async function enrichGenes(request, response) {
+  try {
+    const input = JSON.parse(await readBody(request));
+    const genes = cleanGenes(input.genes);
+    if (genes.length < 2) return sendJson(response, 400, { ok: false, error: "至少需要 2 个当前处方里的人类基因符号。" });
+    const status = await enrichmentStatus();
+    if (!status.available) return sendJson(response, 503, { ok: false, available: false, reason: status.reason });
+    const payload = await runClusterProfiler(genes);
+    sendJson(response, payload.ok ? 200 : 502, payload);
+  } catch (error) {
+    sendJson(response, 500, { ok: false, error: error.message });
+  }
+}
+
 async function handler(request, response) {
   const url = new URL(request.url || "/", "http://localhost");
+  if (url.pathname === "/api/enrichment" && request.method === "GET") {
+    return sendJson(response, 200, await enrichmentStatus());
+  }
+  if (url.pathname === "/api/enrichment" && request.method === "POST") {
+    return enrichGenes(request, response);
+  }
   if (url.pathname === "/api/formulas" && request.method === "GET") {
     return sendJson(response, 200, { formulas: await readCustomFormulas() });
   }

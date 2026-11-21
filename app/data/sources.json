@@ -2,32 +2,40 @@
   {
     "name": "TCMSP",
     "fullName": "Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform",
-    "baseUrl": "https://www.tcmsp-e.com",
-    "integration": "HTML form endpoint parsed from tcmspsearch.php",
-    "endpoint": "https://www.tcmsp-e.com/tcmspsearch.php",
+    "baseUrl": "https://old.tcmsp-e.com",
+    "integration": "Legacy HTML grid at old.tcmsp-e.com. The public form token is read from tcmsp.php on each run.",
+    "endpoint": "https://old.tcmsp-e.com/tcmspsearch.php",
+    "portal": "https://www.tcmsp-e.com",
     "status": [
       {
         "source": "TCMSP",
         "entity": "herbs",
-        "matched": 49,
-        "total": 58,
+        "matched": 72,
+        "total": 93,
         "refreshed": 0
       },
       {
         "source": "TCMSP",
         "entity": "compounds",
-        "matched": 30,
-        "total": 32,
+        "matched": 42,
+        "total": 47,
         "refreshed": 0
       },
       {
         "source": "TCMSP",
         "entity": "targets",
-        "matched": 7,
-        "total": 24,
+        "matched": 27,
+        "total": 32,
         "refreshed": 0
       }
-    ]
+    ],
+    "check": {
+      "name": "TCMSP",
+      "endpoint": "https://old.tcmsp-e.com/tcmspsearch.php",
+      "ok": true,
+      "checkedAt": "2026-11-21T03:11:12.655Z",
+      "note": "https://www.tcmsp-e.com/tcmspsearch.php 在 2026-11-21 返回门户页，不再是旧检索表格。同步改读遗留站，并使用 tcmsp.php 页面上的公开表单 token。"
+    }
   },
   {
     "name": "HERB",
@@ -39,31 +47,38 @@
       {
         "source": "HERB",
         "entity": "herbs",
-        "matched": 58,
-        "total": 58,
+        "matched": 92,
+        "total": 93,
         "refreshed": 0
       },
       {
         "source": "HERB",
         "entity": "compounds",
-        "matched": 32,
-        "total": 32,
+        "matched": 47,
+        "total": 47,
         "refreshed": 0
       },
       {
         "source": "HERB",
         "entity": "targets",
-        "matched": 24,
-        "total": 24,
+        "matched": 32,
+        "total": 32,
         "refreshed": 0
       }
-    ]
+    ],
+    "check": {
+      "name": "HERB",
+      "endpoint": "http://herb.ac.cn/chedi/api/",
+      "ok": true,
+      "checkedAt": "2026-11-21T03:11:12.655Z",
+      "note": "公开前端 JSON 仍返回 Herb/Ingredient/Target 表格。匹配要求中文名、拼音或成分名精确相等，不再取第一行。"
+    }
   },
   {
     "name": "ETCM",
     "fullName": "The Encyclopedia of Traditional Chinese Medicine v2.0",
     "baseUrl": "http://www.tcmip.cn/ETCM2/front/#/",
-    "integration": "ETCM2 JSON endpoints discovered from frontend bundle",
+    "integration": "ETCM2 JSON endpoints discovered from the public frontend",
     "endpoint": "http://www.tcmip.cn:18124/home/homeEsSearch/",
     "homeStats": [
       {
@@ -111,18 +126,25 @@
       {
         "source": "ETCM",
         "entity": "formulas",
-        "matched": 24,
-        "total": 25,
+        "matched": 44,
+        "total": 53,
         "refreshed": 0
       },
       {
         "source": "ETCM",
         "entity": "herbs",
-        "matched": 56,
-        "total": 58,
+        "matched": 87,
+        "total": 93,
         "refreshed": 0
       }
-    ]
+    ],
+    "check": {
+      "name": "ETCM",
+      "endpoint": "http://www.tcmip.cn:18124/home/homeEsSearch/",
+      "ok": true,
+      "checkedAt": "2026-11-21T03:11:12.655Z",
+      "note": "homeEsSearch 仍返回分组 options。只保留药材或方剂分组里的精确拼音命中，不再把中成药自动补全写进外部 ID。Search failed 会丢弃缓存并不覆盖已有 ID。"
+    }
   },
   {
     "name": "SymMap",
@@ -134,24 +156,31 @@
       {
         "source": "SymMap",
         "entity": "herbs",
-        "matched": 15,
-        "total": 58,
+        "matched": 84,
+        "total": 93,
         "refreshed": 0
       },
       {
         "source": "SymMap",
         "entity": "compounds",
-        "matched": 32,
-        "total": 32,
-        "refreshed": 32
+        "matched": 47,
+        "total": 47,
+        "refreshed": 0
       },
       {
         "source": "SymMap",
         "entity": "targets",
-        "matched": 24,
-        "total": 24,
+        "matched": 32,
+        "total": 32,
         "refreshed": 0
       }
-    ]
+    ],
+    "check": {
+      "name": "SymMap",
+      "endpoint": "http://www.symmap.org/search/",
+      "ok": true,
+      "checkedAt": "2026-11-21T03:11:12.655Z",
+      "note": "表单检索仍返回 data/columns。药材优先用中文名；紧凑拼音常无结果，适配器会再试中文名和带空格拼音。"
+    }
   }
 ]

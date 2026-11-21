@@ -1,103 +1,128 @@
 {
-  "generatedAt": "2026-05-16T15:12:03.555Z",
-  "note": "真实源同步快照。HERB/ETCM/SymMap/TCMSP 均通过其公开网站前端可见接口或表单入口获取；外部数据库结构可能变更，重跑 npm run sync:data 可刷新。",
+  "generatedAt": "2026-11-21T03:11:12.655Z",
+  "verifiedAt": "2026-11-21T03:11:12.655Z",
+  "note": "2026-11-21 重新核对公开接口后的目录快照。已有精确外部 ID 会保留；TCMSP 非精确同义词和 ETCM 中成药自动补全会在检索成功时改写。成分-靶点分数 70 只是已引用关联的显示权重。",
   "summary": [
     {
       "source": "ETCM",
       "entity": "formulas",
-      "matched": 24,
-      "total": 25,
+      "matched": 44,
+      "total": 53,
       "refreshed": 0
     },
     {
       "source": "Classic texts",
       "entity": "formulas",
-      "matched": 25,
-      "total": 25,
-      "refreshed": 20
+      "matched": 53,
+      "total": 53,
+      "refreshed": 0
     },
     {
       "source": "HERB",
       "entity": "herbs",
-      "matched": 58,
-      "total": 58,
+      "matched": 92,
+      "total": 93,
       "refreshed": 0
     },
     {
       "source": "SymMap",
       "entity": "herbs",
-      "matched": 15,
-      "total": 58,
+      "matched": 84,
+      "total": 93,
       "refreshed": 0
     },
     {
       "source": "TCMSP",
       "entity": "herbs",
-      "matched": 49,
-      "total": 58,
+      "matched": 72,
+      "total": 93,
       "refreshed": 0
     },
     {
       "source": "ETCM",
       "entity": "herbs",
-      "matched": 56,
-      "total": 58,
+      "matched": 87,
+      "total": 93,
       "refreshed": 0
     },
     {
       "source": "HERB",
       "entity": "compounds",
+      "matched": 47,
+      "total": 47,
+      "refreshed": 0
+    },
+    {
+      "source": "SymMap",
+      "entity": "compounds",
+      "matched": 47,
+      "total": 47,
+      "refreshed": 0
+    },
+    {
+      "source": "TCMSP",
+      "entity": "compounds",
+      "matched": 42,
+      "total": 47,
+      "refreshed": 0
+    },
+    {
+      "source": "HERB",
+      "entity": "targets",
       "matched": 32,
       "total": 32,
       "refreshed": 0
     },
     {
       "source": "SymMap",
-      "entity": "compounds",
+      "entity": "targets",
       "matched": 32,
       "total": 32,
-      "refreshed": 32
+      "refreshed": 0
     },
     {
       "source": "TCMSP",
-      "entity": "compounds",
-      "matched": 30,
+      "entity": "targets",
+      "matched": 27,
       "total": 32,
-      "refreshed": 0
-    },
-    {
-      "source": "HERB",
-      "entity": "targets",
-      "matched": 24,
-      "total": 24,
-      "refreshed": 0
-    },
-    {
-      "source": "SymMap",
-      "entity": "targets",
-      "matched": 24,
-      "total": 24,
-      "refreshed": 0
-    },
-    {
-      "source": "TCMSP",
-      "entity": "targets",
-      "matched": 7,
-      "total": 24,
       "refreshed": 0
     }
   ],
   "catalogCounts": {
+    "formulas": 53,
+    "herbs": 93,
+    "compounds": 47,
+    "targets": 32,
+    "pathways": 13,
+    "diseases": 7
+  },
+  "baseline": {
+    "asOf": "2026-05-16",
     "formulas": 25,
     "herbs": 58,
     "compounds": 32,
-    "targets": 24
+    "targets": 24,
+    "pathways": 6,
+    "diseases": 5
+  },
+  "expansionSinceBaseline": {
+    "formulas": 28,
+    "herbs": 35,
+    "compounds": 15,
+    "targets": 8,
+    "pathways": 7,
+    "diseases": 2
+  },
+  "insertedThisRun": {
+    "formulas": 0,
+    "pathways": 0,
+    "diseases": 0
   },
   "endpoints": [
     {
       "name": "TCMSP",
-      "endpoint": "https://www.tcmsp-e.com/tcmspsearch.php",
-      "integration": "HTML form endpoint parsed from tcmspsearch.php"
+      "endpoint": "https://old.tcmsp-e.com/tcmspsearch.php",
+      "integration": "Legacy HTML grid at old.tcmsp-e.com. The public form token is read from tcmsp.php on each run."
     },
     {
       "name": "HERB",
@@ -107,12 +132,67 @@
     {
       "name": "ETCM",
       "endpoint": "http://www.tcmip.cn:18124/home/homeEsSearch/",
-      "integration": "ETCM2 JSON endpoints discovered from frontend bundle"
+      "integration": "ETCM2 JSON endpoints discovered from the public frontend"
     },
     {
       "name": "SymMap",
       "endpoint": "http://www.symmap.org/search/",
       "integration": "Form POST endpoints used by the public SymMap search page"
     }
+  ],
+  "endpointChecks": [
+    {
+      "name": "HERB",
+      "endpoint": "http://herb.ac.cn/chedi/api/",
+      "ok": true,
+      "checkedAt": "2026-11-21T03:11:12.655Z",
+      "note": "公开前端 JSON 仍返回 Herb/Ingredient/Target 表格。匹配要求中文名、拼音或成分名精确相等，不再取第一行。"
+    },
+    {
+      "name": "SymMap",
+      "endpoint": "http://www.symmap.org/search/",
+      "ok": true,
+      "checkedAt": "2026-11-21T03:11:12.655Z",
+      "note": "表单检索仍返回 data/columns。药材优先用中文名；紧凑拼音常无结果，适配器会再试中文名和带空格拼音。"
+    },
+    {
+      "name": "TCMSP",
+      "endpoint": "https://old.tcmsp-e.com/tcmspsearch.php",
+      "ok": true,
+      "checkedAt": "2026-11-21T03:11:12.655Z",
+      "note": "https://www.tcmsp-e.com/tcmspsearch.php 在 2026-11-21 返回门户页，不再是旧检索表格。同步改读遗留站，并使用 tcmsp.php 页面上的公开表单 token。"
+    },
+    {
+      "name": "ETCM",
+      "endpoint": "http://www.tcmip.cn:18124/home/homeEsSearch/",
+      "ok": true,
+      "checkedAt": "2026-11-21T03:11:12.655Z",
+      "note": "homeEsSearch 仍返回分组 options。只保留药材或方剂分组里的精确拼音命中，不再把中成药自动补全写进外部 ID。Search failed 会丢弃缓存并不覆盖已有 ID。"
+    }
+  ],
+  "fixes": [],
+  "gaps": [
+    "ETCM 没有精确方剂命中：麻黄汤、葛根芩连汤、麻杏石甘汤、苓桂术甘汤、甘麦大枣汤、半夏厚朴汤、补阳还五汤、参苓白术散、川芎茶调散",
+    "TCMSP 没有精确成分同义词：Ginsenoside Rg1、Astragaloside IV、Naringenin、Liquiritin、Synephrine",
+    "TCMSP 没有精确靶点名：STAT3、MMP9、ESR1、RELA、JUN",
+    "药材仍缺来源 ID：竹叶（HERB/SymMap/TCMSP/ETCM）、杏仁（SymMap/TCMSP）、生地黄（SymMap/TCMSP）、石膏（TCMSP）、厚朴（ETCM）、麦冬（TCMSP）、远志（TCMSP）、藿香（SymMap/TCMSP）、紫苏叶（TCMSP）、竹茹（TCMSP）、枳壳（ETCM）、阿胶（TCMSP）、饴糖（SymMap/TCMSP/ETCM）、小麦（SymMap/TCMSP）、地龙（TCMSP）、莲子（TCMSP）、黄柏（ETCM）、僵蚕（TCMSP）、粳米（SymMap/TCMSP）、龙胆草（SymMap/TCMSP）、茯神（SymMap/TCMSP/ETCM）、龙眼肉（TCMSP）、芒硝（TCMSP）、水牛角（TCMSP）"
+  ],
+  "fallbacks": [
+    "TCMSP 当前检索入口是 https://old.tcmsp-e.com ，token 来自公开搜索表单，不是登录密钥。",
+    "来源连续无法连接时，本轮停止该来源的后续请求，并保留已经写好的外部 ID。",
+    "原始响应缓存在 scripts/.cache/sync/，不提交。",
+    "新成分只有在 SymMap 成分名精确命中时才回填 OB；DL 没有公开返回就不填。",
+    "清营汤保留历史药味犀角，但药材目录不新增犀角；代替品是水牛角。",
+    "木通只按药典木通科木通收录，并在药材上写明不要替换成关木通。",
+    "HERB、SymMap、TCMSP、ETCM 本轮都有成功响应。"
+  ],
+  "corrections": [
+    "2026-11-21 核对：www.tcmsp-e.com/tcmspsearch.php 已是门户页。检索改到 https://old.tcmsp-e.com ，公开表单 token 每次从 tcmsp.php 读取，不保存登录密钥。",
+    "TCMSP 空表是 data: null。解析器把它当作空结果，不再误读后面的 columns。",
+    "HERB、SymMap、TCMSP、ETCM 都不再取检索第一行。成分同义词和靶点名必须与名称或已声明异名精确相等。",
+    "据此修正了此前的误配，包括小檗碱不再使用四氢小檗碱、肉桂醛改为反式 CINNAMALDEHYDE（MOL000991）、TNF 不再指向 TNF receptor-associated factor 2。",
+    "ETCM 只保留药材或方剂分组里的精确拼音，不再把中成药自动补全写进外部 ID。",
+    "桂枝汤补入大枣；四君子汤补回白术、茯苓；黄连解毒汤改为黄连、黄芩、黄柏、栀子。",
+    "竹叶不再误配同音的猪靥。藿香只接受 HERB 异体字霍香，不把它写成广藿香。"
   ]
 }
