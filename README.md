@@ -38,7 +38,7 @@ npm run dev
 - 处方分析：识别药味，统计药性、五味、归经，生成核心药对。
 - 手动处方：可把当前处方组成保存为自定义方剂，并持久写入 `app/data/custom-formulas.json`。
 - 网络药理学：生成药材-成分-靶点-通路-疾病关系网络，并支持靶点置信度筛选。
-- 可视化：富集通路、成分 ADME、数据源证据分布。
+- 可视化：目录通路覆盖、GO/KEGG 富集、成分 ADME、数据源证据分布。本地 `npm run dev` 会用 R/clusterProfiler 做人类 GO/KEGG；GitHub Pages 没有 R，点击分析时改用公开的 g:Profiler。两者都只展示服务实际返回的条目。
 - 导出：网络边 CSV、分析 JSON、网络 SVG、Markdown 报告。
 
 ### 数据同步
