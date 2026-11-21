@@ -252,7 +252,12 @@
         "molecule_ID": "4876",
         "molecule_synonyms": "18-beta-Glycyrrhizic acid"
       }
-    }
+    },
+    "acceptedSynonyms": [
+      "18-beta-Glycyrrhizic acid"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "c7",
@@ -336,7 +341,12 @@
         "molecule_ID": "360",
         "molecule_synonyms": "CINNAMIC ACID,4-HYDROXY,3-METHOXY   FERULIC ACID"
       }
-    }
+    },
+    "acceptedSynonyms": [
+      "CINNAMIC ACID,4-HYDROXY,3-METHOXY   FERULIC ACID"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "c9",
@@ -346,7 +356,8 @@
     "dl": 0.09,
     "targets": {
       "t9": 81,
-      "t3": 58
+      "t3": 58,
+      "t26": 70
     },
     "externalIds": {
       "HERB": "HBIN025241",
@@ -377,7 +388,23 @@
         "molecule_ID": "6594",
         "molecule_synonyms": "Ephedrine [USAN:BAN]"
       }
-    }
+    },
+    "targetLinks": [
+      {
+        "symbol": "ADRB2",
+        "score": 70,
+        "url": "https://go.drugbank.com/drugs/DB01364",
+        "note": "DrugBank DB01364 将麻黄碱与 β2 肾上腺素受体关联。分数 70 只表示这条已引用的关联可以出现在默认置信度筛选中，不是结合亲和力、也不是 TCMSP 网络分。"
+      }
+    ],
+    "references": [
+      {
+        "title": "DrugBank: Ephedrine",
+        "url": "https://go.drugbank.com/drugs/DB01364",
+        "id": "DB01364"
+      }
+    ],
+    "sources": []
   },
   {
     "id": "c10",
@@ -392,7 +419,7 @@
     },
     "externalIds": {
       "HERB": "HBIN020653",
-      "TCMSP": "MOL000250",
+      "TCMSP": "MOL000991",
       "SymMap": "SMIT00089"
     },
     "sourceDetails": {
@@ -415,9 +442,9 @@
         "url": "http://www.symmap.org/detail/SMIT00089"
       },
       "TCMSP": {
-        "MOL_ID": "MOL000250",
-        "molecule_ID": "250",
-        "molecule_synonyms": "cis-Cinnamaldehyde"
+        "MOL_ID": "MOL000991",
+        "molecule_ID": "991",
+        "molecule_synonyms": "CINNAMALDEHYDE (TRANS)"
       }
     }
   },
@@ -456,7 +483,8 @@
         "url": "http://www.symmap.org/detail/SMIT01670"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 3 (line 1 column 4)"
+        "unmatched": true,
+        "note": "TCMSP 成分表没有精确同义词。"
       }
     }
   },
@@ -470,11 +498,13 @@
       "t1": 88,
       "t2": 82,
       "t5": 77,
-      "t9": 66
+      "t9": 66,
+      "t25": 70,
+      "t30": 70
     },
     "externalIds": {
       "HERB": "HBIN017893",
-      "TCMSP": "MOL001455",
+      "TCMSP": "MOL001454",
       "SymMap": "SMIT00104"
     },
     "sourceDetails": {
@@ -497,11 +527,38 @@
         "url": "http://www.symmap.org/detail/SMIT00104"
       },
       "TCMSP": {
-        "MOL_ID": "MOL001455",
-        "molecule_ID": "1455",
-        "molecule_synonyms": "Tetrahydroberberine"
+        "MOL_ID": "MOL001454",
+        "molecule_ID": "1454",
+        "molecule_synonyms": "berberine"
       }
-    }
+    },
+    "targetLinks": [
+      {
+        "symbol": "PRKAA1",
+        "score": 70,
+        "doi": "10.2337/db06-0006",
+        "note": "Lee YS 等，Diabetes，2006。小檗碱激活 AMPK。分数 70 只表示这条已引用的关联可以出现在默认置信度筛选中，不是结合亲和力、也不是 TCMSP 网络分。"
+      },
+      {
+        "symbol": "LDLR",
+        "score": 70,
+        "doi": "10.1038/nm1135",
+        "note": "Kong W 等，Nat Med，2004。小檗碱上调 LDLR。分数 70 只表示这条已引用的关联可以出现在默认置信度筛选中，不是结合亲和力、也不是 TCMSP 网络分。"
+      }
+    ],
+    "references": [
+      {
+        "title": "Lee YS et al. Berberine, a natural plant product, activates AMP-activated protein kinase with beneficial metabolic effects in diabetic and insulin-resistant states. Diabetes. 2006.",
+        "doi": "10.2337/db06-0006",
+        "url": "https://doi.org/10.2337/db06-0006"
+      },
+      {
+        "title": "Kong W et al. Berberine is a novel cholesterol-lowering drug working through a unique mechanism distinct from statins. Nat Med. 2004.",
+        "doi": "10.1038/nm1135",
+        "url": "https://doi.org/10.1038/nm1135"
+      }
+    ],
+    "sources": []
   },
   {
     "id": "c13",
@@ -511,7 +568,7 @@
     "targets": {},
     "externalIds": {
       "HERB": "HBIN029922",
-      "TCMSP": "MOL004378",
+      "TCMSP": "MOL004425",
       "SymMap": "SMIT06349"
     },
     "sourceDetails": {
@@ -534,13 +591,14 @@
         "url": "http://www.symmap.org/detail/SMIT06349"
       },
       "TCMSP": {
-        "MOL_ID": "MOL004378",
-        "molecule_ID": "4378",
-        "molecule_synonyms": "Wushanicariin"
+        "MOL_ID": "MOL004425",
+        "molecule_ID": "4425",
+        "molecule_synonyms": "Icariin"
       }
     },
     "name": "Icariin",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c14",
@@ -550,7 +608,7 @@
     "targets": {},
     "externalIds": {
       "HERB": "HBIN045506",
-      "TCMSP": "MOL007046",
+      "TCMSP": "MOL007154",
       "SymMap": "SMIT00353"
     },
     "sourceDetails": {
@@ -573,13 +631,17 @@
         "url": "http://www.symmap.org/detail/SMIT00353"
       },
       "TCMSP": {
-        "MOL_ID": "MOL007046",
-        "molecule_ID": "7046",
-        "molecule_synonyms": "3beta-Hydroxytanshinone IIA"
+        "MOL_ID": "MOL007154",
+        "molecule_ID": "7154",
+        "molecule_synonyms": "Tanshinone IIa"
       }
     },
     "name": "Tanshinone IIA",
-    "sources": []
+    "sources": [],
+    "acceptedSynonyms": [
+      "Tanshinone IIa"
+    ],
+    "references": []
   },
   {
     "id": "c15",
@@ -589,7 +651,7 @@
     "targets": {},
     "externalIds": {
       "HERB": "HBIN025041",
-      "TCMSP": "MOL000471",
+      "TCMSP": "MOL000472",
       "SymMap": "SMIT00049"
     },
     "sourceDetails": {
@@ -612,13 +674,14 @@
         "url": "http://www.symmap.org/detail/SMIT00049"
       },
       "TCMSP": {
-        "MOL_ID": "MOL000471",
-        "molecule_ID": "471",
-        "molecule_synonyms": "Aloe-emodin"
+        "MOL_ID": "MOL000472",
+        "molecule_ID": "472",
+        "molecule_synonyms": "Emodin"
       }
     },
     "name": "Emodin",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c16",
@@ -657,7 +720,8 @@
       }
     },
     "name": "Puerarin",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c17",
@@ -689,11 +753,13 @@
         "url": "http://www.symmap.org/detail/SMIT14408"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 3 (line 1 column 4)"
+        "unmatched": true,
+        "note": "TCMSP 成分表没有精确同义词。"
       }
     },
     "name": "Astragaloside IV",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c18",
@@ -732,7 +798,8 @@
       }
     },
     "name": "Curcumin",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c19",
@@ -742,7 +809,7 @@
     "targets": {},
     "externalIds": {
       "HERB": "HBIN027030",
-      "TCMSP": "MOL000106",
+      "TCMSP": "MOL000513",
       "SymMap": "SMIT01683"
     },
     "sourceDetails": {
@@ -765,13 +832,14 @@
         "url": "http://www.symmap.org/detail/SMIT01683"
       },
       "TCMSP": {
-        "MOL_ID": "MOL000106",
-        "molecule_ID": "106",
-        "molecule_synonyms": "Pyrogallic acid"
+        "MOL_ID": "MOL000513",
+        "molecule_ID": "513",
+        "molecule_synonyms": "Gallic acid"
       }
     },
     "name": "Gallic acid",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c20",
@@ -810,7 +878,8 @@
       }
     },
     "name": "Beta-sitosterol",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c21",
@@ -820,7 +889,7 @@
     "targets": {},
     "externalIds": {
       "HERB": "HBIN044918",
-      "TCMSP": "MOL000358",
+      "TCMSP": "MOL000449",
       "SymMap": "SMIT01630"
     },
     "sourceDetails": {
@@ -843,13 +912,14 @@
         "url": "http://www.symmap.org/detail/SMIT01630"
       },
       "TCMSP": {
-        "MOL_ID": "MOL000358",
-        "molecule_ID": "358",
-        "molecule_synonyms": "22,23-Dihydrostigmasterol"
+        "MOL_ID": "MOL000449",
+        "molecule_ID": "449",
+        "molecule_synonyms": "Stigmasterol"
       }
     },
     "name": "Stigmasterol",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c22",
@@ -859,7 +929,6 @@
     "targets": {},
     "externalIds": {
       "HERB": "HBIN036366",
-      "TCMSP": "MOL000771",
       "SymMap": "SMIT00202"
     },
     "sourceDetails": {
@@ -882,13 +951,13 @@
         "url": "http://www.symmap.org/detail/SMIT00202"
       },
       "TCMSP": {
-        "MOL_ID": "MOL000771",
-        "molecule_ID": "771",
-        "molecule_synonyms": "Naringeninic acid"
+        "unmatched": true,
+        "note": "TCMSP 成分表没有精确同义词。"
       }
     },
     "name": "Naringenin",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c23",
@@ -927,7 +996,11 @@
       }
     },
     "name": "Rutin",
-    "sources": []
+    "sources": [],
+    "acceptedSynonyms": [
+      "Quercetin 3-O-beta-D-rutinoside"
+    ],
+    "references": []
   },
   {
     "id": "c24",
@@ -966,7 +1039,11 @@
       }
     },
     "name": "Wogonin",
-    "sources": []
+    "sources": [],
+    "acceptedSynonyms": [
+      "Norwogonin 8-methyl ether"
+    ],
+    "references": []
   },
   {
     "id": "c25",
@@ -1005,7 +1082,8 @@
       }
     },
     "name": "Oroxylin A",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c26",
@@ -1015,7 +1093,7 @@
     "targets": {},
     "externalIds": {
       "HERB": "HBIN026662",
-      "TCMSP": "MOL000391",
+      "TCMSP": "MOL000392",
       "SymMap": "SMIT00037"
     },
     "sourceDetails": {
@@ -1038,13 +1116,14 @@
         "url": "http://www.symmap.org/detail/SMIT00037"
       },
       "TCMSP": {
-        "MOL_ID": "MOL000391",
-        "molecule_ID": "391",
-        "molecule_synonyms": "Formononetin-7-glucoside"
+        "MOL_ID": "MOL000392",
+        "molecule_ID": "392",
+        "molecule_synonyms": "Formononetin"
       }
     },
     "name": "Formononetin",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c27",
@@ -1083,7 +1162,8 @@
       }
     },
     "name": "Calycosin",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c28",
@@ -1122,7 +1202,8 @@
       }
     },
     "name": "Daidzein",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c29",
@@ -1132,7 +1213,7 @@
     "targets": {},
     "externalIds": {
       "HERB": "HBIN027456",
-      "TCMSP": "MOL000480",
+      "TCMSP": "MOL000481",
       "SymMap": "SMIT00052"
     },
     "sourceDetails": {
@@ -1155,13 +1236,14 @@
         "url": "http://www.symmap.org/detail/SMIT00052"
       },
       "TCMSP": {
-        "MOL_ID": "MOL000480",
-        "molecule_ID": "480",
-        "molecule_synonyms": "Genistein, 7-O-beta-D-glucoside"
+        "MOL_ID": "MOL000481",
+        "molecule_ID": "481",
+        "molecule_synonyms": "Genistein"
       }
     },
     "name": "Genistein",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c30",
@@ -1200,7 +1282,8 @@
       }
     },
     "name": "Amygdalin",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c31",
@@ -1239,7 +1322,8 @@
       }
     },
     "name": "Honokiol",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "c32",
@@ -1278,6 +1362,709 @@
       }
     },
     "name": "Magnolol",
+    "sources": [],
+    "references": []
+  },
+  {
+    "id": "c33",
+    "cn": "乌头碱",
+    "ob": 8,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN014582",
+      "SymMap": "SMIT00139",
+      "TCMSP": "MOL002424"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN014582",
+        "name": "aconitine",
+        "alias": "aconitine ; Aconitine",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN014582&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00139",
+        "Molecule_name": "Aconitine",
+        "PubChem_CID": "22393|139593379|92044462|124831709|45358103|134688691|6419868|91746192|154701409|24014401|122173175|6915984|16210989|70697623|2012|245005|71313016|6323706|118705467|6713948|24832676|6708463|71774333|44135351|131674976",
+        "TCMID_id": "554",
+        "TCMSP_id": "MOL002088",
+        "OB_score": 7.95141,
+        "TCM_ID_id": "7191",
+        "CAS_id": "302-27-2",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00139"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL002424",
+        "molecule_ID": "2424",
+        "molecule_synonyms": "Aconitine"
+      }
+    },
+    "name": "Aconitine",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "附子",
+        "detail": "双酯型生物碱检查包含乌头碱。此成分是毒性指标，不是推荐剂量。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c34",
+    "cn": "五味子醇甲",
+    "ob": 8.3,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN043326",
+      "SymMap": "SMIT03081",
+      "TCMSP": "MOL000487"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN043326",
+        "name": "Schisandrin",
+        "alias": "deoxyschisandrin; schizandrin A; Schisandrol A; schisandrin",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN043326&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT03081",
+        "Molecule_name": "Schisandrin",
+        "PubChem_CID": "468078|23915|3001664",
+        "TCMID_id": null,
+        "TCMSP_id": "MOL000487|MOL005604",
+        "OB_score": 8.29618,
+        "TCM_ID_id": null,
+        "CAS_id": "61281-38-7",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT03081"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000487",
+        "molecule_ID": "487",
+        "molecule_synonyms": "Schisandrin"
+      }
+    },
+    "name": "Schisandrin",
+    "acceptedSynonyms": [
+      "Schizandrin"
+    ],
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "五味子",
+        "detail": "含量测定指标含五味子醇甲。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c35",
+    "cn": "栀子苷",
+    "ob": 3.8,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN027450",
+      "SymMap": "SMIT00539",
+      "TCMSP": "MOL004557"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN027450",
+        "name": "geniposide",
+        "alias": "AKOS015965362; Cyclopenta(c)pyran-4-carboxylic acid, 1-(beta-D-glucopyranosyloxy)-1,4a,5,7a-tetrahydro-7-(hydroxymethyl)-, methyl ester, (1S,4aS,7aS)-; 27745-20-6; Cyclopenta(c)pyran-4-carboxylic acid, 1-(beta-D-glucopyranosyloxy)-1,4a,5,7a-tetrahydro-7-(hydroxymethyl)-, methyl ester, (1S-(1alpha,4aalpha,7aalpha))-; ZINC03882101; 24512-63-8; Geniposide; (1S,4aS,7aS)-7-(hydroxymethyl)-1-[[(2S,3R,4S",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN027450&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00539",
+        "Molecule_name": "Geniposide",
+        "PubChem_CID": "25886710|98179087|16394645|16760120|107848|3515873|129316837|137706142|51066531|78358483|12004581",
+        "TCMID_id": "8275",
+        "TCMSP_id": "MOL003701|MOL004557|MOL012516",
+        "OB_score": 3.77708,
+        "TCM_ID_id": null,
+        "CAS_id": "24512-63-8",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00539"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL004557",
+        "molecule_ID": "4557",
+        "molecule_synonyms": "Geniposide"
+      }
+    },
+    "name": "Geniposide",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "栀子",
+        "detail": "含量测定指标含栀子苷。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c36",
+    "cn": "连翘苷",
+    "ob": 36.4,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN039544",
+      "SymMap": "SMIT01565",
+      "TCMSP": "MOL003305"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN039544",
+        "name": "phillyrin",
+        "alias": "2-[4-[3-(3,4-dimethoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-3-methoxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol; A827597; PHILLYRIN; 2-[4-[3-(3,4-dimethoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-3-methoxy-phenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN039544&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01565",
+        "Molecule_name": "Phillyrin",
+        "PubChem_CID": "101712",
+        "TCMID_id": "17131",
+        "TCMSP_id": "MOL003305",
+        "OB_score": 36.3957,
+        "TCM_ID_id": "1799",
+        "CAS_id": "487-41-2",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01565"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL003305",
+        "molecule_ID": "3305",
+        "molecule_synonyms": "PHILLYRIN"
+      }
+    },
+    "name": "Phillyrin",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "连翘",
+        "detail": "含量测定指标含连翘苷。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c37",
+    "cn": "柴胡皂苷 a",
+    "ob": 32.4,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN042787",
+      "SymMap": "SMIT00565",
+      "TCMSP": "MOL004635"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN042787",
+        "name": "saikosaponin a",
+        "alias": "20736-09-8; Saikosaponin A; beta-D-Galactopyranoside, (3beta,4alpha,16beta)-13,28-epoxy-16,23-dihydroxyolean-11-en-3-yl-6-deoxy-3-O-beta-D-glucopyranosyl-; saikosaponin-a; AIDS-211406; AIDS211406; C08975",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN042787&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00565",
+        "Molecule_name": "Saikosaponin A",
+        "PubChem_CID": "167928|133126366|44202892|73758129|154731671|4483645|45358148",
+        "TCMID_id": "19127",
+        "TCMSP_id": "MOL004635",
+        "OB_score": 32.3939,
+        "TCM_ID_id": null,
+        "CAS_id": "20736-09-8",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00565"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL004635",
+        "molecule_ID": "4635",
+        "molecule_synonyms": "Saikosaponin A"
+      }
+    },
+    "name": "Saikosaponin A",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "柴胡",
+        "detail": "柴胡皂苷是柴胡的代表性皂苷。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c38",
+    "cn": "丹皮酚",
+    "ob": 28.8,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN038627",
+      "SymMap": "SMIT00081",
+      "TCMSP": "MOL000874"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN038627",
+        "name": "paeonol",
+        "alias": "CBiol_000986; 2&#8242;-Hydroxy-4&#8242;-methoxyacetophenone; KBio3_002432; SPBio_002161; InChI=1/C9H10O3/c1-6(10)8-4-3-7(12-2)5-9(8)11/h3-5,11H,1-2H; Spectrum3_001686; 1-(2-hydroxy-4-methoxy-phenyl)ethanone; paeonol ; H35803_ALDRICH; ST5331356; NCGC00095977-01; SPECTRUM1601021; AIDS-002237; AIDS002237; Resacetophenone-4-methyl ether; 2-Hydroxy-4-methoxyacetophenone; Spectrum2_001981; Paeonol; 1-(2",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN038627&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00081",
+        "Molecule_name": "Paeonol",
+        "PubChem_CID": "11092",
+        "TCMID_id": "16521",
+        "TCMSP_id": "MOL000874",
+        "OB_score": 28.7872,
+        "TCM_ID_id": "2075",
+        "CAS_id": "552-41-0",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00081"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000874",
+        "molecule_ID": "874",
+        "molecule_synonyms": "Paeonol"
+      }
+    },
+    "name": "Paeonol",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "牡丹皮",
+        "detail": "含量测定指标含丹皮酚。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c39",
+    "cn": "马钱苷",
+    "ob": 5.9,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN033476",
+      "SymMap": "SMIT01491",
+      "TCMSP": "MOL001680"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN033476",
+        "name": "loganin",
+        "alias": "SDCCGMLS-0066747.P001; KBio2_001983; Spectrum_001503; BSPBio_003350; methyl (1S,4aS,6S,7R,7aS)-6-hydroxy-7-methyl-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]oxy-1,4a,5,6,7,7a-hexahydrocyclopenta[d]pyran-4-carboxylate; KBio2_004551; KBio1_001603; Loganin; C01433; KBioSS_001983; KBio2_007119; Spectrum2_001637; KBio3_002852; methyl (1S,4aS,6S,7R,7aS)-1-(beta-D-glucopyr",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN033476&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01491",
+        "Molecule_name": "Loganin",
+        "PubChem_CID": "87691",
+        "TCMID_id": "12944",
+        "TCMSP_id": "MOL001680",
+        "OB_score": 5.90113,
+        "TCM_ID_id": "2909",
+        "CAS_id": "18524-94-2",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01491"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL001680",
+        "molecule_ID": "1680",
+        "molecule_synonyms": "Loganin"
+      }
+    },
+    "name": "Loganin",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "山茱萸",
+        "detail": "含量测定指标含马钱苷。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c40",
+    "cn": "梓醇",
+    "ob": 5.1,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN019909",
+      "SymMap": "SMIT00168",
+      "TCMSP": "MOL002819"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN019909",
+        "name": "catalpol",
+        "alias": "Catalpol; LMPR01020108; beta-D-Glucopyranoside, 1a,1b,2,5a,6,6a-hexahydro-6-hydroxy-1a-(hydroxymethyl)oxireno(4,5)cyclopenta(1,2-c)pyran-2-yl, (1aS-(1aalpha,1bbeta,2beta,5abeta,6beta,6aalpha))-; 2415-24-9; Catalpinoside; NCGC00163523-01; beta-D-Glucopyranoside, 1a,1b,2,5a,6,6a-hexahydro-6-hydroxy- 1a-(hydroxymethyl)oxireno(4,5)cyclopenta(1,2-c)pyran-2-yl, (1aS-(1a-alpha,1b-beta,2-beta,5a-beta,6-be",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN019909&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00168",
+        "Molecule_name": "Catalpol",
+        "PubChem_CID": "91520|129316868|24728702|24721256|146158328|133611792|3917786|53297354|138107792",
+        "TCMID_id": "3306",
+        "TCMSP_id": "MOL002819",
+        "OB_score": 5.06825,
+        "TCM_ID_id": "5852",
+        "CAS_id": "2415-24-9",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00168"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL002819",
+        "molecule_ID": "2819",
+        "molecule_synonyms": "Catalpol"
+      }
+    },
+    "name": "Catalpol",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "地黄",
+        "detail": "地黄的代表性环烯醚萜为梓醇。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c41",
+    "cn": "橙皮苷",
+    "ob": 13.3,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN029196",
+      "SymMap": "SMIT00275",
+      "TCMSP": "MOL007930"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN029196",
+        "name": "hesperidin",
+        "alias": "Hesperetin 7-O-rutinoside; Flavanone, 3',5,7-trihydroxy-4'-methoxy-, 7-(6-O-alpha-L-rhamnosyl-delta-glucoside) (7CI); (2S)-5-hydroxy-2-(3-hydroxy-4-methoxyphenyl)-7-[[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyl-2-tetrahydropyranyl]oxymethyl]-2-tetrahydropyranyl]oxy]-4-chromanone; 15512-51-3; Hesperitin-7-rhamnoglucoside; (2S)-5-hydroxy-2-(3-hydroxy-4-methoxy-ph",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN029196&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00275",
+        "Molecule_name": "Hesperidin",
+        "PubChem_CID": "5701999|45933922|44143719|129010007|45358131|3594|86579284|6419939|91927750|53477767|10621|16394497",
+        "TCMID_id": "9457",
+        "TCMSP_id": "MOL007930",
+        "OB_score": 13.3346,
+        "TCM_ID_id": "3769",
+        "CAS_id": "520-26-3",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00275"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL007930",
+        "molecule_ID": "7930",
+        "molecule_synonyms": "Hesperidin"
+      }
+    },
+    "name": "Hesperidin",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "陈皮",
+        "detail": "含量测定指标含橙皮苷。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c42",
+    "cn": "巴马汀",
+    "ob": 64.6,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN038666",
+      "SymMap": "SMIT00076",
+      "TCMSP": "MOL000785"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN038666",
+        "name": "palmatine",
+        "alias": "V1557; 5,6-Dihydro-2,3,9,10-tetramethoxydibenzo(a,g)quinolizinium hydroxide; Calystigine; Palmatine chloride; palmatine ; 6771L5MN8S; UNII-6771L5MN8S; MolPort-039-138-801; 3486-67-7 (Parent); Palmatine hydroxide; 131-04-4; BG01657711; AC1L43OM; Palmatinium hydroxide; LS-61262; DTXSID60156830; 7,8,13,13a-Tetradehydro-2,3,9,10-tetramethoxyberbinium hydroxide; Dibenzo(a,g)quinolizinium, 5,6-dihydro-2",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN038666&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00076",
+        "Molecule_name": "Palmatine",
+        "PubChem_CID": "19009",
+        "TCMID_id": "16544",
+        "TCMSP_id": "MOL000785",
+        "OB_score": 64.6011,
+        "TCM_ID_id": "2071",
+        "CAS_id": "3486-67-7",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00076"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL000785",
+        "molecule_ID": "785",
+        "molecule_synonyms": "palmatine"
+      }
+    },
+    "name": "Palmatine",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "黄连",
+        "detail": "黄连生物碱含小檗碱、巴马汀等。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c43",
+    "cn": "甘草苷",
+    "ob": 65.7,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN033383",
+      "SymMap": "SMIT00217"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN033383",
+        "name": "liquiritin",
+        "alias": "(2S)-7-hydroxy-2-[4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-methylol-tetrahydropyran-2-yl]oxyphenyl]chroman-4-one; CTK8G0592; 7-hydroxy-2-[4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]-2,3-dihydrochromen-4-one; MCULE-9356107980; 4H-1-Benzopyran-4-one, 2-(4-(beta-D-glucopyranosyloxy)phenyl)-2,3-dihydro-7-hydroxy-, (S)-; 7-Hydroxyflavanone 4'-O-glucoside; (2S)-7-hydroxy-2-[",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN033383&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00217",
+        "Molecule_name": "Liquiritin",
+        "PubChem_CID": "503737",
+        "TCMID_id": "12907",
+        "TCMSP_id": "MOL004903",
+        "OB_score": 65.6901,
+        "TCM_ID_id": "2926",
+        "CAS_id": "551-15-5",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00217"
+      },
+      "TCMSP": {
+        "unmatched": true,
+        "note": "TCMSP 成分表没有精确同义词。"
+      }
+    },
+    "name": "Liquiritin",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "甘草",
+        "detail": "含量测定指标含甘草苷。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c44",
+    "cn": "人参皂苷 Rb1",
+    "ob": 6.2,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN027729",
+      "SymMap": "SMIT01682",
+      "TCMSP": "MOL005331"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN027729",
+        "name": "ginsenoside rb1",
+        "alias": "Q-100470; A-D-glucopyranosyl)oxy]-12-hydroxydammar-24-en-3-yl ; GRb 1; MFCD00133367; ginsenosiderb1; Ginsenoside-Rb1 from Panax ginseng (Korean ginseng) root, triterpenoid saponin; beta-D-Glucopyranoside, (3-beta,12-beta)-20-((6-O-beta-D-glucopyranosyl-beta-D-glucopyranosyl)oxy)-12-hydroxydammar-24-en-3-yl 2-O-beta-D-glucopyranosyl-; N1620; NSC 310103; CHEBI:67989; Ginsenoside Rb1, primary pharmac",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN027729&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01682",
+        "Molecule_name": "Ginsenoside Rb1",
+        "PubChem_CID": "9898279",
+        "TCMID_id": "23219|8422",
+        "TCMSP_id": "MOL005331",
+        "OB_score": 6.23633,
+        "TCM_ID_id": "11399",
+        "CAS_id": "41753-43-9",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01682"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL005331",
+        "molecule_ID": "5331",
+        "molecule_synonyms": "ginsenoside Rb1"
+      }
+    },
+    "name": "Ginsenoside Rb1",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "人参",
+        "detail": "含量测定指标含人参皂苷 Rb1。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c45",
+    "cn": "黄芩素",
+    "ob": 33.5,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN017508",
+      "SymMap": "SMIT00164",
+      "TCMSP": "MOL002714"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN017508",
+        "name": "baicalein",
+        "alias": "5,6,7-trihydroxyflavanone; KBio3_002435; NCGC00025282-03; 5,6,7-trihydroxy-2-phenyl-chromen-4-one; AIDS-000731; 5,6,7-trihydroxy-2-phenyl-4H-chromen-4-one; baicalein ; Sho-saiko-to; 5,6,7-trihydroxy-2-phenylchromen-4-one; ST057152; Spectrum_000427; SPECTRUM1504002; 5,6,7-trihydroxy-2-phenyl-chromone; KBio1_001798; KBio2_006043; NSC 661431; 11712_FLUKA; SDCCGMLS-0066744.P001; KBioSS_000907; CHEBI:2",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN017508&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT00164",
+        "Molecule_name": "Baicalein",
+        "PubChem_CID": "5281605",
+        "TCMID_id": "2102",
+        "TCMSP_id": "MOL002714",
+        "OB_score": 33.5189,
+        "TCM_ID_id": "6441",
+        "CAS_id": "491-67-8",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT00164"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL002714",
+        "molecule_ID": "2714",
+        "molecule_synonyms": "Baicalein"
+      }
+    },
+    "name": "Baicalein",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "黄芩",
+        "detail": "黄芩黄酮含黄芩苷、黄芩素。"
+      }
+    ],
+    "obSource": "SymMap",
+    "sources": []
+  },
+  {
+    "id": "c46",
+    "cn": "欧前胡素",
+    "ob": null,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN030053",
+      "SymMap": "SMIT01452",
+      "TCMSP": "MOL001941"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN030053",
+        "name": "imperatorin",
+        "alias": "HY-N0285; I06-0320; 9-[(3-METHYL-2-BUTEN-1-YL)OXY]-7H-FURO[3,2-G][1]BENZOPYRAN-7-ONE; BDBM50308719; 7H-Furo[3,2-g][1]benzopyran-7-one, 9-[(3-methyl-2-buten-1-yl)oxy]-; SpecPlus_000755; DSSTox_CID_28663; Imperatorin, European Pharmacopoeia (EP) Reference Standard; EINECS 207-581-1; ZB000436; KBio2_006371; SMR000156241; 9-[(3-Methyl-2-butenyl)oxy]-7H-furo[3,2-g]chromen-7-one #; AI3-61725; AC1L1UPZ; ",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN030053&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01452",
+        "Molecule_name": "Imperatorin",
+        "PubChem_CID": "10212",
+        "TCMID_id": "10999|24523",
+        "TCMSP_id": null,
+        "OB_score": null,
+        "TCM_ID_id": "3466",
+        "CAS_id": null,
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01452"
+      },
+      "TCMSP": {
+        "MOL_ID": "MOL001941",
+        "molecule_ID": "1941",
+        "molecule_synonyms": "Imperatorin"
+      }
+    },
+    "name": "Imperatorin",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "白芷",
+        "detail": "含量测定指标含欧前胡素。"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "c47",
+    "cn": "辛弗林",
+    "ob": null,
+    "dl": null,
+    "targets": {},
+    "externalIds": {
+      "HERB": "HBIN045247",
+      "SymMap": "SMIT01633"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "ingredientId": "HBIN045247",
+        "name": "synephrine",
+        "alias": "M-2845",
+        "url": "http://herb.ac.cn/Detail/?v=HBIN045247&label=Ingredient"
+      },
+      "SymMap": {
+        "MOL_id": "SMIT01633",
+        "Molecule_name": "Synephrine",
+        "PubChem_CID": "7172",
+        "TCMID_id": "20536|24662",
+        "TCMSP_id": null,
+        "OB_score": null,
+        "TCM_ID_id": "688",
+        "CAS_id": "1994/7/5",
+        "Type": null,
+        "url": "http://www.symmap.org/detail/SMIT01633"
+      },
+      "TCMSP": {
+        "unmatched": true,
+        "note": "TCMSP 成分表没有精确同义词。"
+      }
+    },
+    "name": "Synephrine",
+    "references": [
+      {
+        "source": "国家药典委员会《中华人民共和国药典》2020年版一部，中国医药科技出版社",
+        "item": "枳实",
+        "detail": "含量测定指标含辛弗林。"
+      }
+    ],
     "sources": []
   }
 ]

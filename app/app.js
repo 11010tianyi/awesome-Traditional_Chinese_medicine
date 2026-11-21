@@ -400,7 +400,7 @@ function makeSearchIndex() {
     subtitle: `${item.nature} · ${(item.flavors || []).join("/")} · 归 ${(item.meridians || []).join("、")} 经`,
     tags: item.effects || [],
     externalIds: item.externalIds || {},
-    text: [item.name, item.pinyin, item.nature, (item.flavors || []).join(" "), (item.meridians || []).join(" "), (item.effects || []).join(" "), externalText(item)].join(" ")
+    text: [item.name, item.pinyin, item.nature, (item.flavors || []).join(" "), (item.meridians || []).join(" "), (item.effects || []).join(" "), item.caution, externalText(item)].filter(Boolean).join(" ")
   }));
   const compounds = db.compounds.map((item) => ({
     type: "compound",
@@ -425,8 +425,8 @@ function makeSearchIndex() {
     id: item.id,
     title: item.cn,
     subtitle: item.name,
-    tags: [`p=${item.score}`],
-    text: [item.cn, item.name].join(" ")
+    tags: [item.score == null ? (item.kegg || "KEGG") : `p=${item.score}`],
+    text: [item.cn, item.name, item.kegg].filter(Boolean).join(" ")
   }));
   const diseases = db.diseases.map((item) => ({
     type: "disease",

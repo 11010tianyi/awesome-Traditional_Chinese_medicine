@@ -23,5 +23,31 @@
     "id": "d5",
     "name": "Digestive disorder",
     "cn": "消化功能紊乱"
+  },
+  {
+    "id": "d6",
+    "score": null,
+    "name": "Diabetes Mellitus, Type 2",
+    "cn": "2型糖尿病",
+    "references": [
+      {
+        "title": "MeSH Diabetes Mellitus, Type 2",
+        "id": "D003924",
+        "url": "https://meshb.nlm.nih.gov/record/ui?ui=D003924"
+      }
+    ]
+  },
+  {
+    "id": "d7",
+    "score": null,
+    "name": "Coronary Artery Disease",
+    "cn": "冠状动脉疾病",
+    "references": [
+      {
+        "title": "MeSH Coronary Artery Disease",
+        "id": "D003324",
+        "url": "https://meshb.nlm.nih.gov/record/ui?ui=D003324"
+      }
+    ]
   }
 ]

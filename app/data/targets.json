@@ -15,7 +15,7 @@
     "externalIds": {
       "HERB": "HBTAR004140",
       "SymMap": "SMTT03502",
-      "TCMSP": "4555"
+      "TCMSP": "265"
     },
     "sourceDetails": {
       "HERB": {
@@ -35,12 +35,17 @@
         "url": "http://www.symmap.org/detail/SMTT03502"
       },
       "TCMSP": {
-        "TAR_ID": "TAR04555",
-        "target_ID": "4555",
-        "target_name": "TNF receptor-associated factor 2",
-        "drugbank_ID": "h001"
+        "TAR_ID": "TAR00265",
+        "target_ID": "265",
+        "target_name": "Tumor necrosis factor",
+        "drugbank_ID": "777"
       }
-    }
+    },
+    "aliases": [
+      "Tumor necrosis factor"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "t2",
@@ -56,7 +61,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR002705",
-      "SymMap": "SMTT02312"
+      "SymMap": "SMTT02312",
+      "TCMSP": "3023"
     },
     "sourceDetails": {
       "HERB": {
@@ -76,9 +82,17 @@
         "url": "http://www.symmap.org/detail/SMTT02312"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR03023",
+        "target_ID": "3023",
+        "target_name": "Nuclear factor NF-kappa-B p105 subunit",
+        "drugbank_ID": "1787"
       }
-    }
+    },
+    "aliases": [
+      "Nuclear factor NF-kappa-B p105 subunit"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "t3",
@@ -94,7 +108,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR002055",
-      "SymMap": "SMTT01712"
+      "SymMap": "SMTT01712",
+      "TCMSP": "351"
     },
     "sourceDetails": {
       "HERB": {
@@ -114,9 +129,17 @@
         "url": "http://www.symmap.org/detail/SMTT01712"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00351",
+        "target_ID": "351",
+        "target_name": "Interleukin-6",
+        "drugbank_ID": "1159"
       }
-    }
+    },
+    "aliases": [
+      "Interleukin-6"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "t4",
@@ -130,7 +153,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR003295",
-      "SymMap": "SMTT02777"
+      "SymMap": "SMTT02777",
+      "TCMSP": "94"
     },
     "sourceDetails": {
       "HERB": {
@@ -150,9 +174,17 @@
         "url": "http://www.symmap.org/detail/SMTT02777"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00094",
+        "target_ID": "94",
+        "target_name": "Prostaglandin G/H synthase 2",
+        "drugbank_ID": "290"
       }
-    }
+    },
+    "aliases": [
+      "Prostaglandin G/H synthase 2"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "t5",
@@ -168,7 +200,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR000130",
-      "SymMap": "SMTT00144"
+      "SymMap": "SMTT00144",
+      "TCMSP": "4490"
     },
     "sourceDetails": {
       "HERB": {
@@ -188,9 +221,17 @@
         "url": "http://www.symmap.org/detail/SMTT00144"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR04490",
+        "target_ID": "4490",
+        "target_name": "RAC-alpha serine/threonine-protein kinase",
+        "drugbank_ID": "h001"
       }
-    }
+    },
+    "aliases": [
+      "RAC-alpha serine/threonine-protein kinase"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "t6",
@@ -206,7 +247,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR003192",
-      "SymMap": "SMTT02033"
+      "SymMap": "SMTT02033",
+      "TCMSP": "354"
     },
     "sourceDetails": {
       "HERB": {
@@ -226,9 +268,17 @@
         "url": "http://www.symmap.org/detail/SMTT02033"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00354",
+        "target_ID": "354",
+        "target_name": "Mitogen-activated protein kinase 1",
+        "drugbank_ID": "1176"
       }
-    }
+    },
+    "aliases": [
+      "Mitogen-activated protein kinase 1"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "t7",
@@ -242,7 +292,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR004310",
-      "SymMap": "SMTT03708"
+      "SymMap": "SMTT03708",
+      "TCMSP": "740"
     },
     "sourceDetails": {
       "HERB": {
@@ -262,10 +313,17 @@
         "url": "http://www.symmap.org/detail/SMTT03708"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00740",
+        "target_ID": "740",
+        "target_name": "Vascular endothelial growth factor A",
+        "drugbank_ID": "183"
       }
     },
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Vascular endothelial growth factor A"
+    ],
+    "references": []
   },
   {
     "id": "t8",
@@ -279,7 +337,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR000517",
-      "SymMap": "SMTT00480"
+      "SymMap": "SMTT00480",
+      "TCMSP": "4087"
     },
     "sourceDetails": {
       "HERB": {
@@ -299,9 +358,17 @@
         "url": "http://www.symmap.org/detail/SMTT00480"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR04087",
+        "target_ID": "4087",
+        "target_name": "Caspase-3",
+        "drugbank_ID": "h001"
       }
-    }
+    },
+    "aliases": [
+      "Caspase-3"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "t9",
@@ -343,7 +410,12 @@
         "target_name": "Tyrosine-protein kinase JAK2",
         "drugbank_ID": "4173"
       }
-    }
+    },
+    "aliases": [
+      "Tyrosine-protein kinase JAK2"
+    ],
+    "sources": [],
+    "references": []
   },
   {
     "id": "t10",
@@ -379,7 +451,8 @@
         "url": "http://www.symmap.org/detail/SMTT03319"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "unmatched": true,
+        "note": "TCMSP 靶点表没有与符号或已核对蛋白名精确相等的行。"
       }
     }
   },
@@ -393,7 +466,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR004157",
-      "SymMap": "SMTT03530"
+      "SymMap": "SMTT03530",
+      "TCMSP": "646"
     },
     "sourceDetails": {
       "HERB": {
@@ -413,12 +487,19 @@
         "url": "http://www.symmap.org/detail/SMTT03530"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00646",
+        "target_ID": "646",
+        "target_name": "Cellular tumor antigen p53",
+        "drugbank_ID": "5788"
       }
     },
     "symbol": "TP53",
     "name": "Tumor protein p53",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Cellular tumor antigen p53"
+    ],
+    "references": []
   },
   {
     "id": "t12",
@@ -430,7 +511,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR001185",
-      "SymMap": "SMTT01070"
+      "SymMap": "SMTT01070",
+      "TCMSP": "298"
     },
     "sourceDetails": {
       "HERB": {
@@ -450,12 +532,19 @@
         "url": "http://www.symmap.org/detail/SMTT01070"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00298",
+        "target_ID": "298",
+        "target_name": "Epidermal growth factor receptor",
+        "drugbank_ID": "844"
       }
     },
     "symbol": "EGFR",
     "name": "Epidermal growth factor receptor",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Epidermal growth factor receptor"
+    ],
+    "references": []
   },
   {
     "id": "t13",
@@ -488,12 +577,14 @@
         "url": "http://www.symmap.org/detail/SMTT02143"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "unmatched": true,
+        "note": "TCMSP 靶点表没有与符号或已核对蛋白名精确相等的行。"
       }
     },
     "symbol": "MMP9",
     "name": "Matrix metallopeptidase 9",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "t14",
@@ -505,7 +596,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR003112",
-      "SymMap": "SMTT02681"
+      "SymMap": "SMTT02681",
+      "TCMSP": "78"
     },
     "sourceDetails": {
       "HERB": {
@@ -525,12 +617,19 @@
         "url": "http://www.symmap.org/detail/SMTT02681"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00078",
+        "target_ID": "78",
+        "target_name": "Peroxisome proliferator activated receptor gamma",
+        "drugbank_ID": "238"
       }
     },
     "symbol": "PPARG",
     "name": "Peroxisome proliferator activated receptor gamma",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Peroxisome proliferator-activated receptor gamma"
+    ],
+    "references": []
   },
   {
     "id": "t15",
@@ -562,12 +661,14 @@
         "url": "http://www.symmap.org/detail/SMTT01141"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "unmatched": true,
+        "note": "TCMSP 靶点表没有与符号或已核对蛋白名精确相等的行。"
       }
     },
     "symbol": "ESR1",
     "name": "Estrogen receptor 1",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "t16",
@@ -579,8 +680,7 @@
     ],
     "externalIds": {
       "HERB": "HBTAR003434",
-      "SymMap": "SMTT02865",
-      "TCMSP": "364"
+      "SymMap": "SMTT02865"
     },
     "sourceDetails": {
       "HERB": {
@@ -600,15 +700,14 @@
         "url": "http://www.symmap.org/detail/SMTT02865"
       },
       "TCMSP": {
-        "TAR_ID": "TAR00364",
-        "target_ID": "364",
-        "target_name": "Low-density lipoprotein receptor-related protein 2",
-        "drugbank_ID": "1244"
+        "unmatched": true,
+        "note": "TCMSP 靶点表没有与符号或已核对蛋白名精确相等的行。"
       }
     },
     "symbol": "RELA",
     "name": "RELA proto-oncogene, NF-kB subunit",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "t17",
@@ -621,8 +720,7 @@
     ],
     "externalIds": {
       "HERB": "HBTAR002166",
-      "SymMap": "SMTT01778",
-      "TCMSP": "436"
+      "SymMap": "SMTT01778"
     },
     "sourceDetails": {
       "HERB": {
@@ -642,15 +740,14 @@
         "url": "http://www.symmap.org/detail/SMTT01778"
       },
       "TCMSP": {
-        "TAR_ID": "TAR00436",
-        "target_ID": "436",
-        "target_name": "Gap junction alpha-1 protein",
-        "drugbank_ID": "1827"
+        "unmatched": true,
+        "note": "TCMSP 靶点表没有与符号或已核对蛋白名精确相等的行。"
       }
     },
     "symbol": "JUN",
     "name": "Jun proto-oncogene",
-    "sources": []
+    "sources": [],
+    "references": []
   },
   {
     "id": "t18",
@@ -663,7 +760,7 @@
     "externalIds": {
       "HERB": "HBTAR001429",
       "SymMap": "SMTT01272",
-      "TCMSP": "448"
+      "TCMSP": "4478"
     },
     "sourceDetails": {
       "HERB": {
@@ -683,15 +780,19 @@
         "url": "http://www.symmap.org/detail/SMTT01272"
       },
       "TCMSP": {
-        "TAR_ID": "TAR00448",
-        "target_ID": "448",
-        "target_name": "Proto-oncogene protein c-fos",
-        "drugbank_ID": "1953"
+        "TAR_ID": "TAR04478",
+        "target_ID": "4478",
+        "target_name": "Proto-oncogene c-Fos",
+        "drugbank_ID": "h001"
       }
     },
     "symbol": "FOS",
     "name": "Fos proto-oncogene",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Proto-oncogene c-Fos"
+    ],
+    "references": []
   },
   {
     "id": "t19",
@@ -703,7 +804,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR000359",
-      "SymMap": "SMTT00521"
+      "SymMap": "SMTT00521",
+      "TCMSP": "407"
     },
     "sourceDetails": {
       "HERB": {
@@ -723,12 +825,19 @@
         "url": "http://www.symmap.org/detail/SMTT00521"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00407",
+        "target_ID": "407",
+        "target_name": "G1/S-specific cyclin D1",
+        "drugbank_ID": "1569"
       }
     },
     "symbol": "CCND1",
     "name": "Cyclin D1",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "G1/S-specific cyclin-D1"
+    ],
+    "references": []
   },
   {
     "id": "t20",
@@ -741,7 +850,7 @@
     "externalIds": {
       "HERB": "HBTAR000360",
       "SymMap": "SMTT00361",
-      "TCMSP": "4050"
+      "TCMSP": "86"
     },
     "sourceDetails": {
       "HERB": {
@@ -761,15 +870,19 @@
         "url": "http://www.symmap.org/detail/SMTT00361"
       },
       "TCMSP": {
-        "TAR_ID": "TAR04050",
-        "target_ID": "4050",
-        "target_name": "Bcl2 antagonist of cell death",
-        "drugbank_ID": "h001"
+        "TAR_ID": "TAR00086",
+        "target_ID": "86",
+        "target_name": "Apoptosis regulator Bcl-2",
+        "drugbank_ID": "273"
       }
     },
     "symbol": "BCL2",
     "name": "BCL2 apoptosis regulator",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Apoptosis regulator Bcl-2"
+    ],
+    "references": []
   },
   {
     "id": "t21",
@@ -782,7 +895,7 @@
     "externalIds": {
       "HERB": "HBTAR000522",
       "SymMap": "SMTT00482",
-      "TCMSP": "4083"
+      "TCMSP": "4089"
     },
     "sourceDetails": {
       "HERB": {
@@ -802,15 +915,19 @@
         "url": "http://www.symmap.org/detail/SMTT00482"
       },
       "TCMSP": {
-        "TAR_ID": "TAR04083",
-        "target_ID": "4083",
-        "target_name": "CASP8 and FADD-like apoptosis regulator",
+        "TAR_ID": "TAR04089",
+        "target_ID": "4089",
+        "target_name": "Caspase-8",
         "drugbank_ID": "h001"
       }
     },
     "symbol": "CASP8",
     "name": "Caspase 8",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Caspase-8"
+    ],
+    "references": []
   },
   {
     "id": "t22",
@@ -822,7 +939,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR002060",
-      "SymMap": "SMTT00851"
+      "SymMap": "SMTT00851",
+      "TCMSP": "4303"
     },
     "sourceDetails": {
       "HERB": {
@@ -842,12 +960,19 @@
         "url": "http://www.symmap.org/detail/SMTT00851"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR04303",
+        "target_ID": "4303",
+        "target_name": "Interleukin-8",
+        "drugbank_ID": "h001"
       }
     },
     "symbol": "CXCL8",
     "name": "C-X-C motif chemokine ligand 8",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Interleukin-8"
+    ],
+    "references": []
   },
   {
     "id": "t23",
@@ -859,7 +984,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR002042",
-      "SymMap": "SMTT01697"
+      "SymMap": "SMTT01697",
+      "TCMSP": "418"
     },
     "sourceDetails": {
       "HERB": {
@@ -879,12 +1005,19 @@
         "url": "http://www.symmap.org/detail/SMTT01697"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00418",
+        "target_ID": "418",
+        "target_name": "Interleukin-1 beta",
+        "drugbank_ID": "1654"
       }
     },
     "symbol": "IL1B",
     "name": "Interleukin 1 beta",
-    "sources": []
+    "sources": [],
+    "aliases": [
+      "Interleukin-1 beta"
+    ],
+    "references": []
   },
   {
     "id": "t24",
@@ -897,7 +1030,8 @@
     ],
     "externalIds": {
       "HERB": "HBTAR002013",
-      "SymMap": "SMTT01652"
+      "SymMap": "SMTT01652",
+      "TCMSP": "365"
     },
     "sourceDetails": {
       "HERB": {
@@ -917,11 +1051,429 @@
         "url": "http://www.symmap.org/detail/SMTT01652"
       },
       "TCMSP": {
-        "error": "Expected property name or '}' in JSON at position 2 (line 1 column 3)"
+        "TAR_ID": "TAR00365",
+        "target_ID": "365",
+        "target_name": "Interferon gamma",
+        "drugbank_ID": "1253"
       }
     },
     "symbol": "IFNG",
     "name": "Interferon gamma",
+    "sources": [],
+    "aliases": [
+      "Interferon gamma"
+    ],
+    "references": []
+  },
+  {
+    "id": "t25",
+    "pathways": [
+      "p10"
+    ],
+    "diseases": [
+      "d6"
+    ],
+    "externalIds": {
+      "HERB": "HBTAR003163",
+      "SymMap": "SMTT09461",
+      "TCMSP": "3247"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "targetId": "HBTAR003163",
+        "geneName": "PRKAA1",
+        "alias": "AMPK; AMPKa1",
+        "url": "http://herb.ac.cn/Detail/?v=HBTAR003163&label=Target"
+      },
+      "SymMap": {
+        "Ensembl_id": "ENSG00000132356",
+        "Protein_name": null,
+        "UniProt_id": null,
+        "Gene_id": "SMTT09461",
+        "Gene_symbol": "PRKAA1",
+        "Chromosome": null,
+        "Gene_name": "protein kinase AMP-activated catalytic subunit alpha 1",
+        "url": "http://www.symmap.org/detail/SMTT09461"
+      },
+      "TCMSP": {
+        "TAR_ID": "TAR03247",
+        "target_ID": "3247",
+        "target_name": "5'-AMP-activated protein kinase catalytic subunit alpha-1",
+        "drugbank_ID": "748"
+      }
+    },
+    "symbol": "PRKAA1",
+    "name": "5'-AMP-activated protein kinase catalytic subunit alpha-1",
+    "aliases": [
+      "5'-AMP-activated protein kinase catalytic subunit alpha-1"
+    ],
+    "references": [
+      {
+        "title": "KEGG PRKAA1",
+        "url": "https://www.kegg.jp/entry/hsa:5562"
+      },
+      {
+        "title": "KEGG AMPK signaling pathway",
+        "url": "https://www.kegg.jp/pathway/hsa04152"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "t26",
+    "pathways": [
+      "p11"
+    ],
+    "diseases": [
+      "d4"
+    ],
+    "externalIds": {
+      "HERB": "HBTAR000099",
+      "SymMap": "SMTT00106",
+      "TCMSP": "261"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "targetId": "HBTAR000099",
+        "geneName": "ADRB2",
+        "alias": "ADRB2R; ADRBR; B2AR; BAR; BETA2AR",
+        "url": "http://herb.ac.cn/Detail/?v=HBTAR000099&label=Target"
+      },
+      "SymMap": {
+        "Ensembl_id": "ENSG00000169252",
+        "Protein_name": "Beta-2 Adrenergic Receptor",
+        "UniProt_id": "P07550",
+        "Gene_id": "SMTT00106",
+        "Gene_symbol": "ADRB2",
+        "Chromosome": null,
+        "Gene_name": "adrenoceptor beta 2",
+        "url": "http://www.symmap.org/detail/SMTT00106"
+      },
+      "TCMSP": {
+        "TAR_ID": "TAR00261",
+        "target_ID": "261",
+        "target_name": "Beta-2 adrenergic receptor",
+        "drugbank_ID": "766"
+      }
+    },
+    "symbol": "ADRB2",
+    "name": "Beta-2 adrenergic receptor",
+    "aliases": [
+      "Beta-2 adrenergic receptor"
+    ],
+    "references": [
+      {
+        "title": "KEGG Adrenergic signaling in cardiomyocytes",
+        "url": "https://www.kegg.jp/pathway/hsa04261"
+      },
+      {
+        "title": "DrugBank Ephedrine",
+        "url": "https://go.drugbank.com/drugs/DB01364"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "t27",
+    "pathways": [
+      "p9",
+      "p7"
+    ],
+    "diseases": [
+      "d2"
+    ],
+    "externalIds": {
+      "HERB": "HBTAR004125",
+      "SymMap": "SMTT03475",
+      "TCMSP": "614"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "targetId": "HBTAR004125",
+        "geneName": "TLR4",
+        "alias": "ARMD10; CD284; TLR-4; TOLL",
+        "url": "http://herb.ac.cn/Detail/?v=HBTAR004125&label=Target"
+      },
+      "SymMap": {
+        "Ensembl_id": "ENSG00000136869",
+        "Protein_name": "Toll-like Receptor 4",
+        "UniProt_id": "O00206",
+        "Gene_id": "SMTT03475",
+        "Gene_symbol": "TLR4",
+        "Chromosome": "9",
+        "Gene_name": "Toll Like Receptor 4",
+        "url": "http://www.symmap.org/detail/SMTT03475"
+      },
+      "TCMSP": {
+        "TAR_ID": "TAR00614",
+        "target_ID": "614",
+        "target_name": "Toll-like receptor 4",
+        "drugbank_ID": "4210"
+      }
+    },
+    "symbol": "TLR4",
+    "name": "Toll-like receptor 4",
+    "aliases": [
+      "Toll-like receptor 4"
+    ],
+    "references": [
+      {
+        "title": "KEGG Toll-like receptor signaling pathway",
+        "url": "https://www.kegg.jp/pathway/hsa04620"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "t28",
+    "pathways": [
+      "p8",
+      "p9"
+    ],
+    "diseases": [
+      "d2"
+    ],
+    "externalIds": {
+      "HERB": "HBTAR000874",
+      "SymMap": "SMTT08093",
+      "TCMSP": "402"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "targetId": "HBTAR000874",
+        "geneName": "MAPK14",
+        "alias": "CSBP; CSBP1; CSBP2; CSPB1; EXIP; Mxi2; PRKM14; PRKM15; RK; SAPK2A; p38; p38ALPHA",
+        "url": "http://herb.ac.cn/Detail/?v=HBTAR000874&label=Target"
+      },
+      "SymMap": {
+        "Ensembl_id": "ENSG00000112062",
+        "Protein_name": null,
+        "UniProt_id": null,
+        "Gene_id": "SMTT08093",
+        "Gene_symbol": "MAPK14",
+        "Chromosome": null,
+        "Gene_name": "mitogen-activated protein kinase 14",
+        "url": "http://www.symmap.org/detail/SMTT08093"
+      },
+      "TCMSP": {
+        "TAR_ID": "TAR00402",
+        "target_ID": "402",
+        "target_name": "Mitogen-activated protein kinase 14",
+        "drugbank_ID": "1540"
+      }
+    },
+    "symbol": "MAPK14",
+    "name": "Mitogen-activated protein kinase 14",
+    "aliases": [
+      "Mitogen-activated protein kinase 14"
+    ],
+    "references": [
+      {
+        "title": "KEGG MAPK signaling pathway",
+        "url": "https://www.kegg.jp/pathway/hsa04010"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "t29",
+    "pathways": [
+      "p5"
+    ],
+    "diseases": [],
+    "externalIds": {
+      "HERB": "HBTAR000351",
+      "SymMap": "SMTT03877",
+      "TCMSP": "4033"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "targetId": "HBTAR000351",
+        "geneName": "BAX",
+        "alias": "BCL2L4",
+        "url": "http://herb.ac.cn/Detail/?v=HBTAR000351&label=Target"
+      },
+      "SymMap": {
+        "Ensembl_id": "ENSG00000087088",
+        "Protein_name": null,
+        "UniProt_id": "Q07812",
+        "Gene_id": "SMTT03877",
+        "Gene_symbol": "BAX",
+        "Chromosome": "19",
+        "Gene_name": "BCL2 Associated X, Apoptosis Regulator",
+        "url": "http://www.symmap.org/detail/SMTT03877"
+      },
+      "TCMSP": {
+        "TAR_ID": "TAR04033",
+        "target_ID": "4033",
+        "target_name": "Apoptosis regulator BAX",
+        "drugbank_ID": "h001"
+      }
+    },
+    "symbol": "BAX",
+    "name": "Apoptosis regulator BAX",
+    "aliases": [
+      "Apoptosis regulator BAX"
+    ],
+    "references": [
+      {
+        "title": "KEGG Apoptosis",
+        "url": "https://www.kegg.jp/pathway/hsa04210"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "t30",
+    "pathways": [
+      "p12"
+    ],
+    "diseases": [
+      "d7"
+    ],
+    "externalIds": {
+      "HERB": "HBTAR002303",
+      "SymMap": "SMTT01929",
+      "TCMSP": "190"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "targetId": "HBTAR002303",
+        "geneName": "LDLR",
+        "alias": "FH; FHC; FHCL1; LDLCQ2",
+        "url": "http://herb.ac.cn/Detail/?v=HBTAR002303&label=Target"
+      },
+      "SymMap": {
+        "Ensembl_id": "ENSG00000130164",
+        "Protein_name": "Low-density Lipoprotein Receptor",
+        "UniProt_id": "P01130",
+        "Gene_id": "SMTT01929",
+        "Gene_symbol": "LDLR",
+        "Chromosome": "19",
+        "Gene_name": "Low Density Lipoprotein Receptor",
+        "url": "http://www.symmap.org/detail/SMTT01929"
+      },
+      "TCMSP": {
+        "TAR_ID": "TAR00190",
+        "target_ID": "190",
+        "target_name": "Low-density lipoprotein receptor",
+        "drugbank_ID": "554"
+      }
+    },
+    "symbol": "LDLR",
+    "name": "Low-density lipoprotein receptor",
+    "aliases": [
+      "Low-density lipoprotein receptor"
+    ],
+    "references": [
+      {
+        "title": "KEGG Cholesterol metabolism",
+        "url": "https://www.kegg.jp/pathway/hsa04979"
+      },
+      {
+        "title": "Kong et al. 2004",
+        "doi": "10.1038/nm1135",
+        "url": "https://doi.org/10.1038/nm1135"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "t31",
+    "pathways": [
+      "p13",
+      "p7"
+    ],
+    "diseases": [
+      "d2"
+    ],
+    "externalIds": {
+      "HERB": "HBTAR001976",
+      "SymMap": "SMTT01638",
+      "TCMSP": "4287"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "targetId": "HBTAR001976",
+        "geneName": "ICAM1",
+        "alias": "BB2; CD54; P3.58",
+        "url": "http://herb.ac.cn/Detail/?v=HBTAR001976&label=Target"
+      },
+      "SymMap": {
+        "Ensembl_id": "ENSG00000090339",
+        "Protein_name": "Intercellular Adhesion Molecule 1",
+        "UniProt_id": "P05362",
+        "Gene_id": "SMTT01638",
+        "Gene_symbol": "ICAM1",
+        "Chromosome": null,
+        "Gene_name": "intercellular adhesion molecule 1",
+        "url": "http://www.symmap.org/detail/SMTT01638"
+      },
+      "TCMSP": {
+        "TAR_ID": "TAR04287",
+        "target_ID": "4287",
+        "target_name": "Intercellular adhesion molecule 1",
+        "drugbank_ID": "h001"
+      }
+    },
+    "symbol": "ICAM1",
+    "name": "Intercellular adhesion molecule 1",
+    "aliases": [
+      "Intercellular adhesion molecule 1"
+    ],
+    "references": [
+      {
+        "title": "KEGG Cell adhesion molecule interaction",
+        "url": "https://www.kegg.jp/pathway/hsa04514"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "t32",
+    "pathways": [],
+    "diseases": [],
+    "externalIds": {
+      "HERB": "HBTAR002700",
+      "SymMap": "SMTT03990",
+      "TCMSP": "4398"
+    },
+    "sourceDetails": {
+      "HERB": {
+        "targetId": "HBTAR002700",
+        "geneName": "NFE2L2",
+        "alias": "HEBP1; IMDDHH; NRF2; Nrf-2",
+        "url": "http://herb.ac.cn/Detail/?v=HBTAR002700&label=Target"
+      },
+      "SymMap": {
+        "Ensembl_id": "ENSG00000116044",
+        "Protein_name": null,
+        "UniProt_id": "Q16236",
+        "Gene_id": "SMTT03990",
+        "Gene_symbol": "NFE2L2",
+        "Chromosome": "2",
+        "Gene_name": "Nuclear Factor, Erythroid 2 Like 2",
+        "url": "http://www.symmap.org/detail/SMTT03990"
+      },
+      "TCMSP": {
+        "TAR_ID": "TAR04398",
+        "target_ID": "4398",
+        "target_name": "Nuclear factor erythroid 2-related factor 2",
+        "drugbank_ID": "h001"
+      }
+    },
+    "symbol": "NFE2L2",
+    "name": "Nuclear factor erythroid 2-related factor 2",
+    "aliases": [
+      "Nuclear factor erythroid 2-related factor 2"
+    ],
+    "references": [
+      {
+        "title": "UniProt NFE2L2",
+        "url": "https://www.uniprot.org/uniprotkb/Q16236/entry",
+        "id": "Q16236"
+      }
+    ],
     "sources": []
   }
 ]

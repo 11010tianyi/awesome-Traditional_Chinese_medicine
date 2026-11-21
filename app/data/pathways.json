@@ -9,7 +9,9 @@
     "id": "p2",
     "name": "TNF signaling pathway",
     "cn": "TNF 信号通路",
-    "score": 0.012
+    "score": 0.012,
+    "kegg": "hsa04668",
+    "url": "https://www.kegg.jp/pathway/hsa04668"
   },
   {
     "id": "p3",
@@ -27,12 +29,70 @@
     "id": "p5",
     "name": "Apoptosis",
     "cn": "细胞凋亡",
-    "score": 0.041
+    "score": 0.041,
+    "kegg": "hsa04210",
+    "url": "https://www.kegg.jp/pathway/hsa04210"
   },
   {
     "id": "p6",
     "name": "Viral infection response",
     "cn": "病毒感染应答",
     "score": 0.033
+  },
+  {
+    "id": "p7",
+    "score": null,
+    "name": "NF-kappa B signaling pathway",
+    "cn": "NF-κB 信号通路",
+    "kegg": "hsa04064",
+    "url": "https://www.kegg.jp/pathway/hsa04064"
+  },
+  {
+    "id": "p8",
+    "score": null,
+    "name": "MAPK signaling pathway",
+    "cn": "MAPK 信号通路",
+    "kegg": "hsa04010",
+    "url": "https://www.kegg.jp/pathway/hsa04010"
+  },
+  {
+    "id": "p9",
+    "score": null,
+    "name": "Toll-like receptor signaling pathway",
+    "cn": "Toll 样受体信号通路",
+    "kegg": "hsa04620",
+    "url": "https://www.kegg.jp/pathway/hsa04620"
+  },
+  {
+    "id": "p10",
+    "score": null,
+    "name": "AMPK signaling pathway",
+    "cn": "AMPK 信号通路",
+    "kegg": "hsa04152",
+    "url": "https://www.kegg.jp/pathway/hsa04152"
+  },
+  {
+    "id": "p11",
+    "score": null,
+    "name": "Adrenergic signaling in cardiomyocytes",
+    "cn": "心肌细胞肾上腺素能信号",
+    "kegg": "hsa04261",
+    "url": "https://www.kegg.jp/pathway/hsa04261"
+  },
+  {
+    "id": "p12",
+    "score": null,
+    "name": "Cholesterol metabolism",
+    "cn": "胆固醇代谢",
+    "kegg": "hsa04979",
+    "url": "https://www.kegg.jp/pathway/hsa04979"
+  },
+  {
+    "id": "p13",
+    "score": null,
+    "name": "Cell adhesion molecule (CAM) interaction",
+    "cn": "细胞黏附分子相互作用",
+    "kegg": "hsa04514",
+    "url": "https://www.kegg.jp/pathway/hsa04514"
   }
 ]
